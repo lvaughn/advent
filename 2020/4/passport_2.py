@@ -37,18 +37,13 @@ def validate_passport(s):
     for field in s.split():
         record[field[:3]] = field[4:]
     for f, rule in FIELDS.items():
-        if f not in record:
-            # print("Missed", f)
+        if f not in record: # Field is missing
             return False
-        # print("fields[{}]={}".format(f, fields[f]))
         val = record[f]
-        # Check the regex
-        if not rule.regex.match(val):
+        if not rule.regex.match(val):  # Do regex validation
             return False
-        # If there's a custom validator, run it
-        if rule.validator is not None and not rule.validator(val):
+        if rule.validator is not None and not rule.validator(val):  # Check the validator
             return False
-    # print("Passed")
     return True
 
 
