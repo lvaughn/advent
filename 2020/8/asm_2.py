@@ -42,3 +42,4 @@ for i in range(len(original_memory)):
     ans = test_program(memory)
     if ans is not None:
         print(ans)
+        break

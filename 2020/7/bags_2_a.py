@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
-# The first problem of Advent of Code for Dec 7, 2020, but done with lex/yacc
+# The second problem of Advent of Code for Dec 7, 2020, but done with lex/yacc
 
 import ply.lex as lex
 import ply.yacc as yacc
-from collections import defaultdict
+from collections import defaultdict, namedtuple
 
 # Not for lex/yacc
-contained_by = defaultdict(list)
+BagReq = namedtuple('BagReq', ['name', 'number'])
+contains = defaultdict(list)
 
 reserved = {
     'no': 'NO',
@@ -57,8 +58,8 @@ def p_rule(p):
         ls = p[4]
         color = p[1]
         while ls is not None:
-            contained_by[ls[0][0]].append(color)
-            ls = ls[1]  # AKA cdr :now_there_a_name...gif:
+            contains[color].append(BagReq(ls[0][0], ls[0][1]))
+            ls = ls[1]
 
 
 def p_bag_list(p):
@@ -94,13 +95,14 @@ with open('input.txt') as infile:
         parser.parse(line)
 
 
-def find_all_contains(bag_type, seen):
-    for b in contained_by[bag_type]:
-        if b not in seen:
-            seen.add(b)
-            find_all_contains(b, seen)
-    return seen
+def find_all_contains(bag_type):
+    if bag_type not in contains:
+        return 0
+    answer = 0
+    for inner_bag in contains[bag_type]:
+        # all of the bags it contains, plus the bags themselves
+        answer += inner_bag.number * (find_all_contains(inner_bag.name) + 1)
+    return answer
 
 
-print(len(find_all_contains('shiny gold', set())))
-
+print(find_all_contains('shiny gold'))
