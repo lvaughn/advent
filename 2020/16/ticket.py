@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
-import numpy as np
-
 rules = {}
 tickets = []
-max_num = -1
 with open('input.txt', 'r') as input:
     l = input.readline().strip()
     while l != "":
@@ -15,7 +12,6 @@ with open('input.txt', 'r') as input:
         for r in rules_str:
             idx = r.index('-')
             ranges.append((int(r[:idx]), int(r[idx + 1:])))
-        max_num = max(max_num, max(a[1] for a in ranges))
         rules[name] = ranges
         l = input.readline().strip()
 
@@ -29,19 +25,34 @@ with open('input.txt', 'r') as input:
     for l in input:
         ticket = [int(a) for a in l.split(',')]
         tickets.append(ticket)
-        max_num = max(max_num, max(ticket))
 
-print("Max", max_num)
-is_valid = np.zeros((max_num+2), dtype=bool)
-# Put together list of valid ranges
+ranges = []  # A sorted list of valid ranges
 for range_ls in rules.values():
-    for pair in range_ls:
-        is_valid[pair[0]:pair[1]+1] = True
+    ranges.extend(range_ls)
+valid_ranges = []
+for rng in sorted(ranges, key=lambda x: x[0]):
+    if len(valid_ranges) == 0:
+        valid_ranges.append(rng)
+        continue
+    last = valid_ranges[-1]
+    if rng[0] <= last[1]:  # Merge
+        valid_ranges[-1] = (min(rng[0], last[0]), max(rng[1], last[1]))
+    else:  # Add it
+        valid_ranges.append(rng)
+
+
+def is_valid(n):
+    for rng in valid_ranges:
+        if n < rng[0]:
+            return False
+        if rng[0] <= n <= rng[1]:
+            return True
+    return False
+
 
 total = 0
 for ticket in tickets:
     for n in ticket:
-        if not is_valid[n]:
+        if not is_valid(n):
             total += n
-
 print(total)
