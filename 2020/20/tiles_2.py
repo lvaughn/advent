@@ -7,28 +7,33 @@ from collections import defaultdict
 
 tiles = {}
 
+
+def gen_symmetries(base):
+    flipped = np.fliplr(base)
+    yield np.copy(base)
+    yield flipped
+    for i in range(1, 4):
+        yield np.rot90(base, i)
+        yield np.rot90(flipped, i)
+
+
 class Tile:
     def __init__(self, id, rows):
         self.id = id
-        base = np.zeros((10,10), dtype=bool)
+        base = np.zeros((10, 10), dtype=bool)
         for r, row in enumerate(rows):
             for c, val in enumerate(row):
                 if val == '#':
-                    base[r,c] = True
+                    base[r, c] = True
 
         # Generate the 8 versions of the tile
-        self.tiles = []
-        flipped = np.fliplr(base)
-        self.tiles.append(base)
-        self.tiles.append(flipped)
-        for i in range(1, 4):
-            self.tiles.append(np.rot90(base, i))
-            self.tiles.append(np.rot90(flipped, i))
+        self.tiles = list(gen_symmetries(base))
 
         # should make life better later
         # Maps this[symmetry] => set of tuples of (tile_id, symmetry)
         self.bottom_neighbors = defaultdict(set)
         self.right_neighbors = defaultdict(set)
+
 
 def solve_board(used_tiles):
     global board, side_len, tiles
@@ -37,7 +42,6 @@ def solve_board(used_tiles):
         return True
     row = current_pos // side_len
     col = current_pos % side_len
-    #print(current_pos, row, col, board[current_pos - 1])
     if col == 0:
         top = board[current_pos - side_len]
         possible_moves = tiles[top[0]].bottom_neighbors[top[1]]
@@ -60,6 +64,18 @@ def solve_board(used_tiles):
         used_tiles.remove(tile)
     board[current_pos] = None
     return False
+
+
+def sea_monster_present(board, row, col):
+    for pt in sea_monster_points:
+        if board[row + pt[0], col + pt[1]] != 1:
+            return False
+    return True
+
+
+def draw_monster_present(board, row, col):
+    for pt in sea_monster_points:
+        board[row + pt[0], col + pt[1]] = 2
 
 
 # Load the data
@@ -92,8 +108,8 @@ for tile_id in tiles:
 
 # Figure out our sizes
 side_len = int(math.sqrt(len(tiles)))
-assert(side_len*side_len == len(tiles))
-board = [None] * len(tiles) # A list of (tile_id, symmetry_id) of a possible solution
+assert (side_len * side_len == len(tiles))
+board = [None] * len(tiles)  # A list of (tile_id, symmetry_id) of a possible solution
 
 print("Setup complete")
 solved = False
@@ -102,15 +118,44 @@ for t in tiles:
     for i in range(8):
         board[0] = (t, i)
         if solve_board(set([t])):
-            print(board)
-            ans = 1
-            ans *= int(board[0][0])
-            ans *= int(board[side_len - 1][0])
-            ans *= int(board[len(tiles)-side_len][0])
-            ans *= int(board[-1][0])
-            print(ans)
             solved = True
             break
     if solved:
         break
+# Bring tiles together
+for r in range(side_len):
+    print(" ".join(board[r * side_len + c][0] for c in range(side_len)))
 
+sat_map = np.zeros((8 * side_len, 8 * side_len), dtype=int)
+for r in range(side_len):
+    for c in range(side_len):
+        map_row = 8 * r
+        map_col = 8 * c
+        board_cell = r * side_len + c
+        tile_id, symmetry = board[board_cell]
+        image = tiles[tile_id].tiles[symmetry]
+        sat_map[map_row:map_row + 8, map_col:map_col + 8] = image[1:-1, 1:-1]
+
+# Now to look for sea monsters
+sea_monster_points = []
+max_col = -1
+max_row = -1
+with open('sea_monster.txt', 'r') as monster:
+    for r, row in enumerate(monster):
+        for c, ch in enumerate(row):
+            if ch == '#':
+                sea_monster_points.append((r, c))
+                max_row = max(max_row, r)
+                max_col = max(max_col, c)
+
+# Now do the thing
+for i, m in enumerate(gen_symmetries(sat_map)):
+    monster_found = False
+    for r in range(m.shape[0] - max_row):
+        for c in range(m.shape[1] - max_col):
+            if sea_monster_present(m, r, c):
+                monster_found = True
+                draw_monster_present(m, r, c)
+    if monster_found:
+        print(np.count_nonzero(m == 1))
+        break
