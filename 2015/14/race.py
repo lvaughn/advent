@@ -8,10 +8,11 @@ duration = {}
 rest = {}
 race_time = 2503
 
+
 def get_distance(deer, time):
     dist = 0
     distances = []
-    while(time > 0):
+    while time > 0:
         move_for = min(time, duration[deer])
         for _ in range(move_for):
             time -= 1
@@ -21,6 +22,7 @@ def get_distance(deer, time):
             time -= 1
             distances.append(dist)
     return distances, dist
+
 
 with open('input.txt', 'r') as f:
     input_re = re.compile(r'(\w+) can fly (\d+) km/s for (\d+).*for (\d+) seconds')
