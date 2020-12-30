@@ -6,31 +6,49 @@ def has_abba(s):
             return True
     return False
 
-def valid_address(s):
-    abba = False
+def find_abas(s):
+    for i in range(len(s)-2):
+        if s[i] == s[i+2] and s[i] != s[i+1]:
+            yield s[i:i+3]
+
+
+def split_addr(s):
+    outside = ''
+    inside = ''
     while s != '':
         if s[0] == '[':
             idx = s.index(']')
-            if has_abba(s[1:idx]):
-                return False
-            s = s[idx+1:]
+            inside += '|||' + s[1:idx]
+            s = s[idx + 1:]
         else:
             idx = s.find('[')
             if idx < 0:
-                if has_abba(s):
-                    abba = True
+                outside += '|||' + s
                 s = ''
-            else :
-                if has_abba(s[:idx]):
-                    abba = True
+            else:
+                outside += '|||' + s[:idx]
                 s = s[idx:]
-    return abba
+    return inside, outside
 
+def supports_tls(s):
+    inside, outside = split_addr(s)
+    return has_abba(outside) and not has_abba(inside)
 
-n_good = 0
+def supports_ssl(s):
+    inside, outside = split_addr(s)
+    for aba in find_abas(inside):
+        target = aba[1] + aba[0] + aba[1]
+        if target in outside:
+            return True
+
+n_tls = 0
+n_ssl = 0
 with open('input.txt', 'r') as f:
     for line in f:
-        if valid_address(line.strip()):
-            n_good += 1
+        if supports_tls(line.strip()):
+            n_tls += 1
+        if supports_ssl(line.strip()):
+            n_ssl += 1
 
-print(n_good)
+print("tls", n_tls)
+print("ssl", n_ssl)
