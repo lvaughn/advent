@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
 
-foo = {
-    'a': 0,
-    'b': 0,
-    'c': 0,
-    'd': 0
-}
-
 memory = []
 with open('input.txt', 'r') as f:
     for line in f:
         memory.append(line.strip().split())
+
 
 def simulate(registers):
     pc = 0
@@ -42,9 +36,8 @@ def simulate(registers):
             assert False
     return registers
 
-reg = simulate({'a': 0, 'b': 0,'c': 0, 'd': 0})
+
+reg = simulate({'a': 0, 'b': 0, 'c': 0, 'd': 0})
 print("Part 1:", reg['a'])
-reg = simulate({'a': 0, 'b': 0,'c': 1, 'd': 0})
+reg = simulate({'a': 0, 'b': 0, 'c': 1, 'd': 0})
 print("Part 2:", reg['a'])
-
-
