@@ -17,6 +17,7 @@ direction_info = {
 row = 0
 col = maze[0].index('|')
 dir = 's'
+n_steps = 1 # one for the starting position
 
 done = False
 letters = []
@@ -27,9 +28,11 @@ while not done:
     if next_spot == straight:
         row += d_row
         col += d_col
+        n_steps += 1
     elif next_spot in ['|', '-']:  # Crossing over
         row += d_row
         col += d_col
+        n_steps += 1
     elif next_spot == '+':
         # find out which direction to go
         for new_dir in direction_info:
@@ -41,6 +44,7 @@ while not done:
                 row = new_row
                 col = new_col
                 dir = new_dir
+                n_steps += 2
                 break
     else:
         assert next_spot in ascii_uppercase
@@ -49,6 +53,7 @@ while not done:
         if maze[row + 2 * d_row][col + 2 * d_col] in ['-', '|']:
             row = row + 2 * d_row
             col = col + 2 * d_col
+            n_steps += 2
         else:
             # It should act like a plus, but it could be the last one
             found = False
@@ -65,7 +70,10 @@ while not done:
                     col = new_col
                     dir = new_dir
                     found = True
+                    n_steps += 2
             if not found:
+                n_steps += 1
                 done = True
 
 print(''.join(letters))
+print(n_steps)
