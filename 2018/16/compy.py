@@ -138,6 +138,7 @@ while len(decoder) != 16:
             for s in possible.values():
                 s.discard(value)
 
+print(decoder)
 reg = [0, 0, 0, 0]
 for line in program:
     inst = decoder[line[0]]

@@ -34,7 +34,7 @@ with open('input.txt', 'r') as f:
 
 # Do the generations
 last = 0
-for gen in range(20): 
+for gen in range(20):
     new_pots = [0, 0]
     last_one = None
     for i in range(len(pots) - 4):
