@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
 import numpy as np
-import sys
+
 
 def triangle(n):
     n = abs(n)
-    return (n*(n+1))//2
+    return (n * (n + 1)) // 2
+
 
 with open("input.txt", "r") as infile:
     positions = np.array([int(l) for l in infile.readline().split(',')], dtype=int)
@@ -26,5 +27,3 @@ for location in range(start, stop + 1):
     min_fuel = min(min_fuel, fuel)
 
 print(f"Part 2: {min_fuel}")
-
-
