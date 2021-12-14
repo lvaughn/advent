@@ -4,16 +4,18 @@ import numpy as np
 import re
 from collections import Counter
 
-CACHE = {} # (s, layers) = counts
+CACHE = {}  # (s, layers) = counts
+
+
 def expand(s, layers, rules):
-    #print(s, layers)
+    # print(s, layers)
     if layers == 0:
         return Counter(s)
     key = (s, layers)
     if key not in CACHE:
         result = Counter()
         for loc in range(len(s) - 1):
-            result += expand(s[loc] + rules[s[loc:loc+2]] + s[loc+1], layers - 1, rules)
+            result += expand(s[loc] + rules[s[loc:loc + 2]] + s[loc + 1], layers - 1, rules)
         # True up the middle
         for c in s[1:-1]:
             result[c] -= 1
