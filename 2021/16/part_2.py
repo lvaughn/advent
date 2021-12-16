@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-from pprint import pprint
 import sys
 
 
@@ -28,9 +27,9 @@ def read_packet(s):
     if len(s) < 7:
         return None
     version = binary_to_int(s[:3])
-    type = binary_to_int(s[3:6])
+    p_type = binary_to_int(s[3:6])
 
-    if type == 4:
+    if p_type == 4:
         loc = 6
         value = 0
         while s[loc] == '1':
@@ -40,13 +39,13 @@ def read_packet(s):
         value *= 16
         value += binary_to_int(s[loc+1:loc + 5])
         loc += 5
-        return version, type, value, s[loc:]
+        return version, p_type, value, s[loc:]
 
     # Operation packet
     if s[6] == '0':
         packets_len = binary_to_int(s[7:22])
         sub_packets = parse_all_packets(s[22:22 + packets_len])
-        return version, type, sub_packets, s[22 + packets_len:]
+        return version, p_type, sub_packets, s[22 + packets_len:]
     else:
         n_sub_packets = binary_to_int(s[7:18])
         sub_packets = []
@@ -55,48 +54,35 @@ def read_packet(s):
             packet = read_packet(s)
             sub_packets.append(packet[:3])
             s = packet[3]
-        return version, type, sub_packets, s
-
-
-def sum_version(packet):
-    total = 0
-    ver, type, data = packet[:3]
-    total += ver
-    if type != 4:
-        for sub_packet in data:
-            total += sum_version(sub_packet)
-    return total
+        return version, p_type, sub_packets, s
 
 
 def evaluate(packet):
-    _, type, data = packet[:3]
-    if type == 0:
+    _, p_type, data = packet[:3]
+    if p_type == 0:
         args = [evaluate(p) for p in data]
         return sum(args)
-    elif type == 1:
+    elif p_type == 1:
         value = 1
         args = [evaluate(p) for p in data]
         for x in args:
             value *= x
         return value
-    elif type == 2:
+    elif p_type == 2:
         return min([evaluate(p) for p in data])
-    elif type == 3:
+    elif p_type == 3:
         return max([evaluate(p) for p in data])
-    elif type == 4:
+    elif p_type == 4:
         return data
-    elif type == 5:
-        assert (len(data) == 2)
+    elif p_type == 5:
         if evaluate(data[0]) > evaluate(data[1]):
             return 1
         return 0
-    elif type == 6:
-        assert (len(data) == 2)
+    elif p_type == 6:
         if evaluate(data[0]) < evaluate(data[1]):
             return 1
         return 0
-    elif type == 7:
-        assert (len(data) == 2)
+    elif p_type == 7:
         if evaluate(data[0]) == evaluate(data[1]):
             return 1
         return 0
@@ -124,11 +110,10 @@ decode = {
 }
 
 with open(sys.argv[1], "r") as infile:
-    hex = infile.readline().lower().strip()
-    input = ''
-    for digit in hex:
-        input += decode[digit]
+    bits = ''
+    for digit in infile.readline().lower().strip():
+        bits += decode[digit]
 
-print(f'Parsing {len(input)} bits')
-packet = read_packet(input)
-print(evaluate(packet))
+print(f'Parsing {len(bits)} bits')
+global_packet = read_packet(bits)
+print(evaluate(global_packet))
