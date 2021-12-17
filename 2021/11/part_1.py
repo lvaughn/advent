@@ -41,9 +41,9 @@ total_flashes = 0
 for step in range(100):
     flashes, grid = do_step(grid)
     total_flashes += flashes
-    #print(step + 1, flashes, total_flashes)
-    #print(grid)
-    #print()
+    # print(step + 1, flashes, total_flashes)
+    # print(grid)
+    # print()
 
 print(f"Part 1: {total_flashes}")
 
