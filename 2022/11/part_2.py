@@ -30,7 +30,7 @@ while n < len(lines):
         {
             'num': monkey_no,
             'items': items,
-            'op': operation.replace('old', '%d'),
+            'op': eval(f"lambda old: {operation}"),
             'div_by': divisible_by,
             'true': true_to,
             'false': false_to
@@ -45,10 +45,7 @@ for x in range(10000):
         id = monkey['num']
         for w in monkey['items']:
             inspections[id] += 1
-            if monkey['op'].count('%d') == 1:
-                new_w = eval(monkey['op'] % w)
-            else:
-                new_w = eval(monkey['op'] % (w, w))
+            new_w = monkey['op'](w)
             new_w = new_w % mod_by
             if new_w % monkey['div_by'] == 0:
                 monkeys[monkey['true']]['items'].append(new_w)
