@@ -1,20 +1,7 @@
 #!/usr/bin/env python3
-# from string import ascii_uppercase, ascii_lowercase
-# from collections import Counter, defaultdict, deque, namedtuple
-# from itertools import count, product, permutations, combinations, combinations_with_replacement
-# from sortedcontainers import SortedSet, SortedDict, SortedList
-# import numpy as np
-# import re
-# import pprint
 import re
 import sys
 
-
-# Itertools Functions:
-# product('ABCD', repeat=2)                   AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD
-# permutations('ABCD', 2)                     AB AC AD BA BC BD CA CB CD DA DB DC
-# combinations('ABCD', 2)                     AB AC AD BC BD CD
-# combinations_with_replacement('ABCD', 2)    AA AB AC AD BB BC BD CC CD DD
 
 def man_dist(x1, y1, x2, y2):
     return abs(x1 - x2) + abs(y1 - y2)
@@ -38,6 +25,7 @@ def fix_list(ls):
         return fix_list([(ls[0][0], ls[1][1])] + ls[2:])
     return [ls[0]] + fix_list(ls[1:])
 
+
 def count(ls):
     if len(ls) == 0:
         return 0
@@ -46,7 +34,7 @@ def count(ls):
 
 answer = 0
 y_row = 2000000
-#y_row = 10
+# y_row = 10
 
 output_ls = []
 with open(sys.argv[1], 'r') as infile:
