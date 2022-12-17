@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
-#from string import ascii_uppercase, ascii_lowercase
-from collections import Counter, defaultdict, deque, namedtuple
-#from itertools import count, product, permutations, combinations, combinations_with_replacement
-#from sortedcontainers import SortedSet, SortedDict, SortedList
-#import numpy as np
+from collections import defaultdict, namedtuple
+import numpy as np
 import re
-#import pprint
 import sys
-#import heapq
 
 State = namedtuple('State', ['locations', 'time_left', 'flow_rate', 'flowed', 'open_valves'])
 
+
 def get_key(state: State) -> tuple:
     return (state.locations, state.open_valves)
+
 
 answer = 0
 flow_rates = {}
@@ -29,48 +26,39 @@ with open(sys.argv[1], 'r') as infile:
         for dest in (s.strip() for s in m[1].split(',')):
             connected[valve].append(dest)
 
-#queue = deque([State(('AA', 'AA'), 26, 0, 0, frozenset())])
 start_state = State(('AA', 'AA'), 26, 0, 0, frozenset())
 current_queue = defaultdict(list)
 current_queue[get_key(start_state)].append(start_state)
 max_rate = sum(flow_rates.values())
 best_flow = -1
 steps = 0
-#visited = {get_key(queue[0]): 0}
 new_queue = defaultdict(list)
+discard_under = 0
 while len(current_queue) > 0:
+    values = []
     for state in current_queue:
         steps += 1
-        #print(state, current_queue[state])
         ls = sorted(current_queue[state], key=lambda x: x.flowed, reverse=True)
         locations, time_left, flow_rate, flowed, open_valves = ls[0]
+
+        # After the first few rounds, skip the worst 3/4ths of the entries
+        if time_left < 18 and flowed < discard_under:
+            continue
         my_loc, e_loc = locations
-        #print(open_valves, flow_rate)
-        if steps % 100000 == 0:
-            print("LGV", steps, time_left, best_flow, flow_rate, len(new_queue))
         if time_left == 0:
             if flowed > best_flow:
                 best_flow = flowed
             continue
-        if flow_rate == 0 and time_left < 20:
-            continue
-        if flow_rate < 40 and time_left < 15:
-            continue
-        if flow_rate < 80 and time_left < 10:
-            continue
-        if flow_rate < 100 and time_left < 7:
-            continue
 
         flowed += flow_rate
-        if flow_rate == max_rate: # Everything is open that can be
+        if flow_rate == max_rate:  # Everything is open that can be
             result = (time_left - 1) * flow_rate + flowed
             if result > best_flow:
                 best_flow = result
-            # queue.append(State(loc, time_left - 1, flow_rate, flowed, open_valves))
             continue
 
         # If this can't do better than we've seen, give up now
-        best_possible = flowed + (time_left-1) * max_rate
+        best_possible = flowed + (time_left - 1) * max_rate
         if best_possible < best_flow:
             continue
 
@@ -85,23 +73,29 @@ while len(current_queue) > 0:
             e_improve = flow_rates[e_loc]
             for new_my_loc, flow_imp, new_opens in my_moves:
                 if e_loc in new_opens:
-                    continue # WE both opened them
+                    continue  # WE both opened them
                 new_flow = flow_rate + e_improve + flow_imp
                 new_valves = open_valves | new_opens | frozenset([e_loc])
                 locs = tuple(sorted([new_my_loc, e_loc]))
                 new_state = State(locs, time_left - 1, new_flow, flowed, new_valves)
                 key = get_key(new_state)
                 new_queue[key].append(new_state)
-                    # queue.append(new_state)
+                values.append(flowed)
+                # queue.append(new_state)
         for dest in connected[e_loc]:
             for new_my_loc, flow_imp, new_opens in my_moves:
                 new_flow = flow_rate + flow_imp
                 locs = tuple(sorted([new_my_loc, dest]))
-                new_state = State(locs, time_left-1, new_flow, flowed, open_valves | new_opens)
-                #print("Adding", State(-flowed, new_my_loc, dest, time_left-1, new_flow, flowed, open_valves + new_opens))
+                new_state = State(locs, time_left - 1, new_flow, flowed, open_valves | new_opens)
+                # print("Adding", State(-flowed, new_my_loc, dest, time_left-1, new_flow, flowed, open_valves + new_opens))
                 key = get_key(new_state)
                 new_queue[key].append(new_state)
+                values.append(flowed)
     current_queue = new_queue
     new_queue = defaultdict(list)
-    print("LOOPING", len(current_queue))
+    # Find a new value to skip
+    if len(values) > 0:
+        vals = np.array(values, dtype=int)
+        vals.sort()
+        discard_under = vals[(len(vals) // 3) * 2]
 print("Part 2", best_flow)
