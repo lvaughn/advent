@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 
 import re
+
 INFECTION = 1
 DEFENDER = 2
+
+
 class Group:
     def __init__(self, side, id, units, hp, attack_type, attack, initiative):
         self.side = side
@@ -43,6 +46,7 @@ class Group:
     def best_attack(self, enemies):
         pass
 
+
 def play_round(immune, infection):
     # Target selection
     for group in sorted(infection, key=lambda x: (x.effective_power(), x.initiative), reverse=True):
@@ -50,8 +54,6 @@ def play_round(immune, infection):
                               key=lambda x: (group.would_damage(x), x.effective_power(), x.initiative),
                               reverse=True)
         if attack_order:
-            # for opp in attack_order:
-            #     print(f"  Group {group.name} attacking {opp.name} would do {group.would_damage(opp)} damage, power={opp.effective_power()} init={opp.initiative}")
             group.will_attack = attack_order[0]
             attack_order[0].attacked_by = group
 
@@ -60,8 +62,6 @@ def play_round(immune, infection):
                               key=lambda x: (group.would_damage(x), x.effective_power(), x.initiative),
                               reverse=True)
         if attack_order:
-            # for opp in attack_order:
-            #     print(f"  Group {group.name} attacking {opp.name} would do {group.would_damage(opp)} damage, power={opp.effective_power()} init={opp.initiative}")
             group.will_attack = attack_order[0]
             attack_order[0].attacked_by = group
 
@@ -72,53 +72,76 @@ def play_round(immune, infection):
         if grp.units > 0 and opp:
             units_destroyed = grp.would_damage(opp) // opp.hp_per_unit
             opp.units = max(opp.units - units_destroyed, 0)
-            # print(f"   Group {grp.name} ({grp.units} units) attacks {opp.name}: dmg={grp.would_damage(opp)} units_lost={units_destroyed} leaving {opp.units} units")
         grp.reset()
 
     return [i for i in immune if i.units > 0], [i for i in infection if i.units > 0]
 
 
-immune_groups = []
-infection_groups = []
-current_groups = None
+def run_sim(bonus):
+    immune_groups = []
+    infection_groups = []
+    current_groups = None
+    line_re = re.compile(r'^(\d+)\D+(\d+) hit points (\(.*\))?\s*with an\D+(\d+)\s+(\w+)\s+damage\D+(\d+)')
+    clause_re = re.compile(r'(\w+) to (.*)')
+    side = None
+    id = 0
 
-line_re = re.compile(r'^(\d+)\D+(\d+) hit points (\(.*\))?\s*with an\D+(\d+)\s+(\w+)\s+damage\D+(\d+)')
-clause_re = re.compile(r'(\w+) to (.*)')
-side = None
-id = 0
-with open('input.txt', 'r') as infile:
-    for line in infile:
-        if line.strip() == '':
-            continue
-        if line.startswith('Immune'):
-            current_groups = immune_groups
-            side = DEFENDER
-            id = 1
-            continue
-        if line.startswith('Infection'):
-            current_groups = infection_groups
-            side = INFECTION
-            id = 1
-            continue
-        # Parse the line
-        m = line_re.match(line)
+    with open('input.txt', 'r') as infile:
+        for line in infile:
+            if line.strip() == '':
+                continue
+            if line.startswith('Immune'):
+                current_groups = immune_groups
+                side = DEFENDER
+                id = 1
+                continue
+            if line.startswith('Infection'):
+                current_groups = infection_groups
+                side = INFECTION
+                id = 1
+                continue
+            # Parse the line
+            m = line_re.match(line)
 
-        grp = Group(side, id, int(m[1]), int(m[2]), m[5], int(m[4]), int(m[6]))
-        id += 1
-        current_groups.append(grp)
-        if m[3]:
-            for clause in m[3].replace(')', '').split(';'):
-                match = clause_re.search(clause)
-                for attack in match[2].split(','):
-                    if match[1].endswith('weak'):
-                        grp.weaknesses.append(attack.strip())
-                    else:
-                        grp.immune_to.append(attack.strip())
+            grp = Group(side, id, int(m[1]), int(m[2]), m[5], int(m[4]), int(m[6]))
+            id += 1
+            current_groups.append(grp)
+            if m[3]:
+                for clause in m[3].replace(')', '').split(';'):
+                    match = clause_re.search(clause)
+                    for attack in match[2].split(','):
+                        if match[1].endswith('weak'):
+                            grp.weaknesses.append(attack.strip())
+                        else:
+                            grp.immune_to.append(attack.strip())
 
-while len(immune_groups) > 0 and len(infection_groups) > 0:
-    immune_groups, infection_groups = play_round(immune_groups, infection_groups)
+    for g in immune_groups:
+        g.attack_hp += bonus
+    states = set()
+    while len(immune_groups) > 0 and len(infection_groups) > 0:
+        immune_groups, infection_groups = play_round(immune_groups, infection_groups)
+        state = (tuple(i.units for i in immune_groups), tuple(i.units for i in infection_groups))
+        if state in states:
+            return 0
+        states.add(state)
+
     result = sum(g.units for g in infection_groups + immune_groups)
+    if len(immune_groups) > 0:
+        return result
+    else:
+        return -result
 
 
-result = sum(g.units for g in infection_groups + immune_groups)
-print(f"Part 1: {result}")
+min_bonus = 0
+max_bonus = 10000000
+while min_bonus + 1 < max_bonus:
+    bonus = (min_bonus + max_bonus) // 2
+    score = run_sim(bonus)
+    # print(min_bonus, max_bonus, bonus, score)
+    if score > 0:
+        max_bonus = bonus
+    else:
+        min_bonus = bonus
+
+# print(min_bonus, max_bonus, run_sim(min_bonus), run_sim(max_bonus))
+print("Part 2:", run_sim(max_bonus))
