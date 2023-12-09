@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-#from string import ascii_uppercase, ascii_lowercase, digits
 from collections import deque
-#from itertools import count, product, permutations, combinations, combinations_with_replacement
-#from sortedcontainers import SortedSet, SortedDict, SortedList
-#import numpy as np
-#import re
-#import pprint
 import sys
 
 
@@ -15,23 +9,23 @@ class IntCodeComputer:
         self.output_queue = deque()
         self.input_queue = deque()
     
-    def set_memory(self, address, mode, value):
+    def set_memory(self, loc, mode, value):
         if mode == 0:
-            physical_address = address
+            physical_address = self.ram[loc]
         elif mode == 1:
             raise Exception("Wrote called with immediate mode")
         else: 
-            raise Exception(f"Bad address mode {mode} (address={address})")
+            raise Exception(f"Bad address mode {mode} (address={loc})")
         
         if len(self.ram) <= physical_address:
-            self.ram.extend([None] * (address - len(self.ram) + 1))  
+            self.ram.extend([None] * (physical_address - len(self.ram) + 1))  
         self.ram[physical_address] = value    
         
     def get_parameter(self, address, mode):
         if mode == 0:
-            return self.ram[address]
+            return self.ram[self.ram[address]]
         elif mode == 1:
-            return address 
+            return self.ram[address] 
         else: 
             raise Exception(f"Bad address mode {mode} (address={address})")
     
@@ -60,44 +54,44 @@ class IntCodeComputer:
         while self.ram[pc] != 99:
             op, modes = self.decode(self.ram[pc])
             if op == 1:
-                val = self.get_parameter(self.ram[pc+1], modes[0]) + self.get_parameter(self.ram[pc+2], modes[1])
-                self.set_memory(self.ram[pc+3], modes[2], val)
+                val = self.get_parameter(pc+1, modes[0]) + self.get_parameter(pc+2, modes[1])
+                self.set_memory(pc+3, modes[2], val)
                 pc += 4
             elif op == 2:
-                val = self.get_parameter(self.ram[pc+1], modes[0]) * self.get_parameter(self.ram[pc+2], modes[1])
-                self.set_memory(self.ram[pc+3], modes[2], val)
+                val = self.get_parameter(pc+1, modes[0]) * self.get_parameter(pc+2, modes[1])
+                self.set_memory(pc+3, modes[2], val)
                 pc += 4
             elif op == 3:
-                self.set_memory(self.ram[pc+1], modes[0], self.input_queue.popleft())
+                self.set_memory(pc+1, modes[0], self.input_queue.popleft())
                 pc += 2
             elif op == 4:
-                self.output_queue.append(self.get_parameter(self.ram[pc+1], modes[0]))
+                self.output_queue.append(self.get_parameter(pc+1, modes[0]))
                 pc += 2
             elif op == 5:
-                if self.get_parameter(self.ram[pc+1], modes[0]) != 0:
-                    pc = self.get_parameter(self.ram[pc+2], modes[1])
+                if self.get_parameter(pc+1, modes[0]) != 0:
+                    pc = self.get_parameter(pc+2, modes[1])
                 else:
                     pc += 3
             elif op == 6:
-                if self.get_parameter(self.ram[pc+1], modes[0]) == 0:
-                    pc = self.get_parameter(self.ram[pc+2], modes[1])
+                if self.get_parameter(pc+1, modes[0]) == 0:
+                    pc = self.get_parameter(pc+2, modes[1])
                 else:
                     pc += 3
             elif op == 7:
-                a = self.get_parameter(self.ram[pc+1], modes[0])
-                b = self.get_parameter(self.ram[pc+2], modes[1])
+                a = self.get_parameter(pc+1, modes[0])
+                b = self.get_parameter(pc+2, modes[1])
                 if a < b:
-                    self.set_memory(self.ram[pc+3], modes[2], 1)
+                    self.set_memory(pc+3, modes[2], 1)
                 else:
-                    self.set_memory(self.ram[pc+3], modes[2], 0)
+                    self.set_memory(pc+3, modes[2], 0)
                 pc += 4
             elif op == 8:
-                a = self.get_parameter(self.ram[pc+1], modes[0])
-                b = self.get_parameter(self.ram[pc+2], modes[1])
+                a = self.get_parameter(pc+1, modes[0])
+                b = self.get_parameter(pc+2, modes[1])
                 if a == b:
-                    self.set_memory(self.ram[pc+3], modes[2], 1)
+                    self.set_memory(pc+3, modes[2], 1)
                 else:
-                    self.set_memory(self.ram[pc+3], modes[2], 0)
+                    self.set_memory(pc+3, modes[2], 0)
                 pc += 4
             else:
                 print(f"Unexpected op code {op}, pc={pc}")
