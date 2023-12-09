@@ -21,9 +21,12 @@ answer = sum((int(l)//3) - 2 for l in lines)
 
 print("Part 1", answer)
 
-new_fuel = (answer//3) - 2
-while new_fuel > 0:
-    answer += new_fuel
-    new_fuel = (new_fuel//3) - 2
-    
-print(f"Part 2: {answer}")
+def total_fuel(mass):
+    fuel = mass//3 - 2
+    new_fuel = fuel//3 - 2
+    while new_fuel > 0:
+        fuel += new_fuel
+        new_fuel = new_fuel // 3 - 2
+    return fuel 
+
+print("Part 2", sum(total_fuel(int(l)) for l in lines))
