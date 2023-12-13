@@ -5,6 +5,7 @@ import sys
 
 CACHE = {}
 def count_valid_strings(template:str, sections: [], n_in_current_sec: int) -> int:
+    # A wrapper that does nothing but memoize 
     global CACHE
     key = (template, n_in_current_sec, tuple(sections))
     if key not in CACHE:
