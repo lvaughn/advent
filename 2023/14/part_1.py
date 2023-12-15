@@ -15,7 +15,7 @@ import sys
 # combinations('ABCD', 2)                     AB AC AD BC BD CD
 # combinations_with_replacement('ABCD', 2)    AA AB AC AD BB BC BD CC CD DD
 
-def move_top_top(grid, r, c):
+def move_to_top(grid, r, c):
     if grid[r, c] != 1:
         return 
     while r >= 1 and grid[r-1, c] == 0:
@@ -51,7 +51,7 @@ for r, line in enumerate(lines):
 # Move everyting up "north"
 for r in range(rows):
     for c in range(cols):
-        move_top_top(grid, r, c)
+        move_to_top(grid, r, c)
         
 
 print("Part 1", get_north_load(grid))
