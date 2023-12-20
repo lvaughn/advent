@@ -26,6 +26,7 @@ locations = [l for l in connections if l[2] == 'A']
     
 distances = []
 for l in locations:
+    start = l 
     dist = 0
     while l[-1] != 'Z':
         for ch in moves:
