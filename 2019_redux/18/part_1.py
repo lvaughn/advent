@@ -67,32 +67,27 @@ for l in landmarks:
     
 # pprint.pprint(connections)
 print(f"Starting at {start_loc}, n_keys={n_keys}")
-# distance_traveled, location, keys_collected, visited
+# distance_traveled, location, keys_collected
 tried = set()
-pri_queue = [(0, start_loc, set(), [])]
+pri_queue = [(0, start_loc, set())]
 heapq.heapify(pri_queue)
 while len(pri_queue) > 0:
-    dist, loc, keys_collected, visited = heapq.heappop(pri_queue)
+    dist, loc, keys_collected = heapq.heappop(pri_queue)
     r, c = loc 
     key = (loc, frozenset(keys_collected))
     if key in tried:
         continue 
     tried.add(key)
-    # print(f"LGV:dist={dist} loc={loc} ch={lines[r][c]} q_len={len(pri_queue)}, keys={len(keys_collected)} visited={visited}")
-    visited = visited + [loc]
     if lines[r][c] in ascii_lowercase:
         keys_collected = keys_collected | {lines[r][c]}
-        visited = []
     if len(keys_collected) == n_keys:
         answer = dist
         break 
     for dest in connections[loc]:
-        if dest in visited:
-            continue 
         ch = lines[dest[0]][dest[1]]
         if ch in ascii_uppercase and ch.lower() not in keys_collected:
             continue 
-        new_item = (dist + connections[loc][dest], dest, keys_collected, visited)
+        new_item = (dist + connections[loc][dest], dest, keys_collected)
         heapq.heappush(pri_queue, new_item)
 
         
