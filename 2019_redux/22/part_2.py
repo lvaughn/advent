@@ -2,7 +2,6 @@
 
 import sys
 
-
 def deal(deck, inc):
     loc = 0
     new_deck = [None] * len(deck)
@@ -13,27 +12,8 @@ def deal(deck, inc):
         
     assert None not in new_deck
     return new_deck
-
-# DECK_LEN_CACHE = {}
-# def generate_inv_table(deck_len, n):
-#     key = (deck_len, n)
-#     if key not in DECK_LEN_CACHE:
-#         result = [None] * n
-#         deck_loc = 0
-#         slot = 0
-#         while None in result:
-#             result[slot] = deck_loc 
-#             n_this_round = (deck_len - slot) // n + 1 
-#             slot = (slot + n_this_round * n) % deck_len 
-#             deck_loc += n_this_round
-#         DECK_LEN_CACHE[key] = result
-#     return DECK_LEN_CACHE[key]
     
 def inv_deal(deck_len, n, dest):
-    # table = generate_inv_table(deck_len, n)
-    # slot = dest % n 
-    # steps_beyond = dest // n 
-    # return table[slot] + steps_beyond
     return pow(n, -1, deck_len) * dest % deck_len 
 
 def deal_in_stack(deck):
@@ -65,7 +45,7 @@ iterations = 101741582076661
 ending_pos = 2020
 pos_ls = [ending_pos]
 pos = ending_pos
-while len(pos_ls) < 10:
+while len(pos_ls) < 5:
     for line in reversed(lines):
         if line.startswith('deal into new stack'):
             pos = inv_deal_in_stack(deck_len, pos)
@@ -77,15 +57,13 @@ while len(pos_ls) < 10:
             assert False, f"Bad line: {line}"
     pos_ls.append(pos)
     
-# for i in range(50):
-#     print(i, pos_ls[i], deck_len-pos_ls[i])
 X = pos_ls[0]
 Y = pos_ls[1]
 Z = pos_ls[2]
     
 A = (Y-Z) * pow(X-Y+deck_len, -1, deck_len) % deck_len
 B = (Y-A*X) % deck_len
-print(A, B)
+# print(A, B)
 
 print("Part 2", (pow(A, iterations, deck_len)*X + (pow(A, iterations, deck_len)-1) * pow(A-1, -1, deck_len) * B) % deck_len)
 
@@ -97,7 +75,7 @@ deck = list(range(10007))
 # for i, value in enumerate(foo):
 #     assert value == inv_deal_in_stack(len(deck), i)
     
-short_deck = list(range(10))
+# short_deck = list(range(10))
 # foo = cut(short_deck, 3)
 # for i, value in enumerate(foo):
 #     assert value == inv_cut(len(short_deck), 3, i)
@@ -110,13 +88,13 @@ short_deck = list(range(10))
 #     for i, value in enumerate(foo):
 #         assert value == inv_cut(len(deck), cut_depth, i), f"Bad inverse i={i} value={value} cut={cut_depth} got {inv_cut(len(deck), cut_depth, i)}"
 
-foo = deal(short_deck, 3)
-for i, value in enumerate(foo):
-    assert value == inv_deal(10, 3, i)
+# foo = deal(short_deck, 3)
+# for i, value in enumerate(foo):
+#     assert value == inv_deal(10, 3, i)
     
-foo = deal(deck, 59)
-for i, value in enumerate(foo):
-    assert value == inv_deal(len(deck), 59, i)
+# foo = deal(deck, 59)
+# for i, value in enumerate(foo):
+#     assert value == inv_deal(len(deck), 59, i)
 
 # for line in lines:
 #     if line.startswith('deal into new stack'):
@@ -128,4 +106,3 @@ for i, value in enumerate(foo):
 #     else:
 #         assert False, f"Bad line: {line}"
 
-# print("Part 1", deck.index(2019))
