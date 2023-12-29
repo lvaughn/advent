@@ -47,6 +47,9 @@ def step(grid):
     new_grid = np.zeros(grid.shape, dtype=int)
     rows, cols, levels = grid.shape
     for l in range(1, levels-1):
+        if grid[:, :, l-1:l+2].sum() == 0:
+            # We can skip if all 3 layers are zeros
+            continue 
         for r in range(rows):
             for c in range(cols):
                 n_adj = 0
