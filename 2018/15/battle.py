@@ -25,7 +25,7 @@ class Unit:
         return -3
 
     def __repr__(self):
-        return "<{}: hp={}, at={}>".format(self.type, self.hp, self.attack)
+        return "<{}: hp={}>".format(self.type, self.hp, self.attack)
 
 
 def reachable_from(board, row, col):
@@ -91,17 +91,25 @@ def best_move(board, start, end):
                 if new_loc in targets:
                     stop_point = n_moves + 1
                 queue.append([new_loc, n_moves + 1])
-    print("Finding best move", start, end)
-    for target in targets:
-        print("    ", target, board[target[0], target[1]])
+    # print("Finding best move", start, end)
+    # for target in targets:
+    #     print("    ", target, board[target[0], target[1]])
     best = 99999
-    best_move = None
+    # best_move = None
+    # for target in targets:
+    #     if board[target[0], target[1]] > 0 and board[target[0], target[1]] < best:
+    #         best = board[target[0], target[1]]
+    #         best_move = target
+    # print("Returning ", best_move)
+    best_moves = []
     for target in targets:
         if board[target[0], target[1]] > 0 and board[target[0], target[1]] < best:
             best = board[target[0], target[1]]
-            best_move = target
-    print("Returning ", best_move)
-    return best_move
+            best_moves = [target]
+        elif board[target[0], target[1]] > 0 and board[target[0], target[1]] == best:
+            best_moves.append(target)
+    best_moves.sort()
+    return best_moves[0]
 
 
 def find_dest(board, row, col):
@@ -180,7 +188,7 @@ for row, r in enumerate(initial_board):
             units[(row, col)] = Unit('G')
 
 turns = 0
-print_board(board)
+# print_board(board)
 early_exit = False
 while np.count_nonzero(board == -2) > 0 and np.count_nonzero(board == -3) > 0:
     units_to_play = sorted(units.keys())
@@ -201,7 +209,7 @@ while np.count_nonzero(board == -2) > 0 and np.count_nonzero(board == -3) > 0:
         if new_dest is None:
             continue
         new_loc = best_move(board, unit, new_dest)
-        print("Moving unit at {} to {} via {}".format(unit, new_dest, new_loc))
+        # print("Moving unit at {} to {} via {}".format(unit, new_dest, new_loc))
         units[new_loc] = units[unit]
         del units[unit]
         board[new_loc[0], new_loc[1]] = board[unit[0], unit[1]]
@@ -216,8 +224,12 @@ while np.count_nonzero(board == -2) > 0 and np.count_nonzero(board == -3) > 0:
     if not early_exit:
         turns += 1
 
-    print("End of turn {}, e={}, g={}".format(turns, np.count_nonzero(board == -2), np.count_nonzero(board == -3)))
+    # print("End of turn {}, e={}, g={}".format(turns, np.count_nonzero(board == -2), np.count_nonzero(board == -3)))
     print_board(board)
+    print(turns)
+    for u in sorted(units):
+        print(u, units[u])
+    print()
 
 hp_sum = sum(u.hp for u in units.values())
 for u in units.values():
@@ -225,3 +237,6 @@ for u in units.values():
 print("Turns", turns)
 print("HP", hp_sum)
 print("Answer", turns * hp_sum)
+
+# 204743 Wrong
+# 202084 Wrong
