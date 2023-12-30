@@ -1,0 +1,2627 @@
+bl:376 s:-1 b:(15, 0) p:(None, 22): e:19 TELEPORT: old:(15, 0) new:(20, 19)
+bl:376 s:-1 b:(20, 19) p:(None, 22): e:19 Ball: up:False right:True
+bl:376 s:-1 b:(20, 19) p:(None, 22): e:23 No expected collision path
+bl:376 s:-1 b:(20, 19) p:(None, 22): e:23 Paddle moved
+bl:376 s:0 b:(20, 19) p:(22, 22): e:23 Paddle moved
+bl:376 s:0 b:(21, 20) p:(23, 22): e:23 Ball: up:False right:True
+bl:376 s:0 b:(21, 20) p:(23, 22): e:23 No expected collision path
+bl:376 s:0 b:(22, 21) p:(23, 22): e:23 Ball: up:False right:True
+bl:376 s:0 b:(22, 21) p:(23, 22): e:23 No expected collision path
+bl:376 s:0 b:(21, 20) p:(23, 22): e:23 Ball: up:True right:False
+bl:376 s:0 b:(20, 19) p:(23, 22): e:18 Ball: up:True right:False
+bl:376 s:0 b:(20, 19) p:(23, 22): e:18 Paddle moved
+bl:376 s:0 b:(19, 18) p:(22, 22): e:18 Ball: up:True right:False
+bl:376 s:0 b:(19, 18) p:(22, 22): e:18 Paddle moved
+bl:375 s:19 b:(20, 19) p:(21, 22): e:18 Ball: up:False right:True
+bl:375 s:19 b:(20, 19) p:(21, 22): e:23 No expected collision path
+bl:375 s:19 b:(20, 19) p:(21, 22): e:23 Paddle moved
+bl:375 s:19 b:(21, 20) p:(20, 22): e:23 Ball: up:False right:True
+bl:375 s:19 b:(21, 20) p:(20, 22): e:23 No expected collision path
+bl:375 s:19 b:(21, 20) p:(20, 22): e:23 Paddle moved
+bl:375 s:19 b:(22, 21) p:(21, 22): e:23 Ball: up:False right:True
+bl:375 s:19 b:(22, 21) p:(21, 22): e:23 No expected collision path
+bl:375 s:19 b:(22, 21) p:(21, 22): e:23 Paddle moved
+bl:375 s:19 b:(23, 20) p:(22, 22): e:23 Ball: up:True right:True
+bl:375 s:19 b:(23, 20) p:(22, 22): e:26 Paddle moved
+bl:375 s:19 b:(24, 19) p:(23, 22): e:26 Ball: up:True right:True
+bl:375 s:19 b:(24, 19) p:(23, 22): e:26 Paddle moved
+bl:375 s:19 b:(25, 18) p:(24, 22): e:26 Ball: up:True right:True
+bl:375 s:19 b:(25, 18) p:(24, 22): e:26 Paddle moved
+bl:374 s:40 b:(26, 19) p:(25, 22): e:26 Ball: up:False right:True
+bl:374 s:40 b:(26, 19) p:(25, 22): e:29 No expected collision path
+bl:374 s:40 b:(26, 19) p:(25, 22): e:29 Paddle moved
+bl:374 s:40 b:(27, 20) p:(26, 22): e:29 Ball: up:False right:True
+bl:374 s:40 b:(27, 20) p:(26, 22): e:29 No expected collision path
+bl:374 s:40 b:(27, 20) p:(26, 22): e:29 Paddle moved
+bl:374 s:40 b:(28, 21) p:(27, 22): e:29 Ball: up:False right:True
+bl:374 s:40 b:(28, 21) p:(27, 22): e:29 No expected collision path
+bl:374 s:40 b:(28, 21) p:(27, 22): e:29 Paddle moved
+bl:374 s:40 b:(29, 20) p:(28, 22): e:29 Ball: up:True right:True
+bl:374 s:40 b:(29, 20) p:(28, 22): e:33 Paddle moved
+bl:374 s:40 b:(30, 19) p:(29, 22): e:33 Ball: up:True right:True
+bl:374 s:40 b:(30, 19) p:(29, 22): e:33 Paddle moved
+bl:374 s:40 b:(31, 18) p:(30, 22): e:33 Ball: up:True right:True
+bl:374 s:40 b:(31, 18) p:(30, 22): e:33 Paddle moved
+bl:373 s:71 b:(32, 19) p:(31, 22): e:33 Ball: up:False right:True
+bl:373 s:71 b:(32, 19) p:(31, 22): e:35 No expected collision path
+bl:373 s:71 b:(32, 19) p:(31, 22): e:35 Paddle moved
+bl:373 s:71 b:(33, 20) p:(32, 22): e:35 Ball: up:False right:True
+bl:373 s:71 b:(33, 20) p:(32, 22): e:35 No expected collision path
+bl:373 s:71 b:(33, 20) p:(32, 22): e:35 Paddle moved
+bl:373 s:71 b:(34, 21) p:(33, 22): e:35 Ball: up:False right:True
+bl:373 s:71 b:(34, 21) p:(33, 22): e:35 No expected collision path
+bl:373 s:71 b:(34, 21) p:(33, 22): e:35 Paddle moved
+bl:373 s:71 b:(35, 20) p:(34, 22): e:35 Ball: up:True right:True
+bl:373 s:71 b:(35, 20) p:(34, 22): e:38 Paddle moved
+bl:373 s:71 b:(36, 19) p:(35, 22): e:38 Ball: up:True right:True
+bl:373 s:71 b:(36, 19) p:(35, 22): e:38 Paddle moved
+bl:373 s:71 b:(37, 18) p:(36, 22): e:38 Ball: up:True right:True
+bl:373 s:71 b:(37, 18) p:(36, 22): e:38 Paddle moved
+bl:372 s:91 b:(38, 19) p:(37, 22): e:38 Ball: up:False right:True
+bl:372 s:91 b:(38, 19) p:(37, 22): e:41 No expected collision path
+bl:372 s:91 b:(38, 19) p:(37, 22): e:41 Paddle moved
+bl:372 s:91 b:(39, 20) p:(38, 22): e:41 Ball: up:False right:True
+bl:372 s:91 b:(39, 20) p:(38, 22): e:41 No expected collision path
+bl:372 s:91 b:(39, 20) p:(38, 22): e:41 Paddle moved
+bl:372 s:91 b:(40, 21) p:(39, 22): e:41 Ball: up:False right:True
+bl:372 s:91 b:(40, 21) p:(39, 22): e:41 No expected collision path
+bl:372 s:91 b:(40, 21) p:(39, 22): e:41 Paddle moved
+bl:372 s:91 b:(41, 20) p:(40, 22): e:41 Ball: up:True right:True
+bl:372 s:91 b:(41, 20) p:(40, 22): e:43 Paddle moved
+bl:372 s:91 b:(42, 19) p:(41, 22): e:43 Ball: up:True right:True
+bl:372 s:91 b:(42, 19) p:(41, 22): e:43 Paddle moved
+bl:372 s:91 b:(41, 18) p:(42, 22): e:43 Ball: up:True right:False
+bl:371 s:169 b:(42, 19) p:(42, 22): e:40 Ball: up:False right:True
+bl:371 s:169 b:(42, 19) p:(42, 22): e:39 No expected collision path
+bl:371 s:169 b:(42, 19) p:(42, 22): e:39 Paddle moved
+bl:371 s:169 b:(41, 20) p:(41, 22): e:39 Ball: up:False right:False
+bl:371 s:169 b:(41, 20) p:(41, 22): e:39 No expected collision path
+bl:371 s:169 b:(41, 20) p:(41, 22): e:39 Paddle moved
+bl:371 s:169 b:(40, 21) p:(40, 22): e:39 Ball: up:False right:False
+bl:371 s:169 b:(40, 21) p:(40, 22): e:39 No expected collision path
+bl:371 s:169 b:(40, 21) p:(40, 22): e:39 Paddle moved
+bl:371 s:169 b:(41, 20) p:(39, 22): e:39 Ball: up:True right:True
+bl:371 s:169 b:(42, 19) p:(39, 22): e:43 Ball: up:True right:True
+bl:371 s:169 b:(42, 19) p:(39, 22): e:43 Paddle moved
+bl:371 s:169 b:(41, 18) p:(40, 22): e:43 Ball: up:True right:False
+bl:371 s:169 b:(41, 18) p:(40, 22): e:39 Paddle moved
+bl:371 s:169 b:(40, 17) p:(41, 22): e:39 Ball: up:True right:False
+bl:371 s:169 b:(40, 17) p:(41, 22): e:39 Paddle moved
+bl:370 s:234 b:(39, 18) p:(40, 22): e:39 Ball: up:False right:False
+bl:370 s:234 b:(39, 18) p:(40, 22): e:35 No expected collision path
+bl:370 s:234 b:(39, 18) p:(40, 22): e:35 Paddle moved
+bl:370 s:234 b:(38, 19) p:(39, 22): e:35 Ball: up:False right:False
+bl:370 s:234 b:(38, 19) p:(39, 22): e:35 No expected collision path
+bl:370 s:234 b:(38, 19) p:(39, 22): e:35 Paddle moved
+bl:370 s:234 b:(37, 20) p:(38, 22): e:35 Ball: up:False right:False
+bl:370 s:234 b:(37, 20) p:(38, 22): e:35 No expected collision path
+bl:370 s:234 b:(37, 20) p:(38, 22): e:35 Paddle moved
+bl:370 s:234 b:(36, 21) p:(37, 22): e:35 Ball: up:False right:False
+bl:370 s:234 b:(36, 21) p:(37, 22): e:35 No expected collision path
+bl:370 s:234 b:(36, 21) p:(37, 22): e:35 Paddle moved
+bl:370 s:234 b:(35, 20) p:(36, 22): e:35 Ball: up:True right:False
+bl:370 s:234 b:(35, 20) p:(36, 22): e:30 Paddle moved
+bl:370 s:234 b:(34, 19) p:(35, 22): e:30 Ball: up:True right:False
+bl:370 s:234 b:(34, 19) p:(35, 22): e:30 Paddle moved
+bl:370 s:234 b:(33, 18) p:(34, 22): e:30 Ball: up:True right:False
+bl:370 s:234 b:(33, 18) p:(34, 22): e:30 Paddle moved
+bl:369 s:268 b:(32, 19) p:(33, 22): e:30 Ball: up:False right:False
+bl:369 s:268 b:(32, 19) p:(33, 22): e:29 No expected collision path
+bl:369 s:268 b:(32, 19) p:(33, 22): e:29 Paddle moved
+bl:369 s:268 b:(31, 20) p:(32, 22): e:29 Ball: up:False right:False
+bl:369 s:268 b:(31, 20) p:(32, 22): e:29 No expected collision path
+bl:369 s:268 b:(31, 20) p:(32, 22): e:29 Paddle moved
+bl:369 s:268 b:(30, 21) p:(31, 22): e:29 Ball: up:False right:False
+bl:369 s:268 b:(30, 21) p:(31, 22): e:29 No expected collision path
+bl:369 s:268 b:(30, 21) p:(31, 22): e:29 Paddle moved
+bl:369 s:268 b:(29, 20) p:(30, 22): e:29 Ball: up:True right:False
+bl:369 s:268 b:(29, 20) p:(30, 22): e:26 Paddle moved
+bl:369 s:268 b:(28, 19) p:(29, 22): e:26 Ball: up:True right:False
+bl:369 s:268 b:(28, 19) p:(29, 22): e:26 Paddle moved
+bl:369 s:268 b:(27, 18) p:(28, 22): e:26 Ball: up:True right:False
+bl:369 s:268 b:(27, 18) p:(28, 22): e:26 Paddle moved
+bl:368 s:292 b:(26, 19) p:(27, 22): e:26 Ball: up:False right:False
+bl:368 s:292 b:(26, 19) p:(27, 22): e:23 No expected collision path
+bl:368 s:292 b:(26, 19) p:(27, 22): e:23 Paddle moved
+bl:368 s:292 b:(25, 20) p:(26, 22): e:23 Ball: up:False right:False
+bl:368 s:292 b:(25, 20) p:(26, 22): e:23 No expected collision path
+bl:368 s:292 b:(25, 20) p:(26, 22): e:23 Paddle moved
+bl:368 s:292 b:(24, 21) p:(25, 22): e:23 Ball: up:False right:False
+bl:368 s:292 b:(24, 21) p:(25, 22): e:23 No expected collision path
+bl:368 s:292 b:(24, 21) p:(25, 22): e:23 Paddle moved
+bl:368 s:292 b:(23, 20) p:(24, 22): e:23 Ball: up:True right:False
+bl:368 s:292 b:(23, 20) p:(24, 22): e:19 Paddle moved
+bl:368 s:292 b:(22, 19) p:(23, 22): e:19 Ball: up:True right:False
+bl:368 s:292 b:(22, 19) p:(23, 22): e:19 Paddle moved
+bl:368 s:292 b:(21, 18) p:(22, 22): e:19 Ball: up:True right:False
+bl:368 s:292 b:(21, 18) p:(22, 22): e:19 Paddle moved
+bl:367 s:312 b:(20, 19) p:(21, 22): e:19 Ball: up:False right:False
+bl:367 s:312 b:(20, 19) p:(21, 22): e:17 No expected collision path
+bl:367 s:312 b:(20, 19) p:(21, 22): e:17 Paddle moved
+bl:367 s:312 b:(19, 20) p:(20, 22): e:17 Ball: up:False right:False
+bl:367 s:312 b:(19, 20) p:(20, 22): e:17 No expected collision path
+bl:367 s:312 b:(19, 20) p:(20, 22): e:17 Paddle moved
+bl:367 s:312 b:(18, 21) p:(19, 22): e:17 Ball: up:False right:False
+bl:367 s:312 b:(18, 21) p:(19, 22): e:17 No expected collision path
+bl:367 s:312 b:(18, 21) p:(19, 22): e:17 Paddle moved
+bl:367 s:312 b:(17, 20) p:(18, 22): e:17 Ball: up:True right:False
+bl:367 s:312 b:(17, 20) p:(18, 22): e:14 Paddle moved
+bl:367 s:312 b:(16, 19) p:(17, 22): e:14 Ball: up:True right:False
+bl:367 s:312 b:(16, 19) p:(17, 22): e:14 Paddle moved
+bl:367 s:312 b:(15, 18) p:(16, 22): e:14 Ball: up:True right:False
+bl:367 s:312 b:(15, 18) p:(16, 22): e:14 Paddle moved
+bl:366 s:335 b:(14, 19) p:(15, 22): e:14 Ball: up:False right:False
+bl:366 s:335 b:(14, 19) p:(15, 22): e:11 No expected collision path
+bl:366 s:335 b:(14, 19) p:(15, 22): e:11 Paddle moved
+bl:366 s:335 b:(13, 20) p:(14, 22): e:11 Ball: up:False right:False
+bl:366 s:335 b:(13, 20) p:(14, 22): e:11 No expected collision path
+bl:366 s:335 b:(13, 20) p:(14, 22): e:11 Paddle moved
+bl:366 s:335 b:(12, 21) p:(13, 22): e:11 Ball: up:False right:False
+bl:366 s:335 b:(12, 21) p:(13, 22): e:11 No expected collision path
+bl:366 s:335 b:(12, 21) p:(13, 22): e:11 Paddle moved
+bl:366 s:335 b:(11, 20) p:(12, 22): e:11 Ball: up:True right:False
+bl:366 s:335 b:(11, 20) p:(12, 22): e:8 Paddle moved
+bl:366 s:335 b:(10, 19) p:(11, 22): e:8 Ball: up:True right:False
+bl:366 s:335 b:(10, 19) p:(11, 22): e:8 Paddle moved
+bl:366 s:335 b:(9, 18) p:(10, 22): e:8 Ball: up:True right:False
+bl:366 s:335 b:(9, 18) p:(10, 22): e:8 Paddle moved
+bl:365 s:402 b:(8, 19) p:(9, 22): e:8 Ball: up:False right:False
+bl:365 s:402 b:(8, 19) p:(9, 22): e:5 No expected collision path
+bl:365 s:402 b:(8, 19) p:(9, 22): e:5 Paddle moved
+bl:365 s:402 b:(7, 20) p:(8, 22): e:5 Ball: up:False right:False
+bl:365 s:402 b:(7, 20) p:(8, 22): e:5 No expected collision path
+bl:365 s:402 b:(7, 20) p:(8, 22): e:5 Paddle moved
+bl:365 s:402 b:(6, 21) p:(7, 22): e:5 Ball: up:False right:False
+bl:365 s:402 b:(6, 21) p:(7, 22): e:5 No expected collision path
+bl:365 s:402 b:(6, 21) p:(7, 22): e:5 Paddle moved
+bl:365 s:402 b:(5, 20) p:(6, 22): e:5 Ball: up:True right:False
+bl:365 s:402 b:(5, 20) p:(6, 22): e:0 Paddle moved
+bl:365 s:402 b:(4, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:365 s:402 b:(4, 19) p:(5, 22): e:0 Paddle moved
+bl:365 s:402 b:(3, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:365 s:402 b:(3, 18) p:(4, 22): e:0 Paddle moved
+bl:365 s:402 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:False
+bl:365 s:402 b:(2, 17) p:(3, 22): e:0 Paddle moved
+bl:365 s:402 b:(1, 16) p:(2, 22): e:0 Ball: up:True right:False
+bl:365 s:402 b:(1, 16) p:(2, 22): e:0 Paddle moved
+bl:365 s:402 b:(2, 15) p:(1, 22): e:0 Ball: up:True right:True
+bl:363 s:517 b:(1, 16) p:(1, 22): e:3 Ball: up:False right:False
+bl:363 s:517 b:(1, 16) p:(1, 22): e:7 No expected collision path
+bl:363 s:517 b:(1, 16) p:(1, 22): e:7 Paddle moved
+bl:363 s:517 b:(2, 17) p:(2, 22): e:7 Ball: up:False right:True
+bl:363 s:517 b:(2, 17) p:(2, 22): e:7 No expected collision path
+bl:363 s:517 b:(2, 17) p:(2, 22): e:7 Paddle moved
+bl:363 s:517 b:(3, 18) p:(3, 22): e:7 Ball: up:False right:True
+bl:363 s:517 b:(3, 18) p:(3, 22): e:7 No expected collision path
+bl:363 s:517 b:(3, 18) p:(3, 22): e:7 Paddle moved
+bl:363 s:517 b:(4, 19) p:(4, 22): e:7 Ball: up:False right:True
+bl:363 s:517 b:(4, 19) p:(4, 22): e:7 No expected collision path
+bl:363 s:517 b:(4, 19) p:(4, 22): e:7 Paddle moved
+bl:363 s:517 b:(5, 20) p:(5, 22): e:7 Ball: up:False right:True
+bl:363 s:517 b:(5, 20) p:(5, 22): e:7 No expected collision path
+bl:363 s:517 b:(5, 20) p:(5, 22): e:7 Paddle moved
+bl:363 s:517 b:(6, 21) p:(6, 22): e:7 Ball: up:False right:True
+bl:363 s:517 b:(6, 21) p:(6, 22): e:7 No expected collision path
+bl:363 s:517 b:(6, 21) p:(6, 22): e:7 Paddle moved
+bl:363 s:517 b:(5, 20) p:(7, 22): e:7 Ball: up:True right:False
+bl:363 s:517 b:(4, 19) p:(7, 22): e:0 Ball: up:True right:False
+bl:363 s:517 b:(4, 19) p:(7, 22): e:0 Paddle moved
+bl:363 s:517 b:(3, 18) p:(6, 22): e:0 Ball: up:True right:False
+bl:363 s:517 b:(3, 18) p:(6, 22): e:0 Paddle moved
+bl:363 s:517 b:(2, 17) p:(5, 22): e:0 Ball: up:True right:False
+bl:363 s:517 b:(2, 17) p:(5, 22): e:0 Paddle moved
+bl:363 s:517 b:(1, 16) p:(4, 22): e:0 Ball: up:True right:False
+bl:363 s:517 b:(1, 16) p:(4, 22): e:0 Paddle moved
+bl:363 s:517 b:(2, 15) p:(3, 22): e:0 Ball: up:True right:True
+bl:363 s:517 b:(2, 15) p:(3, 22): e:3 Paddle moved
+bl:362 s:538 b:(1, 16) p:(2, 22): e:3 Ball: up:False right:False
+bl:362 s:538 b:(1, 16) p:(2, 22): e:7 No expected collision path
+bl:362 s:538 b:(1, 16) p:(2, 22): e:7 Paddle moved
+bl:362 s:538 b:(2, 17) p:(3, 22): e:7 Ball: up:False right:True
+bl:362 s:538 b:(2, 17) p:(3, 22): e:7 No expected collision path
+bl:362 s:538 b:(2, 17) p:(3, 22): e:7 Paddle moved
+bl:362 s:538 b:(3, 18) p:(4, 22): e:7 Ball: up:False right:True
+bl:362 s:538 b:(3, 18) p:(4, 22): e:7 No expected collision path
+bl:362 s:538 b:(3, 18) p:(4, 22): e:7 Paddle moved
+bl:362 s:538 b:(4, 19) p:(5, 22): e:7 Ball: up:False right:True
+bl:362 s:538 b:(4, 19) p:(5, 22): e:7 No expected collision path
+bl:362 s:538 b:(4, 19) p:(5, 22): e:7 Paddle moved
+bl:362 s:538 b:(5, 20) p:(6, 22): e:7 Ball: up:False right:True
+bl:362 s:538 b:(5, 20) p:(6, 22): e:7 No expected collision path
+bl:362 s:538 b:(5, 20) p:(6, 22): e:7 Paddle moved
+bl:362 s:538 b:(6, 21) p:(7, 22): e:7 Ball: up:False right:True
+bl:362 s:538 b:(6, 21) p:(7, 22): e:7 No expected collision path
+bl:362 s:538 b:(5, 20) p:(7, 22): e:7 Ball: up:True right:False
+bl:362 s:538 b:(4, 19) p:(7, 22): e:0 Ball: up:True right:False
+bl:362 s:538 b:(4, 19) p:(7, 22): e:0 Paddle moved
+bl:362 s:538 b:(3, 18) p:(6, 22): e:0 Ball: up:True right:False
+bl:362 s:538 b:(3, 18) p:(6, 22): e:0 Paddle moved
+bl:362 s:538 b:(2, 17) p:(5, 22): e:0 Ball: up:True right:False
+bl:362 s:538 b:(2, 17) p:(5, 22): e:0 Paddle moved
+bl:362 s:538 b:(1, 16) p:(4, 22): e:0 Ball: up:True right:False
+bl:362 s:538 b:(1, 16) p:(4, 22): e:0 Paddle moved
+bl:362 s:538 b:(2, 15) p:(3, 22): e:0 Ball: up:True right:True
+bl:362 s:538 b:(2, 15) p:(3, 22): e:4 Paddle moved
+bl:362 s:538 b:(3, 14) p:(2, 22): e:4 Ball: up:True right:True
+bl:362 s:538 b:(3, 14) p:(2, 22): e:4 Paddle moved
+bl:359 s:698 b:(4, 15) p:(3, 22): e:4 Ball: up:False right:True
+bl:359 s:698 b:(4, 15) p:(3, 22): e:3 board[4,15]: 0, board[5,15]: 2
+bl:359 s:698 b:(4, 15) p:(3, 22): e:3 Paddle moved
+bl:358 s:780 b:(3, 16) p:(4, 22): e:3 Ball: up:False right:False
+bl:358 s:780 b:(3, 16) p:(4, 22): e:5 No expected collision path
+bl:358 s:780 b:(3, 16) p:(4, 22): e:5 Paddle moved
+bl:358 s:780 b:(2, 17) p:(3, 22): e:5 Ball: up:False right:False
+bl:358 s:780 b:(2, 17) p:(3, 22): e:5 No expected collision path
+bl:358 s:780 b:(2, 17) p:(3, 22): e:5 Paddle moved
+bl:358 s:780 b:(1, 18) p:(4, 22): e:5 Ball: up:False right:False
+bl:358 s:780 b:(1, 18) p:(4, 22): e:5 No expected collision path
+bl:358 s:780 b:(1, 18) p:(4, 22): e:5 Paddle moved
+bl:358 s:780 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:358 s:780 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:358 s:780 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:358 s:780 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:358 s:780 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:358 s:780 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:358 s:780 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:358 s:780 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:358 s:780 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:358 s:780 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:358 s:780 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:358 s:780 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:358 s:780 b:(2, 17) p:(3, 22): e:5 Paddle moved
+bl:358 s:780 b:(3, 16) p:(2, 22): e:5 Ball: up:True right:True
+bl:358 s:780 b:(3, 16) p:(2, 22): e:5 Paddle moved
+bl:358 s:780 b:(4, 15) p:(3, 22): e:5 Ball: up:True right:True
+bl:358 s:780 b:(4, 15) p:(3, 22): e:5 Paddle moved
+bl:357 s:861 b:(3, 16) p:(4, 22): e:5 Ball: up:False right:False
+bl:357 s:861 b:(3, 16) p:(4, 22): e:5 No expected collision path
+bl:357 s:861 b:(3, 16) p:(4, 22): e:5 Paddle moved
+bl:357 s:861 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:357 s:861 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:357 s:861 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:357 s:861 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:357 s:861 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:357 s:861 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:357 s:861 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:357 s:861 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:357 s:861 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:357 s:861 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:357 s:861 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:357 s:861 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:357 s:861 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:357 s:861 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:357 s:861 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:357 s:861 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:357 s:861 b:(2, 17) p:(3, 22): e:6 Paddle moved
+bl:357 s:861 b:(3, 16) p:(2, 22): e:6 Ball: up:True right:True
+bl:357 s:861 b:(3, 16) p:(2, 22): e:6 Paddle moved
+bl:357 s:861 b:(4, 15) p:(3, 22): e:6 Ball: up:True right:True
+bl:357 s:861 b:(4, 15) p:(3, 22): e:6 Paddle moved
+bl:357 s:861 b:(5, 14) p:(4, 22): e:6 Ball: up:True right:True
+bl:357 s:861 b:(5, 14) p:(4, 22): e:6 Paddle moved
+bl:355 s:1012 b:(4, 15) p:(5, 22): e:6 Ball: up:False right:False
+bl:355 s:1012 b:(4, 15) p:(5, 22): e:5 No expected collision path
+bl:355 s:1012 b:(4, 15) p:(5, 22): e:5 Paddle moved
+bl:355 s:1012 b:(3, 16) p:(6, 22): e:5 Ball: up:False right:False
+bl:355 s:1012 b:(3, 16) p:(6, 22): e:5 No expected collision path
+bl:355 s:1012 b:(3, 16) p:(6, 22): e:5 Paddle moved
+bl:355 s:1012 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:355 s:1012 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:355 s:1012 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:355 s:1012 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:355 s:1012 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:355 s:1012 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:355 s:1012 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:355 s:1012 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:355 s:1012 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:355 s:1012 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:355 s:1012 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:355 s:1012 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:355 s:1012 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:355 s:1012 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:355 s:1012 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:355 s:1012 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:355 s:1012 b:(2, 17) p:(3, 22): e:6 Paddle moved
+bl:355 s:1012 b:(3, 16) p:(2, 22): e:6 Ball: up:True right:True
+bl:355 s:1012 b:(3, 16) p:(2, 22): e:6 Paddle moved
+bl:355 s:1012 b:(4, 15) p:(3, 22): e:6 Ball: up:True right:True
+bl:355 s:1012 b:(4, 15) p:(3, 22): e:6 Paddle moved
+bl:355 s:1012 b:(5, 14) p:(4, 22): e:6 Ball: up:True right:True
+bl:355 s:1012 b:(5, 14) p:(4, 22): e:6 Paddle moved
+bl:354 s:1024 b:(4, 15) p:(5, 22): e:6 Ball: up:False right:False
+bl:354 s:1024 b:(4, 15) p:(5, 22): e:5 No expected collision path
+bl:354 s:1024 b:(4, 15) p:(5, 22): e:5 Paddle moved
+bl:354 s:1024 b:(3, 16) p:(6, 22): e:5 Ball: up:False right:False
+bl:354 s:1024 b:(3, 16) p:(6, 22): e:5 No expected collision path
+bl:354 s:1024 b:(3, 16) p:(6, 22): e:5 Paddle moved
+bl:354 s:1024 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:354 s:1024 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:354 s:1024 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:354 s:1024 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:354 s:1024 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:354 s:1024 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:354 s:1024 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:354 s:1024 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:354 s:1024 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:354 s:1024 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:354 s:1024 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:354 s:1024 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:354 s:1024 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:354 s:1024 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:354 s:1024 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:354 s:1024 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:354 s:1024 b:(2, 17) p:(3, 22): e:7 Paddle moved
+bl:354 s:1024 b:(3, 16) p:(2, 22): e:7 Ball: up:True right:True
+bl:354 s:1024 b:(3, 16) p:(2, 22): e:7 Paddle moved
+bl:354 s:1024 b:(4, 15) p:(3, 22): e:7 Ball: up:True right:True
+bl:354 s:1024 b:(4, 15) p:(3, 22): e:7 Paddle moved
+bl:354 s:1024 b:(5, 14) p:(4, 22): e:7 Ball: up:True right:True
+bl:354 s:1024 b:(5, 14) p:(4, 22): e:7 Paddle moved
+bl:354 s:1024 b:(6, 13) p:(5, 22): e:7 Ball: up:True right:True
+bl:354 s:1024 b:(6, 13) p:(5, 22): e:7 Paddle moved
+bl:353 s:1092 b:(5, 14) p:(6, 22): e:7 Ball: up:False right:False
+bl:353 s:1092 b:(5, 14) p:(6, 22): e:5 No expected collision path
+bl:353 s:1092 b:(5, 14) p:(6, 22): e:5 Paddle moved
+bl:353 s:1092 b:(4, 15) p:(7, 22): e:5 Ball: up:False right:False
+bl:353 s:1092 b:(4, 15) p:(7, 22): e:5 No expected collision path
+bl:353 s:1092 b:(4, 15) p:(7, 22): e:5 Paddle moved
+bl:353 s:1092 b:(3, 16) p:(6, 22): e:5 Ball: up:False right:False
+bl:353 s:1092 b:(3, 16) p:(6, 22): e:5 No expected collision path
+bl:353 s:1092 b:(3, 16) p:(6, 22): e:5 Paddle moved
+bl:353 s:1092 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:353 s:1092 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:353 s:1092 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:353 s:1092 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:353 s:1092 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:353 s:1092 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:353 s:1092 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:353 s:1092 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:353 s:1092 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:353 s:1092 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:353 s:1092 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:353 s:1092 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:353 s:1092 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:353 s:1092 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:353 s:1092 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:353 s:1092 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:353 s:1092 b:(2, 17) p:(3, 22): e:8 Paddle moved
+bl:353 s:1092 b:(3, 16) p:(2, 22): e:8 Ball: up:True right:True
+bl:353 s:1092 b:(3, 16) p:(2, 22): e:8 Paddle moved
+bl:353 s:1092 b:(4, 15) p:(3, 22): e:8 Ball: up:True right:True
+bl:353 s:1092 b:(4, 15) p:(3, 22): e:8 Paddle moved
+bl:353 s:1092 b:(5, 14) p:(4, 22): e:8 Ball: up:True right:True
+bl:353 s:1092 b:(5, 14) p:(4, 22): e:8 Paddle moved
+bl:353 s:1092 b:(6, 13) p:(5, 22): e:8 Ball: up:True right:True
+bl:353 s:1092 b:(6, 13) p:(5, 22): e:8 Paddle moved
+bl:353 s:1092 b:(7, 12) p:(6, 22): e:8 Ball: up:True right:True
+bl:353 s:1092 b:(7, 12) p:(6, 22): e:8 Paddle moved
+bl:351 s:1199 b:(6, 13) p:(7, 22): e:8 Ball: up:False right:False
+bl:351 s:1199 b:(6, 13) p:(7, 22): e:5 No expected collision path
+bl:351 s:1199 b:(6, 13) p:(7, 22): e:5 Paddle moved
+bl:351 s:1199 b:(5, 14) p:(8, 22): e:5 Ball: up:False right:False
+bl:351 s:1199 b:(5, 14) p:(8, 22): e:5 No expected collision path
+bl:351 s:1199 b:(5, 14) p:(8, 22): e:5 Paddle moved
+bl:351 s:1199 b:(4, 15) p:(7, 22): e:5 Ball: up:False right:False
+bl:351 s:1199 b:(4, 15) p:(7, 22): e:5 No expected collision path
+bl:351 s:1199 b:(4, 15) p:(7, 22): e:5 Paddle moved
+bl:351 s:1199 b:(3, 16) p:(6, 22): e:5 Ball: up:False right:False
+bl:351 s:1199 b:(3, 16) p:(6, 22): e:5 No expected collision path
+bl:351 s:1199 b:(3, 16) p:(6, 22): e:5 Paddle moved
+bl:351 s:1199 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:351 s:1199 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:351 s:1199 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:351 s:1199 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:351 s:1199 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:351 s:1199 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:351 s:1199 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:351 s:1199 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:351 s:1199 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:351 s:1199 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:351 s:1199 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:351 s:1199 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:351 s:1199 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:351 s:1199 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:351 s:1199 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:351 s:1199 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:351 s:1199 b:(2, 17) p:(3, 22): e:8 Paddle moved
+bl:351 s:1199 b:(3, 16) p:(2, 22): e:8 Ball: up:True right:True
+bl:351 s:1199 b:(3, 16) p:(2, 22): e:8 Paddle moved
+bl:351 s:1199 b:(4, 15) p:(3, 22): e:8 Ball: up:True right:True
+bl:351 s:1199 b:(4, 15) p:(3, 22): e:8 Paddle moved
+bl:351 s:1199 b:(5, 14) p:(4, 22): e:8 Ball: up:True right:True
+bl:351 s:1199 b:(5, 14) p:(4, 22): e:8 Paddle moved
+bl:351 s:1199 b:(6, 13) p:(5, 22): e:8 Ball: up:True right:True
+bl:351 s:1199 b:(6, 13) p:(5, 22): e:8 Paddle moved
+bl:351 s:1199 b:(7, 12) p:(6, 22): e:8 Ball: up:True right:True
+bl:351 s:1199 b:(7, 12) p:(6, 22): e:8 Paddle moved
+bl:350 s:1211 b:(6, 13) p:(7, 22): e:8 Ball: up:False right:False
+bl:350 s:1211 b:(6, 13) p:(7, 22): e:5 No expected collision path
+bl:350 s:1211 b:(6, 13) p:(7, 22): e:5 Paddle moved
+bl:350 s:1211 b:(5, 14) p:(8, 22): e:5 Ball: up:False right:False
+bl:350 s:1211 b:(5, 14) p:(8, 22): e:5 No expected collision path
+bl:350 s:1211 b:(5, 14) p:(8, 22): e:5 Paddle moved
+bl:350 s:1211 b:(4, 15) p:(7, 22): e:5 Ball: up:False right:False
+bl:350 s:1211 b:(4, 15) p:(7, 22): e:5 No expected collision path
+bl:350 s:1211 b:(4, 15) p:(7, 22): e:5 Paddle moved
+bl:350 s:1211 b:(3, 16) p:(6, 22): e:5 Ball: up:False right:False
+bl:350 s:1211 b:(3, 16) p:(6, 22): e:5 No expected collision path
+bl:350 s:1211 b:(3, 16) p:(6, 22): e:5 Paddle moved
+bl:350 s:1211 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:350 s:1211 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:350 s:1211 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:350 s:1211 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:350 s:1211 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:350 s:1211 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:350 s:1211 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:350 s:1211 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:350 s:1211 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:350 s:1211 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:350 s:1211 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:350 s:1211 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:350 s:1211 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:350 s:1211 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:350 s:1211 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:350 s:1211 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:350 s:1211 b:(2, 17) p:(3, 22): e:11 Paddle moved
+bl:350 s:1211 b:(3, 16) p:(2, 22): e:11 Ball: up:True right:True
+bl:350 s:1211 b:(3, 16) p:(2, 22): e:11 Paddle moved
+bl:350 s:1211 b:(4, 15) p:(3, 22): e:11 Ball: up:True right:True
+bl:350 s:1211 b:(4, 15) p:(3, 22): e:11 Paddle moved
+bl:350 s:1211 b:(5, 14) p:(4, 22): e:11 Ball: up:True right:True
+bl:350 s:1211 b:(5, 14) p:(4, 22): e:11 Paddle moved
+bl:350 s:1211 b:(6, 13) p:(5, 22): e:11 Ball: up:True right:True
+bl:350 s:1211 b:(6, 13) p:(5, 22): e:11 Paddle moved
+bl:350 s:1211 b:(7, 12) p:(6, 22): e:11 Ball: up:True right:True
+bl:350 s:1211 b:(7, 12) p:(6, 22): e:11 Paddle moved
+bl:350 s:1211 b:(8, 11) p:(7, 22): e:11 Ball: up:True right:True
+bl:350 s:1211 b:(8, 11) p:(7, 22): e:11 Paddle moved
+bl:350 s:1211 b:(9, 10) p:(8, 22): e:11 Ball: up:True right:True
+bl:350 s:1211 b:(9, 10) p:(8, 22): e:11 Paddle moved
+bl:348 s:1335 b:(8, 11) p:(9, 22): e:11 Ball: up:False right:False
+bl:348 s:1335 b:(8, 11) p:(9, 22): e:5 No expected collision path
+bl:348 s:1335 b:(8, 11) p:(9, 22): e:5 Paddle moved
+bl:348 s:1335 b:(7, 12) p:(10, 22): e:5 Ball: up:False right:False
+bl:348 s:1335 b:(7, 12) p:(10, 22): e:5 No expected collision path
+bl:348 s:1335 b:(7, 12) p:(10, 22): e:5 Paddle moved
+bl:348 s:1335 b:(6, 13) p:(9, 22): e:5 Ball: up:False right:False
+bl:348 s:1335 b:(6, 13) p:(9, 22): e:5 No expected collision path
+bl:348 s:1335 b:(6, 13) p:(9, 22): e:5 Paddle moved
+bl:348 s:1335 b:(5, 14) p:(8, 22): e:5 Ball: up:False right:False
+bl:348 s:1335 b:(5, 14) p:(8, 22): e:5 No expected collision path
+bl:348 s:1335 b:(5, 14) p:(8, 22): e:5 Paddle moved
+bl:348 s:1335 b:(4, 15) p:(7, 22): e:5 Ball: up:False right:False
+bl:348 s:1335 b:(4, 15) p:(7, 22): e:5 No expected collision path
+bl:348 s:1335 b:(4, 15) p:(7, 22): e:5 Paddle moved
+bl:348 s:1335 b:(3, 16) p:(6, 22): e:5 Ball: up:False right:False
+bl:348 s:1335 b:(3, 16) p:(6, 22): e:5 No expected collision path
+bl:348 s:1335 b:(3, 16) p:(6, 22): e:5 Paddle moved
+bl:348 s:1335 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:348 s:1335 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:348 s:1335 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:348 s:1335 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:348 s:1335 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:348 s:1335 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:348 s:1335 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:348 s:1335 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:348 s:1335 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:348 s:1335 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:348 s:1335 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:348 s:1335 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:348 s:1335 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:348 s:1335 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:348 s:1335 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:348 s:1335 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:348 s:1335 b:(2, 17) p:(3, 22): e:11 Paddle moved
+bl:348 s:1335 b:(3, 16) p:(2, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(3, 16) p:(2, 22): e:11 Paddle moved
+bl:348 s:1335 b:(4, 15) p:(3, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(4, 15) p:(3, 22): e:11 Paddle moved
+bl:348 s:1335 b:(5, 14) p:(4, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(5, 14) p:(4, 22): e:11 Paddle moved
+bl:348 s:1335 b:(6, 13) p:(5, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(6, 13) p:(5, 22): e:11 Paddle moved
+bl:348 s:1335 b:(7, 12) p:(6, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(7, 12) p:(6, 22): e:11 Paddle moved
+bl:348 s:1335 b:(8, 11) p:(7, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(8, 11) p:(7, 22): e:11 Paddle moved
+bl:348 s:1335 b:(9, 10) p:(8, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(9, 10) p:(8, 22): e:11 Paddle moved
+bl:348 s:1335 b:(10, 9) p:(9, 22): e:11 Ball: up:True right:True
+bl:348 s:1335 b:(10, 9) p:(9, 22): e:11 Paddle moved
+bl:346 s:1448 b:(11, 10) p:(10, 22): e:11 Ball: up:False right:True
+bl:346 s:1448 b:(11, 10) p:(10, 22): e:10 board[11,10]: 0, board[12,10]: 2
+bl:346 s:1448 b:(11, 10) p:(10, 22): e:10 Paddle moved
+bl:344 s:1504 b:(12, 9) p:(11, 22): e:10 Ball: up:True right:True
+bl:344 s:1504 b:(12, 9) p:(11, 22): e:15 Paddle moved
+bl:341 s:1691 b:(11, 8) p:(10, 22): e:15 Ball: up:True right:False
+bl:341 s:1691 b:(11, 8) p:(10, 22): e:10 Paddle moved
+bl:340 s:1705 b:(10, 9) p:(11, 22): e:10 Ball: up:False right:False
+bl:340 s:1705 b:(10, 9) p:(11, 22): e:5 No expected collision path
+bl:340 s:1705 b:(10, 9) p:(11, 22): e:5 Paddle moved
+bl:340 s:1705 b:(9, 10) p:(10, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(9, 10) p:(10, 22): e:5 No expected collision path
+bl:340 s:1705 b:(9, 10) p:(10, 22): e:5 Paddle moved
+bl:340 s:1705 b:(8, 11) p:(9, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(8, 11) p:(9, 22): e:5 No expected collision path
+bl:340 s:1705 b:(8, 11) p:(9, 22): e:5 Paddle moved
+bl:340 s:1705 b:(7, 12) p:(8, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(7, 12) p:(8, 22): e:5 No expected collision path
+bl:340 s:1705 b:(7, 12) p:(8, 22): e:5 Paddle moved
+bl:340 s:1705 b:(6, 13) p:(7, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(6, 13) p:(7, 22): e:5 No expected collision path
+bl:340 s:1705 b:(6, 13) p:(7, 22): e:5 Paddle moved
+bl:340 s:1705 b:(5, 14) p:(6, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(5, 14) p:(6, 22): e:5 No expected collision path
+bl:340 s:1705 b:(5, 14) p:(6, 22): e:5 Paddle moved
+bl:340 s:1705 b:(4, 15) p:(5, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(4, 15) p:(5, 22): e:5 No expected collision path
+bl:340 s:1705 b:(3, 16) p:(5, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(3, 16) p:(5, 22): e:5 No expected collision path
+bl:340 s:1705 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:340 s:1705 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:340 s:1705 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:340 s:1705 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:340 s:1705 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:340 s:1705 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:340 s:1705 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:340 s:1705 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:340 s:1705 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:340 s:1705 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:340 s:1705 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:340 s:1705 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:340 s:1705 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:340 s:1705 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:340 s:1705 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:340 s:1705 b:(2, 17) p:(3, 22): e:12 Paddle moved
+bl:340 s:1705 b:(3, 16) p:(2, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(3, 16) p:(2, 22): e:12 Paddle moved
+bl:340 s:1705 b:(4, 15) p:(3, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(4, 15) p:(3, 22): e:12 Paddle moved
+bl:340 s:1705 b:(5, 14) p:(4, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(5, 14) p:(4, 22): e:12 Paddle moved
+bl:340 s:1705 b:(6, 13) p:(5, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(6, 13) p:(5, 22): e:12 Paddle moved
+bl:340 s:1705 b:(7, 12) p:(6, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(7, 12) p:(6, 22): e:12 Paddle moved
+bl:340 s:1705 b:(8, 11) p:(7, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(8, 11) p:(7, 22): e:12 Paddle moved
+bl:340 s:1705 b:(9, 10) p:(8, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(9, 10) p:(8, 22): e:12 Paddle moved
+bl:340 s:1705 b:(10, 9) p:(9, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(10, 9) p:(9, 22): e:12 Paddle moved
+bl:340 s:1705 b:(11, 8) p:(10, 22): e:12 Ball: up:True right:True
+bl:340 s:1705 b:(11, 8) p:(10, 22): e:12 Paddle moved
+bl:339 s:1730 b:(10, 9) p:(11, 22): e:12 Ball: up:False right:False
+bl:339 s:1730 b:(10, 9) p:(11, 22): e:5 No expected collision path
+bl:339 s:1730 b:(10, 9) p:(11, 22): e:5 Paddle moved
+bl:339 s:1730 b:(9, 10) p:(12, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(9, 10) p:(12, 22): e:5 No expected collision path
+bl:339 s:1730 b:(9, 10) p:(12, 22): e:5 Paddle moved
+bl:339 s:1730 b:(8, 11) p:(11, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(8, 11) p:(11, 22): e:5 No expected collision path
+bl:339 s:1730 b:(8, 11) p:(11, 22): e:5 Paddle moved
+bl:339 s:1730 b:(7, 12) p:(10, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(7, 12) p:(10, 22): e:5 No expected collision path
+bl:339 s:1730 b:(7, 12) p:(10, 22): e:5 Paddle moved
+bl:339 s:1730 b:(6, 13) p:(9, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(6, 13) p:(9, 22): e:5 No expected collision path
+bl:339 s:1730 b:(6, 13) p:(9, 22): e:5 Paddle moved
+bl:339 s:1730 b:(5, 14) p:(8, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(5, 14) p:(8, 22): e:5 No expected collision path
+bl:339 s:1730 b:(5, 14) p:(8, 22): e:5 Paddle moved
+bl:339 s:1730 b:(4, 15) p:(7, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(4, 15) p:(7, 22): e:5 No expected collision path
+bl:339 s:1730 b:(4, 15) p:(7, 22): e:5 Paddle moved
+bl:339 s:1730 b:(3, 16) p:(6, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(3, 16) p:(6, 22): e:5 No expected collision path
+bl:339 s:1730 b:(3, 16) p:(6, 22): e:5 Paddle moved
+bl:339 s:1730 b:(2, 17) p:(5, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(2, 17) p:(5, 22): e:5 No expected collision path
+bl:339 s:1730 b:(1, 18) p:(5, 22): e:5 Ball: up:False right:False
+bl:339 s:1730 b:(1, 18) p:(5, 22): e:5 No expected collision path
+bl:339 s:1730 b:(2, 19) p:(5, 22): e:5 Ball: up:False right:True
+bl:339 s:1730 b:(2, 19) p:(5, 22): e:5 No expected collision path
+bl:339 s:1730 b:(3, 20) p:(5, 22): e:5 Ball: up:False right:True
+bl:339 s:1730 b:(3, 20) p:(5, 22): e:5 No expected collision path
+bl:339 s:1730 b:(4, 21) p:(5, 22): e:5 Ball: up:False right:True
+bl:339 s:1730 b:(4, 21) p:(5, 22): e:5 No expected collision path
+bl:339 s:1730 b:(3, 20) p:(5, 22): e:5 Ball: up:True right:False
+bl:339 s:1730 b:(2, 19) p:(5, 22): e:0 Ball: up:True right:False
+bl:339 s:1730 b:(2, 19) p:(5, 22): e:0 Paddle moved
+bl:339 s:1730 b:(1, 18) p:(4, 22): e:0 Ball: up:True right:False
+bl:339 s:1730 b:(1, 18) p:(4, 22): e:0 Paddle moved
+bl:339 s:1730 b:(2, 17) p:(3, 22): e:0 Ball: up:True right:True
+bl:339 s:1730 b:(2, 17) p:(3, 22): e:14 Paddle moved
+bl:339 s:1730 b:(3, 16) p:(2, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(3, 16) p:(2, 22): e:14 Paddle moved
+bl:339 s:1730 b:(4, 15) p:(3, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(4, 15) p:(3, 22): e:14 Paddle moved
+bl:339 s:1730 b:(5, 14) p:(4, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(5, 14) p:(4, 22): e:14 Paddle moved
+bl:339 s:1730 b:(6, 13) p:(5, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(6, 13) p:(5, 22): e:14 Paddle moved
+bl:339 s:1730 b:(7, 12) p:(6, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(7, 12) p:(6, 22): e:14 Paddle moved
+bl:339 s:1730 b:(8, 11) p:(7, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(8, 11) p:(7, 22): e:14 Paddle moved
+bl:339 s:1730 b:(9, 10) p:(8, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(9, 10) p:(8, 22): e:14 Paddle moved
+bl:339 s:1730 b:(10, 9) p:(9, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(10, 9) p:(9, 22): e:14 Paddle moved
+bl:339 s:1730 b:(11, 8) p:(10, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(11, 8) p:(10, 22): e:14 Paddle moved
+bl:339 s:1730 b:(12, 7) p:(11, 22): e:14 Ball: up:True right:True
+bl:339 s:1730 b:(12, 7) p:(11, 22): e:14 Paddle moved
+bl:337 s:1864 b:(13, 8) p:(12, 22): e:14 Ball: up:False right:True
+bl:337 s:1864 b:(13, 8) p:(12, 22): e:12 board[13,8]: 0, board[14,8]: 2
+bl:337 s:1864 b:(13, 8) p:(12, 22): e:12 Paddle moved
+bl:336 s:1886 b:(12, 9) p:(13, 22): e:12 Ball: up:False right:False
+bl:336 s:1886 b:(12, 9) p:(13, 22): e:3 No expected collision path
+bl:336 s:1886 b:(12, 9) p:(13, 22): e:3 Paddle moved
+bl:336 s:1886 b:(11, 10) p:(12, 22): e:3 Ball: up:False right:False
+bl:336 s:1886 b:(11, 10) p:(12, 22): e:3 No expected collision path
+bl:336 s:1886 b:(11, 10) p:(12, 22): e:3 Paddle moved
+bl:336 s:1886 b:(10, 11) p:(11, 22): e:3 Ball: up:False right:False
+bl:336 s:1886 b:(10, 11) p:(11, 22): e:3 No expected collision path
+bl:336 s:1886 b:(10, 11) p:(11, 22): e:3 Paddle moved
+bl:335 s:1905 b:(11, 10) p:(10, 22): e:3 Ball: up:True right:True
+bl:335 s:1905 b:(11, 10) p:(10, 22): e:15 Paddle moved
+bl:335 s:1905 b:(12, 9) p:(9, 22): e:15 Ball: up:True right:True
+bl:335 s:1905 b:(12, 9) p:(9, 22): e:15 Paddle moved
+bl:335 s:1905 b:(13, 8) p:(10, 22): e:15 Ball: up:True right:True
+bl:335 s:1905 b:(13, 8) p:(10, 22): e:15 Paddle moved
+bl:335 s:1905 b:(14, 7) p:(11, 22): e:15 Ball: up:True right:True
+bl:335 s:1905 b:(14, 7) p:(11, 22): e:15 Paddle moved
+bl:334 s:1969 b:(13, 6) p:(12, 22): e:15 Ball: up:True right:False
+bl:334 s:1969 b:(13, 6) p:(12, 22): e:12 Paddle moved
+bl:333 s:2026 b:(14, 7) p:(13, 22): e:12 Ball: up:False right:True
+bl:333 s:2026 b:(14, 7) p:(13, 22): e:29 No expected collision path
+bl:333 s:2026 b:(14, 7) p:(13, 22): e:29 Paddle moved
+bl:333 s:2026 b:(15, 8) p:(12, 22): e:29 Ball: up:False right:True
+bl:333 s:2026 b:(15, 8) p:(12, 22): e:14 board[15,8]: 0, board[16,8]: 2
+bl:333 s:2026 b:(15, 8) p:(12, 22): e:14 Paddle moved
+bl:330 s:2155 b:(14, 9) p:(13, 22): e:14 Ball: up:False right:False
+bl:330 s:2155 b:(14, 9) p:(13, 22): e:1 No expected collision path
+bl:330 s:2155 b:(14, 9) p:(13, 22): e:1 Paddle moved
+bl:330 s:2155 b:(13, 10) p:(14, 22): e:1 Ball: up:False right:False
+bl:330 s:2155 b:(13, 10) p:(14, 22): e:1 No expected collision path
+bl:330 s:2155 b:(13, 10) p:(14, 22): e:1 Paddle moved
+bl:329 s:2208 b:(12, 9) p:(13, 22): e:1 Ball: up:True right:False
+bl:329 s:2208 b:(12, 9) p:(13, 22): e:10 Paddle moved
+bl:329 s:2208 b:(11, 8) p:(12, 22): e:10 Ball: up:True right:False
+bl:329 s:2208 b:(11, 8) p:(12, 22): e:10 Paddle moved
+bl:328 s:2292 b:(12, 9) p:(11, 22): e:10 Ball: up:False right:True
+bl:328 s:2292 b:(12, 9) p:(11, 22): e:25 No expected collision path
+bl:328 s:2292 b:(12, 9) p:(11, 22): e:25 Paddle moved
+bl:328 s:2292 b:(13, 10) p:(10, 22): e:25 Ball: up:False right:True
+bl:328 s:2292 b:(13, 10) p:(10, 22): e:25 No expected collision path
+bl:328 s:2292 b:(13, 10) p:(10, 22): e:25 Paddle moved
+bl:328 s:2292 b:(14, 11) p:(11, 22): e:25 Ball: up:False right:True
+bl:328 s:2292 b:(14, 11) p:(11, 22): e:25 No expected collision path
+bl:328 s:2292 b:(14, 11) p:(11, 22): e:25 Paddle moved
+bl:325 s:2412 b:(15, 10) p:(12, 22): e:25 Ball: up:True right:True
+bl:325 s:2412 b:(15, 10) p:(12, 22): e:16 Paddle moved
+bl:324 s:2432 b:(14, 9) p:(13, 22): e:16 Ball: up:True right:False
+bl:324 s:2432 b:(14, 9) p:(13, 22): e:9 Paddle moved
+bl:324 s:2432 b:(13, 8) p:(14, 22): e:9 Ball: up:True right:False
+bl:324 s:2432 b:(13, 8) p:(14, 22): e:9 Paddle moved
+bl:324 s:2432 b:(12, 7) p:(13, 22): e:9 Ball: up:True right:False
+bl:324 s:2432 b:(12, 7) p:(13, 22): e:9 Paddle moved
+bl:324 s:2432 b:(11, 6) p:(12, 22): e:9 Ball: up:True right:False
+bl:324 s:2432 b:(11, 6) p:(12, 22): e:9 Paddle moved
+bl:323 s:2474 b:(10, 7) p:(11, 22): e:9 Ball: up:False right:False
+bl:323 s:2474 b:(10, 7) p:(11, 22): e:11 board[10,7]: 0, board[9,7]: 2
+bl:323 s:2474 b:(10, 7) p:(11, 22): e:11 Paddle moved
+bl:322 s:2497 b:(11, 8) p:(10, 22): e:11 Ball: up:False right:True
+bl:322 s:2497 b:(11, 8) p:(10, 22): e:25 No expected collision path
+bl:322 s:2497 b:(11, 8) p:(10, 22): e:25 Paddle moved
+bl:322 s:2497 b:(12, 9) p:(11, 22): e:25 Ball: up:False right:True
+bl:322 s:2497 b:(12, 9) p:(11, 22): e:25 No expected collision path
+bl:322 s:2497 b:(12, 9) p:(11, 22): e:25 Paddle moved
+bl:322 s:2497 b:(13, 10) p:(12, 22): e:25 Ball: up:False right:True
+bl:322 s:2497 b:(13, 10) p:(12, 22): e:25 No expected collision path
+bl:322 s:2497 b:(13, 10) p:(12, 22): e:25 Paddle moved
+bl:322 s:2497 b:(14, 11) p:(13, 22): e:25 Ball: up:False right:True
+bl:322 s:2497 b:(14, 11) p:(13, 22): e:25 No expected collision path
+bl:322 s:2497 b:(14, 11) p:(13, 22): e:25 Paddle moved
+bl:321 s:2508 b:(13, 10) p:(14, 22): e:25 Ball: up:True right:False
+bl:321 s:2508 b:(13, 10) p:(14, 22): e:6 Paddle moved
+bl:321 s:2508 b:(12, 9) p:(15, 22): e:6 Ball: up:True right:False
+bl:321 s:2508 b:(12, 9) p:(15, 22): e:6 Paddle moved
+bl:321 s:2508 b:(11, 8) p:(14, 22): e:6 Ball: up:True right:False
+bl:321 s:2508 b:(11, 8) p:(14, 22): e:6 Paddle moved
+bl:321 s:2508 b:(10, 7) p:(13, 22): e:6 Ball: up:True right:False
+bl:321 s:2508 b:(10, 7) p:(13, 22): e:6 Paddle moved
+bl:321 s:2508 b:(9, 6) p:(12, 22): e:6 Ball: up:True right:False
+bl:321 s:2508 b:(9, 6) p:(12, 22): e:6 Paddle moved
+bl:321 s:2508 b:(8, 5) p:(11, 22): e:6 Ball: up:True right:False
+bl:321 s:2508 b:(8, 5) p:(11, 22): e:6 Paddle moved
+bl:319 s:2615 b:(7, 6) p:(10, 22): e:6 Ball: up:False right:False
+bl:319 s:2615 b:(7, 6) p:(10, 22): e:11 No expected collision path
+bl:319 s:2615 b:(7, 6) p:(10, 22): e:11 Paddle moved
+bl:316 s:2823 b:(6, 5) p:(9, 22): e:11 Ball: up:True right:False
+bl:316 s:2823 b:(6, 5) p:(9, 22): e:5 Paddle moved
+bl:315 s:2845 b:(7, 4) p:(10, 22): e:5 Ball: up:True right:True
+bl:315 s:2845 b:(7, 4) p:(10, 22): e:8 Paddle moved
+bl:314 s:2909 b:(8, 5) p:(9, 22): e:8 Ball: up:False right:True
+bl:314 s:2909 b:(8, 5) p:(9, 22): e:25 No expected collision path
+bl:314 s:2909 b:(8, 5) p:(9, 22): e:25 Paddle moved
+bl:314 s:2909 b:(9, 6) p:(8, 22): e:25 Ball: up:False right:True
+bl:314 s:2909 b:(9, 6) p:(8, 22): e:25 No expected collision path
+bl:314 s:2909 b:(9, 6) p:(8, 22): e:25 Paddle moved
+bl:314 s:2909 b:(10, 7) p:(9, 22): e:25 Ball: up:False right:True
+bl:314 s:2909 b:(10, 7) p:(9, 22): e:25 No expected collision path
+bl:314 s:2909 b:(10, 7) p:(9, 22): e:25 Paddle moved
+bl:314 s:2909 b:(11, 8) p:(10, 22): e:25 Ball: up:False right:True
+bl:314 s:2909 b:(11, 8) p:(10, 22): e:25 No expected collision path
+bl:314 s:2909 b:(11, 8) p:(10, 22): e:25 Paddle moved
+bl:314 s:2909 b:(12, 9) p:(11, 22): e:25 Ball: up:False right:True
+bl:314 s:2909 b:(12, 9) p:(11, 22): e:25 No expected collision path
+bl:314 s:2909 b:(12, 9) p:(11, 22): e:25 Paddle moved
+bl:314 s:2909 b:(13, 10) p:(12, 22): e:25 Ball: up:False right:True
+bl:314 s:2909 b:(13, 10) p:(12, 22): e:25 No expected collision path
+bl:314 s:2909 b:(13, 10) p:(12, 22): e:25 Paddle moved
+bl:314 s:2909 b:(14, 11) p:(13, 22): e:25 Ball: up:False right:True
+bl:314 s:2909 b:(14, 11) p:(13, 22): e:25 No expected collision path
+bl:314 s:2909 b:(14, 11) p:(13, 22): e:25 Paddle moved
+bl:314 s:2909 b:(15, 12) p:(14, 22): e:25 Ball: up:False right:True
+bl:314 s:2909 b:(15, 12) p:(14, 22): e:14 board[15,12]: 0, board[16,12]: 2
+bl:314 s:2909 b:(15, 12) p:(14, 22): e:14 Paddle moved
+bl:311 s:3020 b:(14, 13) p:(15, 22): e:14 Ball: up:False right:False
+bl:311 s:3020 b:(14, 13) p:(15, 22): e:5 No expected collision path
+bl:311 s:3020 b:(14, 13) p:(15, 22): e:5 Paddle moved
+bl:310 s:3105 b:(15, 12) p:(14, 22): e:5 Ball: up:True right:True
+bl:310 s:3105 b:(15, 12) p:(14, 22): e:18 Paddle moved
+bl:310 s:3105 b:(16, 11) p:(13, 22): e:18 Ball: up:True right:True
+bl:310 s:3105 b:(16, 11) p:(13, 22): e:18 Paddle moved
+bl:310 s:3105 b:(17, 10) p:(14, 22): e:18 Ball: up:True right:True
+bl:310 s:3105 b:(17, 10) p:(14, 22): e:18 Paddle moved
+bl:307 s:3313 b:(18, 11) p:(15, 22): e:18 Ball: up:False right:True
+bl:307 s:3313 b:(18, 11) p:(15, 22): e:17 board[18,11]: 0, board[19,11]: 2
+bl:307 s:3313 b:(18, 11) p:(15, 22): e:17 Paddle moved
+bl:305 s:3487 b:(17, 10) p:(16, 22): e:17 Ball: up:True right:False
+bl:305 s:3487 b:(17, 10) p:(16, 22): e:11 Paddle moved
+bl:305 s:3487 b:(16, 9) p:(17, 22): e:11 Ball: up:True right:False
+bl:305 s:3487 b:(16, 9) p:(17, 22): e:11 Paddle moved
+bl:305 s:3487 b:(15, 8) p:(16, 22): e:11 Ball: up:True right:False
+bl:305 s:3487 b:(15, 8) p:(16, 22): e:11 Paddle moved
+bl:305 s:3487 b:(14, 7) p:(15, 22): e:11 Ball: up:True right:False
+bl:305 s:3487 b:(14, 7) p:(15, 22): e:11 Paddle moved
+bl:305 s:3487 b:(13, 6) p:(14, 22): e:11 Ball: up:True right:False
+bl:305 s:3487 b:(13, 6) p:(14, 22): e:11 Paddle moved
+bl:305 s:3487 b:(12, 5) p:(13, 22): e:11 Ball: up:True right:False
+bl:305 s:3487 b:(12, 5) p:(13, 22): e:11 Paddle moved
+bl:304 s:3559 b:(13, 6) p:(12, 22): e:11 Ball: up:False right:True
+bl:304 s:3559 b:(13, 6) p:(12, 22): e:29 No expected collision path
+bl:304 s:3559 b:(13, 6) p:(12, 22): e:29 Paddle moved
+bl:304 s:3559 b:(14, 7) p:(11, 22): e:29 Ball: up:False right:True
+bl:304 s:3559 b:(14, 7) p:(11, 22): e:29 No expected collision path
+bl:304 s:3559 b:(14, 7) p:(11, 22): e:29 Paddle moved
+bl:304 s:3559 b:(15, 8) p:(12, 22): e:29 Ball: up:False right:True
+bl:304 s:3559 b:(15, 8) p:(12, 22): e:29 No expected collision path
+bl:304 s:3559 b:(15, 8) p:(12, 22): e:29 Paddle moved
+bl:304 s:3559 b:(16, 9) p:(13, 22): e:29 Ball: up:False right:True
+bl:304 s:3559 b:(16, 9) p:(13, 22): e:29 No expected collision path
+bl:304 s:3559 b:(16, 9) p:(13, 22): e:29 Paddle moved
+bl:304 s:3559 b:(17, 10) p:(14, 22): e:29 Ball: up:False right:True
+bl:304 s:3559 b:(17, 10) p:(14, 22): e:29 No expected collision path
+bl:304 s:3559 b:(17, 10) p:(14, 22): e:29 Paddle moved
+bl:304 s:3559 b:(18, 11) p:(15, 22): e:29 Ball: up:False right:True
+bl:304 s:3559 b:(18, 11) p:(15, 22): e:29 No expected collision path
+bl:304 s:3559 b:(18, 11) p:(15, 22): e:29 Paddle moved
+bl:303 s:3586 b:(17, 10) p:(16, 22): e:29 Ball: up:True right:False
+bl:303 s:3586 b:(17, 10) p:(16, 22): e:10 Paddle moved
+bl:303 s:3586 b:(16, 9) p:(17, 22): e:10 Ball: up:True right:False
+bl:303 s:3586 b:(16, 9) p:(17, 22): e:10 Paddle moved
+bl:303 s:3586 b:(15, 8) p:(16, 22): e:10 Ball: up:True right:False
+bl:303 s:3586 b:(15, 8) p:(16, 22): e:10 Paddle moved
+bl:303 s:3586 b:(14, 7) p:(15, 22): e:10 Ball: up:True right:False
+bl:303 s:3586 b:(14, 7) p:(15, 22): e:10 Paddle moved
+bl:303 s:3586 b:(13, 6) p:(14, 22): e:10 Ball: up:True right:False
+bl:303 s:3586 b:(13, 6) p:(14, 22): e:10 Paddle moved
+bl:303 s:3586 b:(12, 5) p:(13, 22): e:10 Ball: up:True right:False
+bl:303 s:3586 b:(12, 5) p:(13, 22): e:10 Paddle moved
+bl:303 s:3586 b:(11, 4) p:(12, 22): e:10 Ball: up:True right:False
+bl:303 s:3586 b:(11, 4) p:(12, 22): e:10 Paddle moved
+bl:302 s:3649 b:(12, 5) p:(11, 22): e:10 Ball: up:False right:True
+bl:302 s:3649 b:(12, 5) p:(11, 22): e:29 No expected collision path
+bl:302 s:3649 b:(12, 5) p:(11, 22): e:29 Paddle moved
+bl:302 s:3649 b:(13, 6) p:(10, 22): e:29 Ball: up:False right:True
+bl:302 s:3649 b:(13, 6) p:(10, 22): e:29 No expected collision path
+bl:302 s:3649 b:(13, 6) p:(10, 22): e:29 Paddle moved
+bl:302 s:3649 b:(14, 7) p:(11, 22): e:29 Ball: up:False right:True
+bl:302 s:3649 b:(14, 7) p:(11, 22): e:29 No expected collision path
+bl:302 s:3649 b:(14, 7) p:(11, 22): e:29 Paddle moved
+bl:302 s:3649 b:(15, 8) p:(12, 22): e:29 Ball: up:False right:True
+bl:302 s:3649 b:(15, 8) p:(12, 22): e:29 No expected collision path
+bl:302 s:3649 b:(15, 8) p:(12, 22): e:29 Paddle moved
+bl:302 s:3649 b:(16, 9) p:(13, 22): e:29 Ball: up:False right:True
+bl:302 s:3649 b:(16, 9) p:(13, 22): e:29 No expected collision path
+bl:302 s:3649 b:(16, 9) p:(13, 22): e:29 Paddle moved
+bl:302 s:3649 b:(17, 10) p:(14, 22): e:29 Ball: up:False right:True
+bl:302 s:3649 b:(17, 10) p:(14, 22): e:29 No expected collision path
+bl:302 s:3649 b:(17, 10) p:(14, 22): e:29 Paddle moved
+bl:302 s:3649 b:(18, 11) p:(15, 22): e:29 Ball: up:False right:True
+bl:302 s:3649 b:(18, 11) p:(15, 22): e:29 No expected collision path
+bl:302 s:3649 b:(18, 11) p:(15, 22): e:29 Paddle moved
+bl:302 s:3649 b:(19, 12) p:(16, 22): e:29 Ball: up:False right:True
+bl:302 s:3649 b:(19, 12) p:(16, 22): e:29 No expected collision path
+bl:302 s:3649 b:(19, 12) p:(16, 22): e:29 Paddle moved
+bl:299 s:3795 b:(20, 11) p:(17, 22): e:29 Ball: up:True right:True
+bl:299 s:3795 b:(20, 11) p:(17, 22): e:21 Paddle moved
+bl:298 s:3873 b:(19, 10) p:(18, 22): e:21 Ball: up:True right:False
+bl:298 s:3873 b:(19, 10) p:(18, 22): e:18 Paddle moved
+bl:297 s:3906 b:(18, 11) p:(19, 22): e:18 Ball: up:False right:False
+bl:297 s:3906 b:(18, 11) p:(19, 22): e:7 No expected collision path
+bl:297 s:3906 b:(18, 11) p:(19, 22): e:7 Paddle moved
+bl:297 s:3906 b:(17, 12) p:(18, 22): e:7 Ball: up:False right:False
+bl:297 s:3906 b:(17, 12) p:(18, 22): e:7 No expected collision path
+bl:297 s:3906 b:(17, 12) p:(18, 22): e:7 Paddle moved
+bl:296 s:3919 b:(18, 11) p:(17, 22): e:7 Ball: up:True right:True
+bl:296 s:3919 b:(18, 11) p:(17, 22): e:21 Paddle moved
+bl:296 s:3919 b:(19, 10) p:(16, 22): e:21 Ball: up:True right:True
+bl:296 s:3919 b:(19, 10) p:(16, 22): e:21 Paddle moved
+bl:296 s:3919 b:(20, 9) p:(17, 22): e:21 Ball: up:True right:True
+bl:296 s:3919 b:(20, 9) p:(17, 22): e:21 Paddle moved
+bl:294 s:3968 b:(19, 8) p:(18, 22): e:21 Ball: up:True right:False
+bl:294 s:3968 b:(19, 8) p:(18, 22): e:18 Paddle moved
+bl:292 s:4063 b:(20, 9) p:(19, 22): e:18 Ball: up:False right:True
+bl:292 s:4063 b:(20, 9) p:(19, 22): e:33 No expected collision path
+bl:292 s:4063 b:(20, 9) p:(19, 22): e:33 Paddle moved
+bl:292 s:4063 b:(21, 10) p:(18, 22): e:33 Ball: up:False right:True
+bl:292 s:4063 b:(21, 10) p:(18, 22): e:33 No expected collision path
+bl:292 s:4063 b:(21, 10) p:(18, 22): e:33 Paddle moved
+bl:291 s:4108 b:(20, 9) p:(19, 22): e:33 Ball: up:True right:False
+bl:291 s:4108 b:(20, 9) p:(19, 22): e:18 Paddle moved
+bl:291 s:4108 b:(19, 8) p:(20, 22): e:18 Ball: up:True right:False
+bl:291 s:4108 b:(19, 8) p:(20, 22): e:18 Paddle moved
+bl:290 s:4198 b:(20, 9) p:(19, 22): e:18 Ball: up:False right:True
+bl:290 s:4198 b:(20, 9) p:(19, 22): e:33 No expected collision path
+bl:290 s:4198 b:(20, 9) p:(19, 22): e:33 Paddle moved
+bl:290 s:4198 b:(21, 10) p:(18, 22): e:33 Ball: up:False right:True
+bl:290 s:4198 b:(21, 10) p:(18, 22): e:33 No expected collision path
+bl:290 s:4198 b:(21, 10) p:(18, 22): e:33 Paddle moved
+bl:290 s:4198 b:(22, 11) p:(19, 22): e:33 Ball: up:False right:True
+bl:290 s:4198 b:(22, 11) p:(19, 22): e:21 board[22,11]: 0, board[23,11]: 2
+bl:290 s:4198 b:(22, 11) p:(19, 22): e:21 Paddle moved
+bl:288 s:4269 b:(21, 10) p:(20, 22): e:21 Ball: up:True right:False
+bl:288 s:4269 b:(21, 10) p:(20, 22): e:14 Paddle moved
+bl:288 s:4269 b:(20, 9) p:(21, 22): e:14 Ball: up:True right:False
+bl:288 s:4269 b:(20, 9) p:(21, 22): e:14 Paddle moved
+bl:288 s:4269 b:(19, 8) p:(20, 22): e:14 Ball: up:True right:False
+bl:288 s:4269 b:(19, 8) p:(20, 22): e:14 Paddle moved
+bl:288 s:4269 b:(18, 7) p:(19, 22): e:14 Ball: up:True right:False
+bl:288 s:4269 b:(18, 7) p:(19, 22): e:14 Paddle moved
+bl:288 s:4269 b:(17, 6) p:(18, 22): e:14 Ball: up:True right:False
+bl:288 s:4269 b:(17, 6) p:(18, 22): e:14 Paddle moved
+bl:286 s:4303 b:(18, 7) p:(17, 22): e:14 Ball: up:False right:True
+bl:286 s:4303 b:(18, 7) p:(17, 22): e:33 No expected collision path
+bl:286 s:4303 b:(18, 7) p:(17, 22): e:33 Paddle moved
+bl:286 s:4303 b:(19, 8) p:(16, 22): e:33 Ball: up:False right:True
+bl:286 s:4303 b:(19, 8) p:(16, 22): e:33 No expected collision path
+bl:286 s:4303 b:(19, 8) p:(16, 22): e:33 Paddle moved
+bl:286 s:4303 b:(20, 9) p:(17, 22): e:33 Ball: up:False right:True
+bl:286 s:4303 b:(20, 9) p:(17, 22): e:33 No expected collision path
+bl:286 s:4303 b:(20, 9) p:(17, 22): e:33 Paddle moved
+bl:286 s:4303 b:(21, 10) p:(18, 22): e:33 Ball: up:False right:True
+bl:286 s:4303 b:(21, 10) p:(18, 22): e:33 No expected collision path
+bl:286 s:4303 b:(21, 10) p:(18, 22): e:33 Paddle moved
+bl:286 s:4303 b:(22, 11) p:(19, 22): e:33 Ball: up:False right:True
+bl:286 s:4303 b:(22, 11) p:(19, 22): e:33 No expected collision path
+bl:286 s:4303 b:(22, 11) p:(19, 22): e:33 Paddle moved
+bl:285 s:4331 b:(21, 10) p:(20, 22): e:33 Ball: up:True right:False
+bl:285 s:4331 b:(21, 10) p:(20, 22): e:14 Paddle moved
+bl:285 s:4331 b:(20, 9) p:(21, 22): e:14 Ball: up:True right:False
+bl:285 s:4331 b:(20, 9) p:(21, 22): e:14 Paddle moved
+bl:285 s:4331 b:(19, 8) p:(20, 22): e:14 Ball: up:True right:False
+bl:285 s:4331 b:(19, 8) p:(20, 22): e:14 Paddle moved
+bl:285 s:4331 b:(18, 7) p:(19, 22): e:14 Ball: up:True right:False
+bl:285 s:4331 b:(18, 7) p:(19, 22): e:14 Paddle moved
+bl:285 s:4331 b:(17, 6) p:(18, 22): e:14 Ball: up:True right:False
+bl:285 s:4331 b:(17, 6) p:(18, 22): e:14 Paddle moved
+bl:285 s:4331 b:(16, 5) p:(17, 22): e:14 Ball: up:True right:False
+bl:285 s:4331 b:(16, 5) p:(17, 22): e:14 Paddle moved
+bl:283 s:4462 b:(17, 6) p:(16, 22): e:14 Ball: up:False right:True
+bl:283 s:4462 b:(17, 6) p:(16, 22): e:33 No expected collision path
+bl:283 s:4462 b:(17, 6) p:(16, 22): e:33 Paddle moved
+bl:283 s:4462 b:(18, 7) p:(15, 22): e:33 Ball: up:False right:True
+bl:283 s:4462 b:(18, 7) p:(15, 22): e:33 No expected collision path
+bl:283 s:4462 b:(18, 7) p:(15, 22): e:33 Paddle moved
+bl:283 s:4462 b:(19, 8) p:(16, 22): e:33 Ball: up:False right:True
+bl:283 s:4462 b:(19, 8) p:(16, 22): e:33 No expected collision path
+bl:283 s:4462 b:(19, 8) p:(16, 22): e:33 Paddle moved
+bl:283 s:4462 b:(20, 9) p:(17, 22): e:33 Ball: up:False right:True
+bl:283 s:4462 b:(20, 9) p:(17, 22): e:33 No expected collision path
+bl:283 s:4462 b:(20, 9) p:(17, 22): e:33 Paddle moved
+bl:283 s:4462 b:(21, 10) p:(18, 22): e:33 Ball: up:False right:True
+bl:283 s:4462 b:(21, 10) p:(18, 22): e:33 No expected collision path
+bl:283 s:4462 b:(21, 10) p:(18, 22): e:33 Paddle moved
+bl:283 s:4462 b:(22, 11) p:(19, 22): e:33 Ball: up:False right:True
+bl:283 s:4462 b:(22, 11) p:(19, 22): e:33 No expected collision path
+bl:283 s:4462 b:(22, 11) p:(19, 22): e:33 Paddle moved
+bl:283 s:4462 b:(23, 12) p:(20, 22): e:33 Ball: up:False right:True
+bl:283 s:4462 b:(23, 12) p:(20, 22): e:22 board[23,12]: 0, board[24,12]: 2
+bl:283 s:4462 b:(23, 12) p:(20, 22): e:22 Paddle moved
+bl:281 s:4581 b:(22, 11) p:(21, 22): e:22 Ball: up:True right:False
+bl:281 s:4581 b:(22, 11) p:(21, 22): e:14 Paddle moved
+bl:281 s:4581 b:(21, 10) p:(22, 22): e:14 Ball: up:True right:False
+bl:281 s:4581 b:(21, 10) p:(22, 22): e:14 Paddle moved
+bl:281 s:4581 b:(20, 9) p:(21, 22): e:14 Ball: up:True right:False
+bl:281 s:4581 b:(20, 9) p:(21, 22): e:14 Paddle moved
+bl:281 s:4581 b:(19, 8) p:(20, 22): e:14 Ball: up:True right:False
+bl:281 s:4581 b:(19, 8) p:(20, 22): e:14 Paddle moved
+bl:281 s:4581 b:(18, 7) p:(19, 22): e:14 Ball: up:True right:False
+bl:281 s:4581 b:(18, 7) p:(19, 22): e:14 Paddle moved
+bl:281 s:4581 b:(17, 6) p:(18, 22): e:14 Ball: up:True right:False
+bl:281 s:4581 b:(17, 6) p:(18, 22): e:14 Paddle moved
+bl:281 s:4581 b:(16, 5) p:(17, 22): e:14 Ball: up:True right:False
+bl:281 s:4581 b:(16, 5) p:(17, 22): e:14 Paddle moved
+bl:281 s:4581 b:(15, 4) p:(16, 22): e:14 Ball: up:True right:False
+bl:281 s:4581 b:(15, 4) p:(16, 22): e:14 Paddle moved
+bl:280 s:4656 b:(16, 5) p:(15, 22): e:14 Ball: up:False right:True
+bl:280 s:4656 b:(16, 5) p:(15, 22): e:33 No expected collision path
+bl:280 s:4656 b:(16, 5) p:(15, 22): e:33 Paddle moved
+bl:280 s:4656 b:(17, 6) p:(14, 22): e:33 Ball: up:False right:True
+bl:280 s:4656 b:(17, 6) p:(14, 22): e:33 No expected collision path
+bl:280 s:4656 b:(17, 6) p:(14, 22): e:33 Paddle moved
+bl:280 s:4656 b:(18, 7) p:(15, 22): e:33 Ball: up:False right:True
+bl:280 s:4656 b:(18, 7) p:(15, 22): e:33 No expected collision path
+bl:280 s:4656 b:(18, 7) p:(15, 22): e:33 Paddle moved
+bl:280 s:4656 b:(19, 8) p:(16, 22): e:33 Ball: up:False right:True
+bl:280 s:4656 b:(19, 8) p:(16, 22): e:33 No expected collision path
+bl:280 s:4656 b:(19, 8) p:(16, 22): e:33 Paddle moved
+bl:280 s:4656 b:(20, 9) p:(17, 22): e:33 Ball: up:False right:True
+bl:280 s:4656 b:(20, 9) p:(17, 22): e:33 No expected collision path
+bl:280 s:4656 b:(20, 9) p:(17, 22): e:33 Paddle moved
+bl:280 s:4656 b:(21, 10) p:(18, 22): e:33 Ball: up:False right:True
+bl:280 s:4656 b:(21, 10) p:(18, 22): e:33 No expected collision path
+bl:280 s:4656 b:(21, 10) p:(18, 22): e:33 Paddle moved
+bl:280 s:4656 b:(22, 11) p:(19, 22): e:33 Ball: up:False right:True
+bl:280 s:4656 b:(22, 11) p:(19, 22): e:33 No expected collision path
+bl:280 s:4656 b:(22, 11) p:(19, 22): e:33 Paddle moved
+bl:280 s:4656 b:(23, 12) p:(20, 22): e:33 Ball: up:False right:True
+bl:280 s:4656 b:(23, 12) p:(20, 22): e:33 No expected collision path
+bl:280 s:4656 b:(23, 12) p:(20, 22): e:33 Paddle moved
+bl:279 s:4737 b:(22, 11) p:(21, 22): e:33 Ball: up:True right:False
+bl:280 s:4737 b:(22, 11) p:(21, 22): e:13 Paddle moved
+bl:279 s:4737 b:(21, 10) p:(22, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(21, 10) p:(22, 22): e:13 Paddle moved
+bl:279 s:4737 b:(20, 9) p:(21, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(20, 9) p:(21, 22): e:13 Paddle moved
+bl:279 s:4737 b:(19, 8) p:(20, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(19, 8) p:(20, 22): e:13 Paddle moved
+bl:279 s:4737 b:(18, 7) p:(19, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(18, 7) p:(19, 22): e:13 Paddle moved
+bl:279 s:4737 b:(17, 6) p:(18, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(17, 6) p:(18, 22): e:13 Paddle moved
+bl:279 s:4737 b:(16, 5) p:(17, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(16, 5) p:(17, 22): e:13 Paddle moved
+bl:279 s:4737 b:(15, 4) p:(16, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(15, 4) p:(16, 22): e:13 Paddle moved
+bl:279 s:4737 b:(14, 3) p:(15, 22): e:13 Ball: up:True right:False
+bl:280 s:4737 b:(14, 3) p:(15, 22): e:13 Paddle moved
+bl:277 s:4841 b:(15, 4) p:(14, 22): e:13 Ball: up:False right:True
+bl:277 s:4841 b:(15, 4) p:(14, 22): e:33 No expected collision path
+bl:277 s:4841 b:(15, 4) p:(14, 22): e:33 Paddle moved
+bl:277 s:4841 b:(16, 5) p:(13, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(16, 5) p:(13, 22): e:33 No expected collision path
+bl:277 s:4841 b:(16, 5) p:(13, 22): e:33 Paddle moved
+bl:277 s:4841 b:(17, 6) p:(14, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(17, 6) p:(14, 22): e:33 No expected collision path
+bl:277 s:4841 b:(17, 6) p:(14, 22): e:33 Paddle moved
+bl:277 s:4841 b:(18, 7) p:(15, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(18, 7) p:(15, 22): e:33 No expected collision path
+bl:277 s:4841 b:(18, 7) p:(15, 22): e:33 Paddle moved
+bl:277 s:4841 b:(19, 8) p:(16, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(19, 8) p:(16, 22): e:33 No expected collision path
+bl:277 s:4841 b:(19, 8) p:(16, 22): e:33 Paddle moved
+bl:277 s:4841 b:(20, 9) p:(17, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(20, 9) p:(17, 22): e:33 No expected collision path
+bl:277 s:4841 b:(20, 9) p:(17, 22): e:33 Paddle moved
+bl:277 s:4841 b:(21, 10) p:(18, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(21, 10) p:(18, 22): e:33 No expected collision path
+bl:277 s:4841 b:(21, 10) p:(18, 22): e:33 Paddle moved
+bl:277 s:4841 b:(22, 11) p:(19, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(22, 11) p:(19, 22): e:33 No expected collision path
+bl:277 s:4841 b:(22, 11) p:(19, 22): e:33 Paddle moved
+bl:277 s:4841 b:(23, 12) p:(20, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(23, 12) p:(20, 22): e:33 No expected collision path
+bl:277 s:4841 b:(23, 12) p:(20, 22): e:33 Paddle moved
+bl:277 s:4841 b:(24, 13) p:(21, 22): e:33 Ball: up:False right:True
+bl:277 s:4841 b:(24, 13) p:(21, 22): e:23 board[24,13]: 0, board[25,13]: 2
+bl:277 s:4841 b:(24, 13) p:(21, 22): e:23 Paddle moved
+bl:274 s:5073 b:(23, 14) p:(22, 22): e:23 Ball: up:False right:False
+bl:274 s:5073 b:(23, 14) p:(22, 22): e:24 board[23,14]: 0, board[22,14]: 2
+bl:274 s:5073 b:(23, 14) p:(22, 22): e:24 Paddle moved
+bl:272 s:5194 b:(24, 13) p:(23, 22): e:24 Ball: up:True right:True
+bl:272 s:5194 b:(24, 13) p:(23, 22): e:26 Paddle moved
+bl:272 s:5194 b:(25, 12) p:(24, 22): e:26 Ball: up:True right:True
+bl:272 s:5194 b:(25, 12) p:(24, 22): e:26 Paddle moved
+bl:271 s:5266 b:(24, 13) p:(25, 22): e:26 Ball: up:False right:False
+bl:271 s:5266 b:(24, 13) p:(25, 22): e:15 No expected collision path
+bl:271 s:5266 b:(24, 13) p:(25, 22): e:15 Paddle moved
+bl:271 s:5266 b:(23, 14) p:(26, 22): e:15 Ball: up:False right:False
+bl:271 s:5266 b:(23, 14) p:(26, 22): e:15 No expected collision path
+bl:271 s:5266 b:(23, 14) p:(26, 22): e:15 Paddle moved
+bl:271 s:5266 b:(22, 15) p:(25, 22): e:15 Ball: up:False right:False
+bl:271 s:5266 b:(22, 15) p:(25, 22): e:15 No expected collision path
+bl:271 s:5266 b:(22, 15) p:(25, 22): e:15 Paddle moved
+bl:271 s:5266 b:(21, 16) p:(24, 22): e:15 Ball: up:False right:False
+bl:271 s:5266 b:(21, 16) p:(24, 22): e:22 board[21,16]: 0, board[20,16]: 2
+bl:271 s:5266 b:(21, 16) p:(24, 22): e:22 Paddle moved
+bl:270 s:5278 b:(22, 17) p:(23, 22): e:22 Ball: up:False right:True
+bl:270 s:5278 b:(22, 17) p:(23, 22): e:21 board[22,17]: 0, board[23,17]: 2
+bl:270 s:5278 b:(22, 17) p:(23, 22): e:21 Paddle moved
+bl:269 s:5291 b:(21, 18) p:(22, 22): e:21 Ball: up:False right:False
+bl:269 s:5291 b:(21, 18) p:(22, 22): e:17 No expected collision path
+bl:269 s:5291 b:(21, 18) p:(22, 22): e:17 Paddle moved
+bl:269 s:5291 b:(20, 19) p:(21, 22): e:17 Ball: up:False right:False
+bl:269 s:5291 b:(20, 19) p:(21, 22): e:17 No expected collision path
+bl:269 s:5291 b:(20, 19) p:(21, 22): e:17 Paddle moved
+bl:269 s:5291 b:(19, 20) p:(20, 22): e:17 Ball: up:False right:False
+bl:269 s:5291 b:(19, 20) p:(20, 22): e:17 No expected collision path
+bl:269 s:5291 b:(19, 20) p:(20, 22): e:17 Paddle moved
+bl:269 s:5291 b:(18, 21) p:(19, 22): e:17 Ball: up:False right:False
+bl:269 s:5291 b:(18, 21) p:(19, 22): e:17 No expected collision path
+bl:269 s:5291 b:(18, 21) p:(19, 22): e:17 Paddle moved
+bl:269 s:5291 b:(17, 20) p:(18, 22): e:17 Ball: up:True right:False
+bl:269 s:5291 b:(17, 20) p:(18, 22): e:14 Paddle moved
+bl:269 s:5291 b:(16, 19) p:(17, 22): e:14 Ball: up:True right:False
+bl:269 s:5291 b:(16, 19) p:(17, 22): e:14 Paddle moved
+bl:269 s:5291 b:(15, 18) p:(16, 22): e:14 Ball: up:True right:False
+bl:269 s:5291 b:(15, 18) p:(16, 22): e:14 Paddle moved
+bl:268 s:5355 b:(16, 19) p:(15, 22): e:19 Ball: up:False right:True
+bl:268 s:5355 b:(16, 19) p:(15, 22): e:19 No expected collision path
+bl:268 s:5355 b:(16, 19) p:(15, 22): e:19 Paddle moved
+bl:268 s:5355 b:(17, 20) p:(16, 22): e:19 Ball: up:False right:True
+bl:268 s:5355 b:(17, 20) p:(16, 22): e:19 No expected collision path
+bl:268 s:5355 b:(17, 20) p:(16, 22): e:19 Paddle moved
+bl:268 s:5355 b:(18, 21) p:(17, 22): e:19 Ball: up:False right:True
+bl:268 s:5355 b:(18, 21) p:(17, 22): e:19 No expected collision path
+bl:268 s:5355 b:(18, 21) p:(17, 22): e:19 Paddle moved
+bl:268 s:5355 b:(19, 20) p:(18, 22): e:19 Ball: up:True right:True
+bl:268 s:5355 b:(19, 20) p:(18, 22): e:19 Paddle moved
+bl:268 s:5355 b:(20, 19) p:(19, 22): e:19 Ball: up:True right:True
+bl:268 s:5355 b:(21, 18) p:(19, 22): e:19 Ball: up:True right:True
+bl:268 s:5355 b:(22, 17) p:(19, 22): e:19 Ball: up:True right:True
+bl:268 s:5355 b:(23, 16) p:(19, 22): e:19 Ball: up:True right:True
+bl:267 s:5375 b:(22, 15) p:(19, 22): e:19 Ball: up:True right:False
+bl:267 s:5375 b:(21, 14) p:(19, 22): e:19 Ball: up:True right:False
+bl:265 s:5479 b:(22, 15) p:(19, 22): e:19 Ball: up:False right:True
+bl:265 s:5479 b:(22, 15) p:(19, 22): e:29 No expected collision path
+bl:265 s:5479 b:(23, 16) p:(19, 22): e:29 Ball: up:False right:True
+bl:265 s:5479 b:(23, 16) p:(19, 22): e:29 No expected collision path
+bl:265 s:5479 b:(23, 16) p:(19, 22): e:29 Paddle moved
+bl:264 s:5481 b:(22, 15) p:(20, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(22, 15) p:(20, 22): e:9 Paddle moved
+bl:264 s:5481 b:(21, 14) p:(21, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(21, 14) p:(21, 22): e:9 Paddle moved
+bl:264 s:5481 b:(20, 13) p:(22, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(20, 13) p:(22, 22): e:9 Paddle moved
+bl:264 s:5481 b:(19, 12) p:(21, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(19, 12) p:(21, 22): e:9 Paddle moved
+bl:264 s:5481 b:(18, 11) p:(22, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(18, 11) p:(22, 22): e:9 Paddle moved
+bl:264 s:5481 b:(17, 10) p:(23, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(17, 10) p:(23, 22): e:9 Paddle moved
+bl:264 s:5481 b:(16, 9) p:(24, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(16, 9) p:(24, 22): e:9 Paddle moved
+bl:264 s:5481 b:(15, 8) p:(25, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(15, 8) p:(25, 22): e:9 Paddle moved
+bl:264 s:5481 b:(14, 7) p:(26, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(14, 7) p:(26, 22): e:9 Paddle moved
+bl:264 s:5481 b:(13, 6) p:(27, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(13, 6) p:(27, 22): e:9 Paddle moved
+bl:264 s:5481 b:(12, 5) p:(28, 22): e:29 Ball: up:True right:False
+bl:265 s:5481 b:(12, 5) p:(28, 22): e:9 Paddle moved
+bl:264 s:5481 b:(11, 4) p:(29, 22): e:29 Ball: up:True right:False
+bl:264 s:5481 b:(10, 3) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(11, 4) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(11, 4) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(12, 5) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(12, 5) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(13, 6) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(13, 6) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(14, 7) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(14, 7) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(15, 8) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(15, 8) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(16, 9) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(16, 9) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(17, 10) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(17, 10) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(18, 11) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(18, 11) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(19, 12) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(19, 12) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(20, 13) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(20, 13) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(21, 14) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(21, 14) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(22, 15) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(22, 15) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(23, 16) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(23, 16) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(24, 17) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(24, 17) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(25, 18) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(25, 18) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(26, 19) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(26, 19) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(27, 20) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(27, 20) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(28, 21) p:(29, 22): e:29 Ball: up:False right:True
+bl:262 s:5553 b:(28, 21) p:(29, 22): e:29 No expected collision path
+bl:262 s:5553 b:(27, 20) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(26, 19) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(25, 18) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(24, 17) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(23, 16) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(22, 15) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(21, 14) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(20, 13) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(19, 12) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(18, 11) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(17, 10) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(16, 9) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(15, 8) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(14, 7) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(13, 6) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(12, 5) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(11, 4) p:(29, 22): e:29 Ball: up:True right:False
+bl:262 s:5553 b:(10, 3) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(11, 4) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(11, 4) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(12, 5) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(12, 5) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(13, 6) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(13, 6) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(14, 7) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(14, 7) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(15, 8) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(15, 8) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(16, 9) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(16, 9) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(17, 10) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(17, 10) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(18, 11) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(18, 11) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(19, 12) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(19, 12) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(20, 13) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(20, 13) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(21, 14) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(21, 14) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(22, 15) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(22, 15) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(23, 16) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(23, 16) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(24, 17) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(24, 17) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(25, 18) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(25, 18) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(26, 19) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(26, 19) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(27, 20) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(27, 20) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(28, 21) p:(29, 22): e:29 Ball: up:False right:True
+bl:261 s:5634 b:(28, 21) p:(29, 22): e:29 No expected collision path
+bl:261 s:5634 b:(27, 20) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(26, 19) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(25, 18) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(24, 17) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(23, 16) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(22, 15) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(21, 14) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(20, 13) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(19, 12) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(18, 11) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(17, 10) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(16, 9) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(15, 8) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(14, 7) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(13, 6) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(12, 5) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(11, 4) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(10, 3) p:(29, 22): e:29 Ball: up:True right:False
+bl:261 s:5634 b:(9, 2) p:(29, 22): e:29 Ball: up:True right:False
+bl:260 s:5708 b:(10, 1) p:(29, 22): e:29 Ball: up:True right:True
+bl:260 s:5708 b:(11, 2) p:(29, 22): e:29 Ball: up:False right:True
+bl:260 s:5708 b:(11, 2) p:(29, 22): e:10 board[11,2]: 0, board[12,2]: 2
+bl:259 s:5716 b:(10, 3) p:(29, 22): e:10 Ball: up:False right:False
+bl:259 s:5716 b:(10, 3) p:(29, 22): e:11 No expected collision path
+bl:259 s:5716 b:(10, 3) p:(29, 22): e:11 Paddle moved
+bl:259 s:5716 b:(9, 4) p:(28, 22): e:11 Ball: up:False right:False
+bl:259 s:5716 b:(9, 4) p:(28, 22): e:11 No expected collision path
+bl:259 s:5716 b:(9, 4) p:(28, 22): e:11 Paddle moved
+bl:259 s:5716 b:(8, 5) p:(27, 22): e:11 Ball: up:False right:False
+bl:259 s:5716 b:(8, 5) p:(27, 22): e:11 No expected collision path
+bl:259 s:5716 b:(8, 5) p:(27, 22): e:11 Paddle moved
+bl:259 s:5716 b:(7, 6) p:(26, 22): e:11 Ball: up:False right:False
+bl:259 s:5716 b:(7, 6) p:(26, 22): e:11 No expected collision path
+bl:259 s:5716 b:(7, 6) p:(26, 22): e:11 Paddle moved
+bl:258 s:5731 b:(8, 5) p:(25, 22): e:11 Ball: up:True right:True
+bl:258 s:5731 b:(8, 5) p:(25, 22): e:11 Paddle moved
+bl:258 s:5731 b:(9, 4) p:(24, 22): e:11 Ball: up:True right:True
+bl:258 s:5731 b:(9, 4) p:(24, 22): e:11 Paddle moved
+bl:258 s:5731 b:(10, 3) p:(23, 22): e:11 Ball: up:True right:True
+bl:258 s:5731 b:(10, 3) p:(23, 22): e:11 Paddle moved
+bl:258 s:5731 b:(11, 2) p:(22, 22): e:11 Ball: up:True right:True
+bl:258 s:5731 b:(11, 2) p:(22, 22): e:11 Paddle moved
+bl:258 s:5731 b:(12, 1) p:(21, 22): e:11 Ball: up:True right:True
+bl:258 s:5731 b:(12, 1) p:(21, 22): e:11 Paddle moved
+bl:257 s:5783 b:(11, 2) p:(20, 22): e:11 Ball: up:False right:False
+bl:257 s:5783 b:(11, 2) p:(20, 22): e:11 No expected collision path
+bl:258 s:5783 b:(11, 2) p:(20, 22): e:11 Paddle moved
+bl:257 s:5783 b:(10, 3) p:(19, 22): e:11 Ball: up:False right:False
+bl:257 s:5783 b:(10, 3) p:(19, 22): e:11 No expected collision path
+bl:257 s:5783 b:(10, 3) p:(19, 22): e:11 Paddle moved
+bl:257 s:5783 b:(9, 4) p:(18, 22): e:11 Ball: up:False right:False
+bl:257 s:5783 b:(9, 4) p:(18, 22): e:11 No expected collision path
+bl:257 s:5783 b:(9, 4) p:(18, 22): e:11 Paddle moved
+bl:257 s:5783 b:(8, 5) p:(17, 22): e:11 Ball: up:False right:False
+bl:257 s:5783 b:(8, 5) p:(17, 22): e:11 No expected collision path
+bl:257 s:5783 b:(8, 5) p:(17, 22): e:11 Paddle moved
+bl:257 s:5783 b:(7, 6) p:(16, 22): e:11 Ball: up:False right:False
+bl:257 s:5783 b:(7, 6) p:(16, 22): e:11 No expected collision path
+bl:257 s:5783 b:(7, 6) p:(16, 22): e:11 Paddle moved
+bl:257 s:5783 b:(6, 7) p:(15, 22): e:11 Ball: up:False right:False
+bl:257 s:5783 b:(6, 7) p:(15, 22): e:11 No expected collision path
+bl:257 s:5783 b:(6, 7) p:(15, 22): e:11 Paddle moved
+bl:255 s:5875 b:(7, 8) p:(14, 22): e:11 Ball: up:False right:True
+bl:255 s:5875 b:(7, 8) p:(14, 22): e:6 board[7,8]: 0, board[8,8]: 2
+bl:255 s:5875 b:(7, 8) p:(14, 22): e:6 Paddle moved
+bl:253 s:6007 b:(6, 7) p:(13, 22): e:6 Ball: up:True right:False
+bl:253 s:6007 b:(6, 7) p:(13, 22): e:3 Paddle moved
+bl:253 s:6007 b:(5, 6) p:(12, 22): e:3 Ball: up:True right:False
+bl:253 s:6007 b:(5, 6) p:(12, 22): e:3 Paddle moved
+bl:252 s:6084 b:(6, 5) p:(11, 22): e:3 Ball: up:True right:True
+bl:252 s:6084 b:(6, 5) p:(11, 22): e:8 Paddle moved
+bl:252 s:6084 b:(7, 4) p:(10, 22): e:8 Ball: up:True right:True
+bl:252 s:6084 b:(7, 4) p:(10, 22): e:8 Paddle moved
+bl:251 s:6175 b:(6, 5) p:(9, 22): e:8 Ball: up:False right:False
+bl:251 s:6175 b:(6, 5) p:(9, 22): e:13 No expected collision path
+bl:251 s:6175 b:(6, 5) p:(9, 22): e:13 Paddle moved
+bl:251 s:6175 b:(5, 6) p:(8, 22): e:13 Ball: up:False right:False
+bl:251 s:6175 b:(5, 6) p:(8, 22): e:13 No expected collision path
+bl:251 s:6175 b:(5, 6) p:(8, 22): e:13 Paddle moved
+bl:250 s:6186 b:(6, 5) p:(9, 22): e:13 Ball: up:True right:True
+bl:250 s:6186 b:(6, 5) p:(9, 22): e:13 Paddle moved
+bl:250 s:6186 b:(7, 4) p:(10, 22): e:13 Ball: up:True right:True
+bl:250 s:6186 b:(7, 4) p:(10, 22): e:13 Paddle moved
+bl:250 s:6186 b:(8, 3) p:(11, 22): e:13 Ball: up:True right:True
+bl:250 s:6186 b:(8, 3) p:(11, 22): e:13 Paddle moved
+bl:250 s:6186 b:(9, 2) p:(12, 22): e:13 Ball: up:True right:True
+bl:250 s:6186 b:(9, 2) p:(12, 22): e:13 Paddle moved
+bl:250 s:6186 b:(10, 1) p:(13, 22): e:13 Ball: up:True right:True
+bl:250 s:6186 b:(11, 2) p:(13, 22): e:13 Ball: up:False right:True
+bl:250 s:6186 b:(11, 2) p:(13, 22): e:31 No expected collision path
+bl:250 s:6186 b:(12, 3) p:(13, 22): e:31 Ball: up:False right:True
+bl:250 s:6186 b:(12, 3) p:(13, 22): e:31 No expected collision path
+bl:250 s:6186 b:(12, 3) p:(13, 22): e:31 Paddle moved
+bl:250 s:6186 b:(13, 4) p:(14, 22): e:31 Ball: up:False right:True
+bl:250 s:6186 b:(13, 4) p:(14, 22): e:31 No expected collision path
+bl:250 s:6186 b:(13, 4) p:(14, 22): e:31 Paddle moved
+bl:249 s:6239 b:(12, 3) p:(15, 22): e:31 Ball: up:True right:False
+bl:249 s:6239 b:(12, 3) p:(15, 22): e:31 Paddle moved
+bl:249 s:6239 b:(11, 2) p:(16, 22): e:31 Ball: up:True right:False
+bl:249 s:6239 b:(11, 2) p:(16, 22): e:31 Paddle moved
+bl:249 s:6239 b:(10, 1) p:(17, 22): e:31 Ball: up:True right:False
+bl:249 s:6239 b:(10, 1) p:(17, 22): e:31 Paddle moved
+bl:249 s:6239 b:(9, 2) p:(18, 22): e:31 Ball: up:False right:False
+bl:249 s:6239 b:(9, 2) p:(18, 22): e:13 No expected collision path
+bl:250 s:6239 b:(9, 2) p:(18, 22): e:13 Paddle moved
+bl:249 s:6239 b:(8, 3) p:(19, 22): e:13 Ball: up:False right:False
+bl:249 s:6239 b:(8, 3) p:(19, 22): e:13 No expected collision path
+bl:249 s:6239 b:(8, 3) p:(19, 22): e:13 Paddle moved
+bl:249 s:6239 b:(7, 4) p:(18, 22): e:13 Ball: up:False right:False
+bl:249 s:6239 b:(7, 4) p:(18, 22): e:13 No expected collision path
+bl:249 s:6239 b:(7, 4) p:(18, 22): e:13 Paddle moved
+bl:249 s:6239 b:(6, 5) p:(17, 22): e:13 Ball: up:False right:False
+bl:249 s:6239 b:(6, 5) p:(17, 22): e:13 No expected collision path
+bl:249 s:6239 b:(6, 5) p:(17, 22): e:13 Paddle moved
+bl:249 s:6239 b:(5, 6) p:(16, 22): e:13 Ball: up:False right:False
+bl:249 s:6239 b:(5, 6) p:(16, 22): e:13 No expected collision path
+bl:249 s:6239 b:(5, 6) p:(16, 22): e:13 Paddle moved
+bl:249 s:6239 b:(4, 7) p:(15, 22): e:13 Ball: up:False right:False
+bl:249 s:6239 b:(4, 7) p:(15, 22): e:5 board[4,7]: 0, board[3,7]: 2
+bl:249 s:6239 b:(4, 7) p:(15, 22): e:5 Paddle moved
+bl:247 s:6360 b:(5, 6) p:(14, 22): e:5 Ball: up:True right:True
+bl:247 s:6360 b:(5, 6) p:(14, 22): e:5 Paddle moved
+bl:247 s:6360 b:(6, 5) p:(13, 22): e:5 Ball: up:True right:True
+bl:247 s:6360 b:(6, 5) p:(13, 22): e:5 Paddle moved
+bl:247 s:6360 b:(7, 4) p:(12, 22): e:5 Ball: up:True right:True
+bl:247 s:6360 b:(7, 4) p:(12, 22): e:5 Paddle moved
+bl:247 s:6360 b:(8, 3) p:(11, 22): e:5 Ball: up:True right:True
+bl:247 s:6360 b:(8, 3) p:(11, 22): e:5 Paddle moved
+bl:247 s:6360 b:(9, 2) p:(10, 22): e:5 Ball: up:True right:True
+bl:247 s:6360 b:(9, 2) p:(10, 22): e:5 Paddle moved
+bl:247 s:6360 b:(10, 1) p:(9, 22): e:5 Ball: up:True right:True
+bl:247 s:6360 b:(10, 1) p:(9, 22): e:5 Paddle moved
+bl:247 s:6360 b:(11, 2) p:(8, 22): e:5 Ball: up:False right:True
+bl:247 s:6360 b:(11, 2) p:(8, 22): e:31 No expected collision path
+bl:248 s:6360 b:(11, 2) p:(8, 22): e:31 Paddle moved
+bl:247 s:6360 b:(12, 3) p:(7, 22): e:31 Ball: up:False right:True
+bl:247 s:6360 b:(12, 3) p:(7, 22): e:31 No expected collision path
+bl:247 s:6360 b:(12, 3) p:(7, 22): e:31 Paddle moved
+bl:247 s:6360 b:(13, 4) p:(8, 22): e:31 Ball: up:False right:True
+bl:247 s:6360 b:(13, 4) p:(8, 22): e:31 No expected collision path
+bl:247 s:6360 b:(13, 4) p:(8, 22): e:31 Paddle moved
+bl:247 s:6360 b:(14, 5) p:(9, 22): e:31 Ball: up:False right:True
+bl:247 s:6360 b:(14, 5) p:(9, 22): e:31 No expected collision path
+bl:247 s:6360 b:(14, 5) p:(9, 22): e:31 Paddle moved
+bl:246 s:6377 b:(13, 4) p:(10, 22): e:31 Ball: up:True right:False
+bl:246 s:6377 b:(13, 4) p:(10, 22): e:31 Paddle moved
+bl:246 s:6377 b:(12, 3) p:(11, 22): e:31 Ball: up:True right:False
+bl:246 s:6377 b:(12, 3) p:(11, 22): e:31 Paddle moved
+bl:246 s:6377 b:(11, 2) p:(12, 22): e:31 Ball: up:True right:False
+bl:246 s:6377 b:(11, 2) p:(12, 22): e:31 Paddle moved
+bl:246 s:6377 b:(10, 1) p:(13, 22): e:31 Ball: up:True right:False
+bl:246 s:6377 b:(10, 1) p:(13, 22): e:31 Paddle moved
+bl:246 s:6377 b:(9, 2) p:(14, 22): e:31 Ball: up:False right:False
+bl:246 s:6377 b:(9, 2) p:(14, 22): e:13 No expected collision path
+bl:247 s:6377 b:(9, 2) p:(14, 22): e:13 Paddle moved
+bl:246 s:6377 b:(8, 3) p:(15, 22): e:13 Ball: up:False right:False
+bl:246 s:6377 b:(8, 3) p:(15, 22): e:13 No expected collision path
+bl:246 s:6377 b:(8, 3) p:(15, 22): e:13 Paddle moved
+bl:246 s:6377 b:(7, 4) p:(14, 22): e:13 Ball: up:False right:False
+bl:246 s:6377 b:(7, 4) p:(14, 22): e:13 No expected collision path
+bl:246 s:6377 b:(7, 4) p:(14, 22): e:13 Paddle moved
+bl:246 s:6377 b:(6, 5) p:(13, 22): e:13 Ball: up:False right:False
+bl:246 s:6377 b:(6, 5) p:(13, 22): e:13 No expected collision path
+bl:246 s:6377 b:(5, 6) p:(13, 22): e:13 Ball: up:False right:False
+bl:246 s:6377 b:(5, 6) p:(13, 22): e:13 No expected collision path
+bl:246 s:6377 b:(4, 7) p:(13, 22): e:13 Ball: up:False right:False
+bl:246 s:6377 b:(4, 7) p:(13, 22): e:13 No expected collision path
+bl:245 s:6391 b:(5, 6) p:(13, 22): e:13 Ball: up:True right:True
+bl:245 s:6391 b:(6, 5) p:(13, 22): e:13 Ball: up:True right:True
+bl:245 s:6391 b:(7, 4) p:(13, 22): e:13 Ball: up:True right:True
+bl:245 s:6391 b:(8, 3) p:(13, 22): e:13 Ball: up:True right:True
+bl:245 s:6391 b:(9, 2) p:(13, 22): e:13 Ball: up:True right:True
+bl:245 s:6391 b:(10, 1) p:(13, 22): e:13 Ball: up:True right:True
+bl:245 s:6391 b:(11, 2) p:(13, 22): e:13 Ball: up:False right:True
+bl:245 s:6391 b:(11, 2) p:(13, 22): e:31 No expected collision path
+bl:245 s:6391 b:(12, 3) p:(13, 22): e:31 Ball: up:False right:True
+bl:245 s:6391 b:(12, 3) p:(13, 22): e:31 No expected collision path
+bl:245 s:6391 b:(12, 3) p:(13, 22): e:31 Paddle moved
+bl:245 s:6391 b:(13, 4) p:(14, 22): e:31 Ball: up:False right:True
+bl:245 s:6391 b:(13, 4) p:(14, 22): e:31 No expected collision path
+bl:245 s:6391 b:(13, 4) p:(14, 22): e:31 Paddle moved
+bl:245 s:6391 b:(14, 5) p:(15, 22): e:31 Ball: up:False right:True
+bl:245 s:6391 b:(14, 5) p:(15, 22): e:31 No expected collision path
+bl:245 s:6391 b:(14, 5) p:(15, 22): e:31 Paddle moved
+bl:245 s:6391 b:(15, 6) p:(16, 22): e:31 Ball: up:False right:True
+bl:245 s:6391 b:(15, 6) p:(16, 22): e:31 No expected collision path
+bl:245 s:6391 b:(15, 6) p:(16, 22): e:31 Paddle moved
+bl:245 s:6391 b:(16, 7) p:(17, 22): e:31 Ball: up:False right:True
+bl:245 s:6391 b:(16, 7) p:(17, 22): e:31 No expected collision path
+bl:245 s:6391 b:(16, 7) p:(17, 22): e:31 Paddle moved
+bl:244 s:6489 b:(15, 6) p:(18, 22): e:31 Ball: up:True right:False
+bl:244 s:6489 b:(15, 6) p:(18, 22): e:31 Paddle moved
+bl:244 s:6489 b:(14, 5) p:(19, 22): e:31 Ball: up:True right:False
+bl:244 s:6489 b:(14, 5) p:(19, 22): e:31 Paddle moved
+bl:244 s:6489 b:(13, 4) p:(20, 22): e:31 Ball: up:True right:False
+bl:244 s:6489 b:(13, 4) p:(20, 22): e:31 Paddle moved
+bl:244 s:6489 b:(12, 3) p:(21, 22): e:31 Ball: up:True right:False
+bl:244 s:6489 b:(12, 3) p:(21, 22): e:31 Paddle moved
+bl:244 s:6489 b:(11, 2) p:(22, 22): e:31 Ball: up:True right:False
+bl:244 s:6489 b:(11, 2) p:(22, 22): e:31 Paddle moved
+bl:244 s:6489 b:(10, 1) p:(23, 22): e:31 Ball: up:True right:False
+bl:244 s:6489 b:(10, 1) p:(23, 22): e:31 Paddle moved
+bl:244 s:6489 b:(9, 2) p:(24, 22): e:31 Ball: up:False right:False
+bl:244 s:6489 b:(9, 2) p:(24, 22): e:13 No expected collision path
+bl:245 s:6489 b:(9, 2) p:(24, 22): e:13 Paddle moved
+bl:244 s:6489 b:(8, 3) p:(25, 22): e:13 Ball: up:False right:False
+bl:244 s:6489 b:(8, 3) p:(25, 22): e:13 No expected collision path
+bl:244 s:6489 b:(8, 3) p:(25, 22): e:13 Paddle moved
+bl:244 s:6489 b:(7, 4) p:(24, 22): e:13 Ball: up:False right:False
+bl:244 s:6489 b:(7, 4) p:(24, 22): e:13 No expected collision path
+bl:244 s:6489 b:(7, 4) p:(24, 22): e:13 Paddle moved
+bl:244 s:6489 b:(6, 5) p:(23, 22): e:13 Ball: up:False right:False
+bl:244 s:6489 b:(6, 5) p:(23, 22): e:13 No expected collision path
+bl:244 s:6489 b:(6, 5) p:(23, 22): e:13 Paddle moved
+bl:244 s:6489 b:(5, 6) p:(22, 22): e:13 Ball: up:False right:False
+bl:244 s:6489 b:(5, 6) p:(22, 22): e:13 No expected collision path
+bl:244 s:6489 b:(5, 6) p:(22, 22): e:13 Paddle moved
+bl:244 s:6489 b:(4, 7) p:(21, 22): e:13 Ball: up:False right:False
+bl:244 s:6489 b:(4, 7) p:(21, 22): e:13 No expected collision path
+bl:244 s:6489 b:(4, 7) p:(21, 22): e:13 Paddle moved
+bl:244 s:6489 b:(3, 8) p:(20, 22): e:13 Ball: up:False right:False
+bl:244 s:6489 b:(3, 8) p:(20, 22): e:4 board[3,8]: 0, board[2,8]: 2
+bl:244 s:6489 b:(3, 8) p:(20, 22): e:4 Paddle moved
+bl:242 s:6531 b:(2, 7) p:(19, 22): e:4 Ball: up:True right:False
+bl:242 s:6531 b:(2, 7) p:(19, 22): e:0 Paddle moved
+bl:242 s:6531 b:(1, 6) p:(18, 22): e:0 Ball: up:True right:False
+bl:242 s:6531 b:(1, 6) p:(18, 22): e:0 Paddle moved
+bl:241 s:6624 b:(2, 7) p:(17, 22): e:0 Ball: up:False right:True
+bl:241 s:6624 b:(2, 7) p:(17, 22): e:17 No expected collision path
+bl:241 s:6624 b:(2, 7) p:(17, 22): e:17 Paddle moved
+bl:241 s:6624 b:(3, 8) p:(16, 22): e:17 Ball: up:False right:True
+bl:241 s:6624 b:(3, 8) p:(16, 22): e:17 No expected collision path
+bl:241 s:6624 b:(3, 8) p:(16, 22): e:17 Paddle moved
+bl:241 s:6624 b:(4, 9) p:(17, 22): e:17 Ball: up:False right:True
+bl:241 s:6624 b:(4, 9) p:(17, 22): e:3 board[4,9]: 0, board[5,9]: 2
+bl:240 s:6640 b:(3, 10) p:(17, 22): e:3 Ball: up:False right:False
+bl:240 s:6640 b:(3, 10) p:(17, 22): e:11 No expected collision path
+bl:240 s:6640 b:(3, 10) p:(17, 22): e:11 Paddle moved
+bl:239 s:6667 b:(2, 9) p:(16, 22): e:11 Ball: up:True right:False
+bl:239 s:6667 b:(2, 9) p:(16, 22): e:0 Paddle moved
+bl:239 s:6667 b:(1, 8) p:(15, 22): e:0 Ball: up:True right:False
+bl:239 s:6667 b:(1, 8) p:(15, 22): e:0 Paddle moved
+bl:239 s:6667 b:(2, 7) p:(14, 22): e:0 Ball: up:True right:True
+bl:239 s:6667 b:(2, 7) p:(14, 22): e:5 Paddle moved
+bl:239 s:6667 b:(3, 6) p:(13, 22): e:5 Ball: up:True right:True
+bl:239 s:6667 b:(3, 6) p:(13, 22): e:5 Paddle moved
+bl:238 s:6716 b:(4, 7) p:(12, 22): e:5 Ball: up:False right:True
+bl:238 s:6716 b:(4, 7) p:(12, 22): e:19 No expected collision path
+bl:238 s:6716 b:(4, 7) p:(12, 22): e:19 Paddle moved
+bl:238 s:6716 b:(5, 8) p:(11, 22): e:19 Ball: up:False right:True
+bl:238 s:6716 b:(5, 8) p:(11, 22): e:19 No expected collision path
+bl:238 s:6716 b:(5, 8) p:(11, 22): e:19 Paddle moved
+bl:237 s:6746 b:(4, 7) p:(12, 22): e:19 Ball: up:True right:False
+bl:237 s:6746 b:(4, 7) p:(12, 22): e:0 Paddle moved
+bl:237 s:6746 b:(3, 6) p:(13, 22): e:0 Ball: up:True right:False
+bl:237 s:6746 b:(3, 6) p:(13, 22): e:0 Paddle moved
+bl:237 s:6746 b:(2, 5) p:(12, 22): e:0 Ball: up:True right:False
+bl:237 s:6746 b:(2, 5) p:(12, 22): e:0 Paddle moved
+bl:236 s:6795 b:(1, 6) p:(11, 22): e:0 Ball: up:False right:False
+bl:236 s:6795 b:(1, 6) p:(11, 22): e:17 No expected collision path
+bl:236 s:6795 b:(1, 6) p:(11, 22): e:17 Paddle moved
+bl:236 s:6795 b:(2, 7) p:(10, 22): e:17 Ball: up:False right:True
+bl:236 s:6795 b:(2, 7) p:(10, 22): e:17 No expected collision path
+bl:236 s:6795 b:(2, 7) p:(10, 22): e:17 Paddle moved
+bl:236 s:6795 b:(3, 8) p:(11, 22): e:17 Ball: up:False right:True
+bl:236 s:6795 b:(3, 8) p:(11, 22): e:17 No expected collision path
+bl:236 s:6795 b:(3, 8) p:(11, 22): e:17 Paddle moved
+bl:236 s:6795 b:(4, 9) p:(12, 22): e:17 Ball: up:False right:True
+bl:236 s:6795 b:(4, 9) p:(12, 22): e:17 No expected collision path
+bl:236 s:6795 b:(4, 9) p:(12, 22): e:17 Paddle moved
+bl:235 s:6808 b:(3, 8) p:(13, 22): e:17 Ball: up:True right:False
+bl:235 s:6808 b:(3, 8) p:(13, 22): e:0 Paddle moved
+bl:235 s:6808 b:(2, 7) p:(14, 22): e:0 Ball: up:True right:False
+bl:235 s:6808 b:(2, 7) p:(14, 22): e:0 Paddle moved
+bl:235 s:6808 b:(1, 6) p:(13, 22): e:0 Ball: up:True right:False
+bl:235 s:6808 b:(1, 6) p:(13, 22): e:0 Paddle moved
+bl:235 s:6808 b:(2, 5) p:(12, 22): e:0 Ball: up:True right:True
+bl:235 s:6808 b:(2, 5) p:(12, 22): e:3 Paddle moved
+bl:234 s:6851 b:(1, 6) p:(11, 22): e:3 Ball: up:False right:False
+bl:234 s:6851 b:(1, 6) p:(11, 22): e:17 No expected collision path
+bl:234 s:6851 b:(1, 6) p:(11, 22): e:17 Paddle moved
+bl:234 s:6851 b:(2, 7) p:(10, 22): e:17 Ball: up:False right:True
+bl:234 s:6851 b:(2, 7) p:(10, 22): e:17 No expected collision path
+bl:234 s:6851 b:(2, 7) p:(10, 22): e:17 Paddle moved
+bl:234 s:6851 b:(3, 8) p:(11, 22): e:17 Ball: up:False right:True
+bl:234 s:6851 b:(3, 8) p:(11, 22): e:17 No expected collision path
+bl:234 s:6851 b:(3, 8) p:(11, 22): e:17 Paddle moved
+bl:234 s:6851 b:(4, 9) p:(12, 22): e:17 Ball: up:False right:True
+bl:234 s:6851 b:(4, 9) p:(12, 22): e:17 No expected collision path
+bl:234 s:6851 b:(4, 9) p:(12, 22): e:17 Paddle moved
+bl:234 s:6851 b:(5, 10) p:(13, 22): e:17 Ball: up:False right:True
+bl:234 s:6851 b:(5, 10) p:(13, 22): e:4 board[5,10]: 0, board[6,10]: 2
+bl:234 s:6851 b:(5, 10) p:(13, 22): e:4 Paddle moved
+bl:233 s:6872 b:(4, 11) p:(14, 22): e:4 Ball: up:False right:False
+bl:233 s:6872 b:(4, 11) p:(14, 22): e:9 No expected collision path
+bl:233 s:6872 b:(4, 11) p:(14, 22): e:9 Paddle moved
+bl:232 s:6966 b:(5, 10) p:(13, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(5, 10) p:(13, 22): e:9 Paddle moved
+bl:232 s:6966 b:(6, 9) p:(12, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(6, 9) p:(12, 22): e:9 Paddle moved
+bl:232 s:6966 b:(7, 8) p:(11, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(7, 8) p:(11, 22): e:9 Paddle moved
+bl:232 s:6966 b:(8, 7) p:(10, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(8, 7) p:(10, 22): e:9 Paddle moved
+bl:232 s:6966 b:(9, 6) p:(9, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(10, 5) p:(9, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(11, 4) p:(9, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(12, 3) p:(9, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(13, 2) p:(9, 22): e:9 Ball: up:True right:True
+bl:232 s:6966 b:(14, 1) p:(9, 22): e:9 Ball: up:True right:True
+bl:231 s:6975 b:(13, 2) p:(9, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(13, 2) p:(9, 22): e:9 No expected collision path
+bl:232 s:6975 b:(13, 2) p:(9, 22): e:9 Paddle moved
+bl:231 s:6975 b:(12, 3) p:(8, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(12, 3) p:(8, 22): e:9 No expected collision path
+bl:231 s:6975 b:(12, 3) p:(8, 22): e:3 Paddle moved
+bl:231 s:6975 b:(11, 4) p:(7, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(11, 4) p:(7, 22): e:9 No expected collision path
+bl:231 s:6975 b:(11, 4) p:(7, 22): e:3 Paddle moved
+bl:231 s:6975 b:(10, 5) p:(6, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(10, 5) p:(6, 22): e:9 No expected collision path
+bl:231 s:6975 b:(10, 5) p:(6, 22): e:3 Paddle moved
+bl:231 s:6975 b:(9, 6) p:(5, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(9, 6) p:(5, 22): e:9 No expected collision path
+bl:231 s:6975 b:(9, 6) p:(5, 22): e:3 Paddle moved
+bl:231 s:6975 b:(8, 7) p:(4, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(8, 7) p:(4, 22): e:9 No expected collision path
+bl:231 s:6975 b:(8, 7) p:(4, 22): e:3 Paddle moved
+bl:231 s:6975 b:(7, 8) p:(3, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(7, 8) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(6, 9) p:(3, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(6, 9) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(5, 10) p:(3, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(5, 10) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(4, 11) p:(3, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(4, 11) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(3, 12) p:(3, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(3, 12) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(2, 13) p:(3, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(2, 13) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(1, 14) p:(3, 22): e:3 Ball: up:False right:False
+bl:231 s:6975 b:(1, 14) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(2, 15) p:(3, 22): e:3 Ball: up:False right:True
+bl:231 s:6975 b:(2, 15) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(3, 16) p:(3, 22): e:3 Ball: up:False right:True
+bl:231 s:6975 b:(3, 16) p:(3, 22): e:9 No expected collision path
+bl:231 s:6975 b:(4, 17) p:(3, 22): e:3 Ball: up:False right:True
+bl:231 s:6975 b:(4, 17) p:(3, 22): e:3 board[4,17]: 0, board[5,17]: 2
+bl:230 s:6981 b:(3, 18) p:(3, 22): e:3 Ball: up:False right:False
+bl:230 s:6981 b:(3, 18) p:(3, 22): e:3 No expected collision path
+bl:230 s:6981 b:(2, 19) p:(3, 22): e:3 Ball: up:False right:False
+bl:230 s:6981 b:(2, 19) p:(3, 22): e:3 No expected collision path
+bl:230 s:6981 b:(1, 20) p:(3, 22): e:3 Ball: up:False right:False
+bl:230 s:6981 b:(1, 20) p:(3, 22): e:3 No expected collision path
+bl:230 s:6981 b:(2, 21) p:(3, 22): e:3 Ball: up:False right:True
+bl:230 s:6981 b:(2, 21) p:(3, 22): e:3 No expected collision path
+bl:230 s:6981 b:(1, 20) p:(3, 22): e:3 Ball: up:True right:False
+bl:230 s:6981 b:(2, 19) p:(3, 22): e:0 Ball: up:True right:True
+bl:230 s:6981 b:(2, 19) p:(3, 22): e:5 Paddle moved
+bl:230 s:6981 b:(3, 18) p:(2, 22): e:5 Ball: up:True right:True
+bl:230 s:6981 b:(3, 18) p:(2, 22): e:5 Paddle moved
+bl:230 s:6981 b:(4, 17) p:(3, 22): e:5 Ball: up:True right:True
+bl:230 s:6981 b:(4, 17) p:(3, 22): e:5 Paddle moved
+bl:229 s:6986 b:(3, 18) p:(4, 22): e:5 Ball: up:False right:False
+bl:229 s:6986 b:(3, 18) p:(4, 22): e:3 No expected collision path
+bl:229 s:6986 b:(3, 18) p:(4, 22): e:3 Paddle moved
+bl:229 s:6986 b:(2, 19) p:(5, 22): e:3 Ball: up:False right:False
+bl:229 s:6986 b:(2, 19) p:(5, 22): e:3 No expected collision path
+bl:229 s:6986 b:(2, 19) p:(5, 22): e:3 Paddle moved
+bl:229 s:6986 b:(1, 20) p:(4, 22): e:3 Ball: up:False right:False
+bl:229 s:6986 b:(1, 20) p:(4, 22): e:3 No expected collision path
+bl:229 s:6986 b:(1, 20) p:(4, 22): e:3 Paddle moved
+bl:229 s:6986 b:(2, 21) p:(3, 22): e:3 Ball: up:False right:True
+bl:229 s:6986 b:(2, 21) p:(3, 22): e:3 No expected collision path
+bl:229 s:6986 b:(1, 20) p:(3, 22): e:3 Ball: up:True right:False
+bl:229 s:6986 b:(2, 19) p:(3, 22): e:0 Ball: up:True right:True
+bl:229 s:6986 b:(2, 19) p:(3, 22): e:6 Paddle moved
+bl:229 s:6986 b:(3, 18) p:(2, 22): e:6 Ball: up:True right:True
+bl:229 s:6986 b:(3, 18) p:(2, 22): e:6 Paddle moved
+bl:229 s:6986 b:(4, 17) p:(3, 22): e:6 Ball: up:True right:True
+bl:229 s:6986 b:(4, 17) p:(3, 22): e:6 Paddle moved
+bl:229 s:6986 b:(5, 16) p:(4, 22): e:6 Ball: up:True right:True
+bl:229 s:6986 b:(5, 16) p:(4, 22): e:6 Paddle moved
+bl:228 s:7066 b:(4, 17) p:(5, 22): e:6 Ball: up:False right:False
+bl:228 s:7066 b:(4, 17) p:(5, 22): e:3 No expected collision path
+bl:228 s:7066 b:(4, 17) p:(5, 22): e:3 Paddle moved
+bl:228 s:7066 b:(3, 18) p:(6, 22): e:3 Ball: up:False right:False
+bl:228 s:7066 b:(3, 18) p:(6, 22): e:3 No expected collision path
+bl:228 s:7066 b:(3, 18) p:(6, 22): e:3 Paddle moved
+bl:228 s:7066 b:(2, 19) p:(5, 22): e:3 Ball: up:False right:False
+bl:228 s:7066 b:(2, 19) p:(5, 22): e:3 No expected collision path
+bl:228 s:7066 b:(2, 19) p:(5, 22): e:3 Paddle moved
+bl:228 s:7066 b:(1, 20) p:(4, 22): e:3 Ball: up:False right:False
+bl:228 s:7066 b:(1, 20) p:(4, 22): e:3 No expected collision path
+bl:228 s:7066 b:(1, 20) p:(4, 22): e:3 Paddle moved
+bl:228 s:7066 b:(2, 21) p:(3, 22): e:3 Ball: up:False right:True
+bl:228 s:7066 b:(2, 21) p:(3, 22): e:3 No expected collision path
+bl:228 s:7066 b:(1, 20) p:(3, 22): e:3 Ball: up:True right:False
+bl:228 s:7066 b:(2, 19) p:(3, 22): e:0 Ball: up:True right:True
+bl:228 s:7066 b:(2, 19) p:(3, 22): e:8 Paddle moved
+bl:228 s:7066 b:(3, 18) p:(2, 22): e:8 Ball: up:True right:True
+bl:228 s:7066 b:(3, 18) p:(2, 22): e:8 Paddle moved
+bl:228 s:7066 b:(4, 17) p:(3, 22): e:8 Ball: up:True right:True
+bl:228 s:7066 b:(4, 17) p:(3, 22): e:8 Paddle moved
+bl:228 s:7066 b:(5, 16) p:(4, 22): e:8 Ball: up:True right:True
+bl:228 s:7066 b:(5, 16) p:(4, 22): e:8 Paddle moved
+bl:228 s:7066 b:(6, 15) p:(5, 22): e:8 Ball: up:True right:True
+bl:228 s:7066 b:(6, 15) p:(5, 22): e:8 Paddle moved
+bl:227 s:7105 b:(5, 14) p:(6, 22): e:8 Ball: up:True right:False
+bl:227 s:7105 b:(5, 14) p:(6, 22): e:4 Paddle moved
+bl:226 s:7201 b:(6, 15) p:(7, 22): e:4 Ball: up:False right:True
+bl:226 s:7201 b:(6, 15) p:(7, 22): e:13 No expected collision path
+bl:226 s:7201 b:(6, 15) p:(7, 22): e:13 Paddle moved
+bl:226 s:7201 b:(7, 16) p:(6, 22): e:13 Ball: up:False right:True
+bl:226 s:7201 b:(7, 16) p:(6, 22): e:6 board[7,16]: 0, board[8,16]: 2
+bl:226 s:7201 b:(7, 16) p:(6, 22): e:6 Paddle moved
+bl:224 s:7300 b:(6, 15) p:(7, 22): e:6 Ball: up:True right:False
+bl:224 s:7300 b:(6, 15) p:(7, 22): e:0 Paddle moved
+bl:224 s:7300 b:(5, 14) p:(6, 22): e:0 Ball: up:True right:False
+bl:224 s:7300 b:(5, 14) p:(6, 22): e:0 Paddle moved
+bl:224 s:7300 b:(4, 13) p:(5, 22): e:0 Ball: up:True right:False
+bl:224 s:7300 b:(4, 13) p:(5, 22): e:0 Paddle moved
+bl:224 s:7300 b:(3, 12) p:(4, 22): e:0 Ball: up:True right:False
+bl:224 s:7300 b:(3, 12) p:(4, 22): e:0 Paddle moved
+bl:224 s:7300 b:(2, 11) p:(3, 22): e:0 Ball: up:True right:False
+bl:224 s:7300 b:(2, 11) p:(3, 22): e:0 Paddle moved
+bl:224 s:7300 b:(1, 10) p:(2, 22): e:0 Ball: up:True right:False
+bl:224 s:7300 b:(1, 10) p:(2, 22): e:0 Paddle moved
+bl:224 s:7300 b:(2, 9) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(3, 8) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(4, 7) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(5, 6) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(6, 5) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(7, 4) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(8, 3) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(9, 2) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(10, 1) p:(1, 22): e:0 Ball: up:True right:True
+bl:224 s:7300 b:(11, 2) p:(1, 22): e:0 Ball: up:False right:True
+bl:224 s:7300 b:(11, 2) p:(1, 22): e:31 No expected collision path
+bl:224 s:7300 b:(12, 3) p:(1, 22): e:31 Ball: up:False right:True
+bl:224 s:7300 b:(12, 3) p:(1, 22): e:31 No expected collision path
+bl:224 s:7300 b:(12, 3) p:(1, 22): e:31 Paddle moved
+bl:224 s:7300 b:(13, 4) p:(2, 22): e:31 Ball: up:False right:True
+bl:224 s:7300 b:(13, 4) p:(2, 22): e:31 No expected collision path
+bl:224 s:7300 b:(13, 4) p:(2, 22): e:31 Paddle moved
+bl:224 s:7300 b:(14, 5) p:(3, 22): e:31 Ball: up:False right:True
+bl:224 s:7300 b:(14, 5) p:(3, 22): e:31 No expected collision path
+bl:224 s:7300 b:(14, 5) p:(3, 22): e:31 Paddle moved
+bl:224 s:7300 b:(15, 6) p:(4, 22): e:31 Ball: up:False right:True
+bl:224 s:7300 b:(15, 6) p:(4, 22): e:31 No expected collision path
+bl:224 s:7300 b:(15, 6) p:(4, 22): e:31 Paddle moved
+bl:224 s:7300 b:(16, 7) p:(5, 22): e:31 Ball: up:False right:True
+bl:224 s:7300 b:(16, 7) p:(5, 22): e:31 No expected collision path
+bl:224 s:7300 b:(16, 7) p:(5, 22): e:31 Paddle moved
+bl:224 s:7300 b:(17, 8) p:(6, 22): e:31 Ball: up:False right:True
+bl:224 s:7300 b:(17, 8) p:(6, 22): e:31 No expected collision path
+bl:224 s:7300 b:(17, 8) p:(6, 22): e:31 Paddle moved
+bl:223 s:7315 b:(16, 7) p:(7, 22): e:31 Ball: up:True right:False
+bl:223 s:7315 b:(16, 7) p:(7, 22): e:31 Paddle moved
+bl:223 s:7315 b:(15, 6) p:(8, 22): e:31 Ball: up:True right:False
+bl:223 s:7315 b:(15, 6) p:(8, 22): e:31 Paddle moved
+bl:223 s:7315 b:(14, 5) p:(9, 22): e:31 Ball: up:True right:False
+bl:223 s:7315 b:(14, 5) p:(9, 22): e:31 Paddle moved
+bl:223 s:7315 b:(13, 4) p:(10, 22): e:31 Ball: up:True right:False
+bl:223 s:7315 b:(13, 4) p:(10, 22): e:31 Paddle moved
+bl:223 s:7315 b:(12, 3) p:(11, 22): e:31 Ball: up:True right:False
+bl:223 s:7315 b:(12, 3) p:(11, 22): e:31 Paddle moved
+bl:223 s:7315 b:(11, 2) p:(12, 22): e:31 Ball: up:True right:False
+bl:223 s:7315 b:(11, 2) p:(12, 22): e:31 Paddle moved
+bl:223 s:7315 b:(10, 1) p:(13, 22): e:31 Ball: up:True right:False
+bl:223 s:7315 b:(10, 1) p:(13, 22): e:31 Paddle moved
+bl:223 s:7315 b:(9, 2) p:(14, 22): e:31 Ball: up:False right:False
+bl:223 s:7315 b:(9, 2) p:(14, 22): e:13 No expected collision path
+bl:224 s:7315 b:(9, 2) p:(14, 22): e:13 Paddle moved
+bl:223 s:7315 b:(8, 3) p:(15, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(8, 3) p:(15, 22): e:13 No expected collision path
+bl:223 s:7315 b:(8, 3) p:(15, 22): e:13 Paddle moved
+bl:223 s:7315 b:(7, 4) p:(14, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(7, 4) p:(14, 22): e:13 No expected collision path
+bl:223 s:7315 b:(7, 4) p:(14, 22): e:13 Paddle moved
+bl:223 s:7315 b:(6, 5) p:(13, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(6, 5) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(5, 6) p:(13, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(5, 6) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(4, 7) p:(13, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(4, 7) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(3, 8) p:(13, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(3, 8) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(2, 9) p:(13, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(2, 9) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(1, 10) p:(13, 22): e:13 Ball: up:False right:False
+bl:223 s:7315 b:(1, 10) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(2, 11) p:(13, 22): e:13 Ball: up:False right:True
+bl:223 s:7315 b:(2, 11) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(3, 12) p:(13, 22): e:13 Ball: up:False right:True
+bl:223 s:7315 b:(3, 12) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(4, 13) p:(13, 22): e:13 Ball: up:False right:True
+bl:223 s:7315 b:(4, 13) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(5, 14) p:(13, 22): e:13 Ball: up:False right:True
+bl:223 s:7315 b:(5, 14) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(6, 15) p:(13, 22): e:13 Ball: up:False right:True
+bl:223 s:7315 b:(6, 15) p:(13, 22): e:13 No expected collision path
+bl:223 s:7315 b:(7, 16) p:(13, 22): e:13 Ball: up:False right:True
+bl:223 s:7315 b:(7, 16) p:(13, 22): e:13 No expected collision path
+bl:222 s:7317 b:(6, 15) p:(13, 22): e:13 Ball: up:True right:False
+bl:222 s:7317 b:(5, 14) p:(13, 22): e:0 Ball: up:True right:False
+bl:222 s:7317 b:(5, 14) p:(13, 22): e:0 Paddle moved
+bl:222 s:7317 b:(4, 13) p:(12, 22): e:0 Ball: up:True right:False
+bl:222 s:7317 b:(4, 13) p:(12, 22): e:0 Paddle moved
+bl:222 s:7317 b:(3, 12) p:(11, 22): e:0 Ball: up:True right:False
+bl:222 s:7317 b:(3, 12) p:(11, 22): e:0 Paddle moved
+bl:222 s:7317 b:(2, 11) p:(10, 22): e:0 Ball: up:True right:False
+bl:222 s:7317 b:(2, 11) p:(10, 22): e:0 Paddle moved
+bl:222 s:7317 b:(1, 10) p:(9, 22): e:0 Ball: up:True right:False
+bl:222 s:7317 b:(1, 10) p:(9, 22): e:0 Paddle moved
+bl:222 s:7317 b:(2, 9) p:(8, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(2, 9) p:(8, 22): e:0 Paddle moved
+bl:222 s:7317 b:(3, 8) p:(7, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(3, 8) p:(7, 22): e:0 Paddle moved
+bl:222 s:7317 b:(4, 7) p:(6, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(4, 7) p:(6, 22): e:0 Paddle moved
+bl:222 s:7317 b:(5, 6) p:(5, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(5, 6) p:(5, 22): e:0 Paddle moved
+bl:222 s:7317 b:(6, 5) p:(4, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(6, 5) p:(4, 22): e:0 Paddle moved
+bl:222 s:7317 b:(7, 4) p:(3, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(7, 4) p:(3, 22): e:0 Paddle moved
+bl:222 s:7317 b:(8, 3) p:(2, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(8, 3) p:(2, 22): e:0 Paddle moved
+bl:222 s:7317 b:(9, 2) p:(1, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(10, 1) p:(1, 22): e:0 Ball: up:True right:True
+bl:222 s:7317 b:(11, 2) p:(1, 22): e:0 Ball: up:False right:True
+bl:222 s:7317 b:(11, 2) p:(1, 22): e:31 No expected collision path
+bl:222 s:7317 b:(12, 3) p:(1, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(12, 3) p:(1, 22): e:31 No expected collision path
+bl:222 s:7317 b:(12, 3) p:(1, 22): e:31 Paddle moved
+bl:222 s:7317 b:(13, 4) p:(2, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(13, 4) p:(2, 22): e:31 No expected collision path
+bl:222 s:7317 b:(13, 4) p:(2, 22): e:31 Paddle moved
+bl:222 s:7317 b:(14, 5) p:(3, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(14, 5) p:(3, 22): e:31 No expected collision path
+bl:222 s:7317 b:(14, 5) p:(3, 22): e:31 Paddle moved
+bl:222 s:7317 b:(15, 6) p:(4, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(15, 6) p:(4, 22): e:31 No expected collision path
+bl:222 s:7317 b:(15, 6) p:(4, 22): e:31 Paddle moved
+bl:222 s:7317 b:(16, 7) p:(5, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(16, 7) p:(5, 22): e:31 No expected collision path
+bl:222 s:7317 b:(16, 7) p:(5, 22): e:31 Paddle moved
+bl:222 s:7317 b:(17, 8) p:(6, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(17, 8) p:(6, 22): e:31 No expected collision path
+bl:222 s:7317 b:(17, 8) p:(6, 22): e:31 Paddle moved
+bl:222 s:7317 b:(18, 9) p:(7, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(18, 9) p:(7, 22): e:31 No expected collision path
+bl:222 s:7317 b:(18, 9) p:(7, 22): e:31 Paddle moved
+bl:222 s:7317 b:(19, 10) p:(8, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(19, 10) p:(8, 22): e:31 No expected collision path
+bl:222 s:7317 b:(19, 10) p:(8, 22): e:31 Paddle moved
+bl:222 s:7317 b:(20, 11) p:(9, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(20, 11) p:(9, 22): e:31 No expected collision path
+bl:222 s:7317 b:(20, 11) p:(9, 22): e:31 Paddle moved
+bl:222 s:7317 b:(21, 12) p:(10, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(21, 12) p:(10, 22): e:31 No expected collision path
+bl:222 s:7317 b:(21, 12) p:(10, 22): e:31 Paddle moved
+bl:222 s:7317 b:(22, 13) p:(11, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(22, 13) p:(11, 22): e:31 No expected collision path
+bl:222 s:7317 b:(22, 13) p:(11, 22): e:31 Paddle moved
+bl:222 s:7317 b:(23, 14) p:(12, 22): e:31 Ball: up:False right:True
+bl:222 s:7317 b:(23, 14) p:(12, 22): e:31 No expected collision path
+bl:222 s:7317 b:(23, 14) p:(12, 22): e:31 Paddle moved
+bl:221 s:7382 b:(22, 13) p:(13, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(22, 13) p:(13, 22): e:31 Paddle moved
+bl:221 s:7382 b:(21, 12) p:(14, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(21, 12) p:(14, 22): e:31 Paddle moved
+bl:221 s:7382 b:(20, 11) p:(15, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(20, 11) p:(15, 22): e:31 Paddle moved
+bl:221 s:7382 b:(19, 10) p:(16, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(19, 10) p:(16, 22): e:31 Paddle moved
+bl:221 s:7382 b:(18, 9) p:(17, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(18, 9) p:(17, 22): e:31 Paddle moved
+bl:221 s:7382 b:(17, 8) p:(18, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(17, 8) p:(18, 22): e:31 Paddle moved
+bl:221 s:7382 b:(16, 7) p:(19, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(16, 7) p:(19, 22): e:31 Paddle moved
+bl:221 s:7382 b:(15, 6) p:(20, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(15, 6) p:(20, 22): e:31 Paddle moved
+bl:221 s:7382 b:(14, 5) p:(21, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(14, 5) p:(21, 22): e:31 Paddle moved
+bl:221 s:7382 b:(13, 4) p:(22, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(13, 4) p:(22, 22): e:31 Paddle moved
+bl:221 s:7382 b:(12, 3) p:(23, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(12, 3) p:(23, 22): e:31 Paddle moved
+bl:221 s:7382 b:(11, 2) p:(24, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(11, 2) p:(24, 22): e:31 Paddle moved
+bl:221 s:7382 b:(10, 1) p:(25, 22): e:31 Ball: up:True right:False
+bl:221 s:7382 b:(10, 1) p:(25, 22): e:31 Paddle moved
+bl:221 s:7382 b:(9, 2) p:(26, 22): e:31 Ball: up:False right:False
+bl:221 s:7382 b:(9, 2) p:(26, 22): e:13 No expected collision path
+bl:222 s:7382 b:(9, 2) p:(26, 22): e:13 Paddle moved
+bl:221 s:7382 b:(8, 3) p:(25, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(8, 3) p:(25, 22): e:13 No expected collision path
+bl:221 s:7382 b:(8, 3) p:(25, 22): e:13 Paddle moved
+bl:221 s:7382 b:(7, 4) p:(24, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(7, 4) p:(24, 22): e:13 No expected collision path
+bl:221 s:7382 b:(7, 4) p:(24, 22): e:13 Paddle moved
+bl:221 s:7382 b:(6, 5) p:(23, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(6, 5) p:(23, 22): e:13 No expected collision path
+bl:221 s:7382 b:(6, 5) p:(23, 22): e:13 Paddle moved
+bl:221 s:7382 b:(5, 6) p:(22, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(5, 6) p:(22, 22): e:13 No expected collision path
+bl:221 s:7382 b:(5, 6) p:(22, 22): e:13 Paddle moved
+bl:221 s:7382 b:(4, 7) p:(21, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(4, 7) p:(21, 22): e:13 No expected collision path
+bl:221 s:7382 b:(4, 7) p:(21, 22): e:13 Paddle moved
+bl:221 s:7382 b:(3, 8) p:(20, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(3, 8) p:(20, 22): e:13 No expected collision path
+bl:221 s:7382 b:(3, 8) p:(20, 22): e:13 Paddle moved
+bl:221 s:7382 b:(2, 9) p:(19, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(2, 9) p:(19, 22): e:13 No expected collision path
+bl:221 s:7382 b:(2, 9) p:(19, 22): e:13 Paddle moved
+bl:221 s:7382 b:(1, 10) p:(18, 22): e:13 Ball: up:False right:False
+bl:221 s:7382 b:(1, 10) p:(18, 22): e:13 No expected collision path
+bl:221 s:7382 b:(1, 10) p:(18, 22): e:13 Paddle moved
+bl:221 s:7382 b:(2, 11) p:(17, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(2, 11) p:(17, 22): e:13 No expected collision path
+bl:221 s:7382 b:(2, 11) p:(17, 22): e:13 Paddle moved
+bl:221 s:7382 b:(3, 12) p:(16, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(3, 12) p:(16, 22): e:13 No expected collision path
+bl:221 s:7382 b:(3, 12) p:(16, 22): e:13 Paddle moved
+bl:221 s:7382 b:(4, 13) p:(15, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(4, 13) p:(15, 22): e:13 No expected collision path
+bl:221 s:7382 b:(4, 13) p:(15, 22): e:13 Paddle moved
+bl:221 s:7382 b:(5, 14) p:(14, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(5, 14) p:(14, 22): e:13 No expected collision path
+bl:221 s:7382 b:(5, 14) p:(14, 22): e:13 Paddle moved
+bl:221 s:7382 b:(6, 15) p:(13, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(6, 15) p:(13, 22): e:13 No expected collision path
+bl:221 s:7382 b:(7, 16) p:(13, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(7, 16) p:(13, 22): e:13 No expected collision path
+bl:221 s:7382 b:(8, 17) p:(13, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(8, 17) p:(13, 22): e:13 No expected collision path
+bl:221 s:7382 b:(9, 18) p:(13, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(9, 18) p:(13, 22): e:13 No expected collision path
+bl:221 s:7382 b:(10, 19) p:(13, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(10, 19) p:(13, 22): e:13 No expected collision path
+bl:221 s:7382 b:(11, 20) p:(13, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(11, 20) p:(13, 22): e:13 No expected collision path
+bl:221 s:7382 b:(12, 21) p:(13, 22): e:13 Ball: up:False right:True
+bl:221 s:7382 b:(12, 21) p:(13, 22): e:13 No expected collision path
+bl:221 s:7382 b:(11, 20) p:(13, 22): e:13 Ball: up:True right:False
+bl:221 s:7382 b:(10, 19) p:(13, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(10, 19) p:(13, 22): e:0 Paddle moved
+bl:221 s:7382 b:(9, 18) p:(12, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(9, 18) p:(12, 22): e:0 Paddle moved
+bl:221 s:7382 b:(8, 17) p:(11, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(8, 17) p:(11, 22): e:0 Paddle moved
+bl:221 s:7382 b:(7, 16) p:(10, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(7, 16) p:(10, 22): e:0 Paddle moved
+bl:221 s:7382 b:(6, 15) p:(9, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(6, 15) p:(9, 22): e:0 Paddle moved
+bl:221 s:7382 b:(5, 14) p:(8, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(5, 14) p:(8, 22): e:0 Paddle moved
+bl:221 s:7382 b:(4, 13) p:(7, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(4, 13) p:(7, 22): e:0 Paddle moved
+bl:221 s:7382 b:(3, 12) p:(6, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(3, 12) p:(6, 22): e:0 Paddle moved
+bl:221 s:7382 b:(2, 11) p:(5, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(2, 11) p:(5, 22): e:0 Paddle moved
+bl:221 s:7382 b:(1, 10) p:(4, 22): e:0 Ball: up:True right:False
+bl:221 s:7382 b:(1, 10) p:(4, 22): e:0 Paddle moved
+bl:221 s:7382 b:(2, 9) p:(3, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(2, 9) p:(3, 22): e:0 Paddle moved
+bl:221 s:7382 b:(3, 8) p:(2, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(3, 8) p:(2, 22): e:0 Paddle moved
+bl:221 s:7382 b:(4, 7) p:(1, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(5, 6) p:(1, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(6, 5) p:(1, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(7, 4) p:(1, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(8, 3) p:(1, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(9, 2) p:(1, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(10, 1) p:(1, 22): e:0 Ball: up:True right:True
+bl:221 s:7382 b:(11, 2) p:(1, 22): e:0 Ball: up:False right:True
+bl:221 s:7382 b:(11, 2) p:(1, 22): e:31 No expected collision path
+bl:221 s:7382 b:(12, 3) p:(1, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(12, 3) p:(1, 22): e:31 No expected collision path
+bl:221 s:7382 b:(12, 3) p:(1, 22): e:31 Paddle moved
+bl:221 s:7382 b:(13, 4) p:(2, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(13, 4) p:(2, 22): e:31 No expected collision path
+bl:221 s:7382 b:(13, 4) p:(2, 22): e:31 Paddle moved
+bl:221 s:7382 b:(14, 5) p:(3, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(14, 5) p:(3, 22): e:31 No expected collision path
+bl:221 s:7382 b:(14, 5) p:(3, 22): e:31 Paddle moved
+bl:221 s:7382 b:(15, 6) p:(4, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(15, 6) p:(4, 22): e:31 No expected collision path
+bl:221 s:7382 b:(15, 6) p:(4, 22): e:31 Paddle moved
+bl:221 s:7382 b:(16, 7) p:(5, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(16, 7) p:(5, 22): e:31 No expected collision path
+bl:221 s:7382 b:(16, 7) p:(5, 22): e:31 Paddle moved
+bl:221 s:7382 b:(17, 8) p:(6, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(17, 8) p:(6, 22): e:31 No expected collision path
+bl:221 s:7382 b:(17, 8) p:(6, 22): e:31 Paddle moved
+bl:221 s:7382 b:(18, 9) p:(7, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(18, 9) p:(7, 22): e:31 No expected collision path
+bl:221 s:7382 b:(18, 9) p:(7, 22): e:31 Paddle moved
+bl:221 s:7382 b:(19, 10) p:(8, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(19, 10) p:(8, 22): e:31 No expected collision path
+bl:221 s:7382 b:(19, 10) p:(8, 22): e:31 Paddle moved
+bl:221 s:7382 b:(20, 11) p:(9, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(20, 11) p:(9, 22): e:31 No expected collision path
+bl:221 s:7382 b:(20, 11) p:(9, 22): e:31 Paddle moved
+bl:221 s:7382 b:(21, 12) p:(10, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(21, 12) p:(10, 22): e:31 No expected collision path
+bl:221 s:7382 b:(21, 12) p:(10, 22): e:31 Paddle moved
+bl:221 s:7382 b:(22, 13) p:(11, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(22, 13) p:(11, 22): e:31 No expected collision path
+bl:221 s:7382 b:(22, 13) p:(11, 22): e:31 Paddle moved
+bl:221 s:7382 b:(23, 14) p:(12, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(23, 14) p:(12, 22): e:31 No expected collision path
+bl:221 s:7382 b:(23, 14) p:(12, 22): e:31 Paddle moved
+bl:221 s:7382 b:(24, 15) p:(13, 22): e:31 Ball: up:False right:True
+bl:221 s:7382 b:(24, 15) p:(13, 22): e:23 board[24,15]: 0, board[25,15]: 2
+bl:221 s:7382 b:(24, 15) p:(13, 22): e:23 Paddle moved
+bl:220 s:7388 b:(23, 16) p:(14, 22): e:23 Ball: up:False right:False
+bl:220 s:7388 b:(23, 16) p:(14, 22): e:17 No expected collision path
+bl:220 s:7388 b:(23, 16) p:(14, 22): e:17 Paddle moved
+bl:220 s:7388 b:(22, 17) p:(15, 22): e:17 Ball: up:False right:False
+bl:220 s:7388 b:(22, 17) p:(15, 22): e:17 No expected collision path
+bl:220 s:7388 b:(22, 17) p:(15, 22): e:17 Paddle moved
+bl:220 s:7388 b:(21, 18) p:(16, 22): e:17 Ball: up:False right:False
+bl:220 s:7388 b:(21, 18) p:(16, 22): e:17 No expected collision path
+bl:220 s:7388 b:(21, 18) p:(16, 22): e:17 Paddle moved
+bl:220 s:7388 b:(20, 19) p:(17, 22): e:17 Ball: up:False right:False
+bl:220 s:7388 b:(20, 19) p:(17, 22): e:17 No expected collision path
+bl:220 s:7388 b:(19, 20) p:(17, 22): e:17 Ball: up:False right:False
+bl:220 s:7388 b:(19, 20) p:(17, 22): e:17 No expected collision path
+bl:220 s:7388 b:(18, 21) p:(17, 22): e:17 Ball: up:False right:False
+bl:220 s:7388 b:(18, 21) p:(17, 22): e:17 No expected collision path
+bl:220 s:7388 b:(19, 20) p:(17, 22): e:17 Ball: up:True right:True
+bl:220 s:7388 b:(20, 19) p:(17, 22): e:26 Ball: up:True right:True
+bl:220 s:7388 b:(20, 19) p:(17, 22): e:26 Paddle moved
+bl:220 s:7388 b:(21, 18) p:(18, 22): e:26 Ball: up:True right:True
+bl:220 s:7388 b:(21, 18) p:(18, 22): e:26 Paddle moved
+bl:220 s:7388 b:(22, 17) p:(19, 22): e:26 Ball: up:True right:True
+bl:220 s:7388 b:(22, 17) p:(19, 22): e:26 Paddle moved
+bl:220 s:7388 b:(23, 16) p:(20, 22): e:26 Ball: up:True right:True
+bl:220 s:7388 b:(23, 16) p:(20, 22): e:26 Paddle moved
+bl:220 s:7388 b:(24, 15) p:(21, 22): e:26 Ball: up:True right:True
+bl:220 s:7388 b:(24, 15) p:(21, 22): e:26 Paddle moved
+bl:220 s:7388 b:(25, 14) p:(22, 22): e:26 Ball: up:True right:True
+bl:220 s:7388 b:(25, 14) p:(22, 22): e:26 Paddle moved
+bl:219 s:7486 b:(24, 13) p:(23, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(24, 13) p:(23, 22): e:26 Paddle moved
+bl:219 s:7486 b:(23, 12) p:(24, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(23, 12) p:(24, 22): e:26 Paddle moved
+bl:219 s:7486 b:(22, 11) p:(25, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(22, 11) p:(25, 22): e:26 Paddle moved
+bl:219 s:7486 b:(21, 10) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(20, 9) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(19, 8) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(18, 7) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(17, 6) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(16, 5) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(15, 4) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(14, 3) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(13, 2) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(12, 1) p:(26, 22): e:26 Ball: up:True right:False
+bl:219 s:7486 b:(11, 2) p:(26, 22): e:26 Ball: up:False right:False
+bl:219 s:7486 b:(11, 2) p:(26, 22): e:11 No expected collision path
+bl:219 s:7486 b:(10, 3) p:(26, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(10, 3) p:(26, 22): e:11 No expected collision path
+bl:219 s:7486 b:(10, 3) p:(26, 22): e:11 Paddle moved
+bl:219 s:7486 b:(9, 4) p:(25, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(9, 4) p:(25, 22): e:11 No expected collision path
+bl:219 s:7486 b:(9, 4) p:(25, 22): e:11 Paddle moved
+bl:219 s:7486 b:(8, 5) p:(24, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(8, 5) p:(24, 22): e:11 No expected collision path
+bl:219 s:7486 b:(8, 5) p:(24, 22): e:11 Paddle moved
+bl:219 s:7486 b:(7, 6) p:(23, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(7, 6) p:(23, 22): e:11 No expected collision path
+bl:219 s:7486 b:(7, 6) p:(23, 22): e:11 Paddle moved
+bl:219 s:7486 b:(6, 7) p:(22, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(6, 7) p:(22, 22): e:11 No expected collision path
+bl:219 s:7486 b:(6, 7) p:(22, 22): e:11 Paddle moved
+bl:219 s:7486 b:(5, 8) p:(21, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(5, 8) p:(21, 22): e:11 No expected collision path
+bl:219 s:7486 b:(5, 8) p:(21, 22): e:11 Paddle moved
+bl:219 s:7486 b:(4, 9) p:(20, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(4, 9) p:(20, 22): e:11 No expected collision path
+bl:219 s:7486 b:(4, 9) p:(20, 22): e:11 Paddle moved
+bl:219 s:7486 b:(3, 10) p:(19, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(3, 10) p:(19, 22): e:11 No expected collision path
+bl:219 s:7486 b:(3, 10) p:(19, 22): e:11 Paddle moved
+bl:219 s:7486 b:(2, 11) p:(18, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(2, 11) p:(18, 22): e:11 No expected collision path
+bl:219 s:7486 b:(2, 11) p:(18, 22): e:11 Paddle moved
+bl:219 s:7486 b:(1, 12) p:(17, 22): e:11 Ball: up:False right:False
+bl:219 s:7486 b:(1, 12) p:(17, 22): e:11 No expected collision path
+bl:219 s:7486 b:(1, 12) p:(17, 22): e:11 Paddle moved
+bl:219 s:7486 b:(2, 13) p:(16, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(2, 13) p:(16, 22): e:11 No expected collision path
+bl:219 s:7486 b:(2, 13) p:(16, 22): e:11 Paddle moved
+bl:219 s:7486 b:(3, 14) p:(15, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(3, 14) p:(15, 22): e:11 No expected collision path
+bl:219 s:7486 b:(3, 14) p:(15, 22): e:11 Paddle moved
+bl:219 s:7486 b:(4, 15) p:(14, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(4, 15) p:(14, 22): e:11 No expected collision path
+bl:219 s:7486 b:(4, 15) p:(14, 22): e:11 Paddle moved
+bl:219 s:7486 b:(5, 16) p:(13, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(5, 16) p:(13, 22): e:11 No expected collision path
+bl:219 s:7486 b:(5, 16) p:(13, 22): e:11 Paddle moved
+bl:219 s:7486 b:(6, 17) p:(12, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(6, 17) p:(12, 22): e:11 No expected collision path
+bl:219 s:7486 b:(6, 17) p:(12, 22): e:11 Paddle moved
+bl:219 s:7486 b:(7, 18) p:(11, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(7, 18) p:(11, 22): e:11 No expected collision path
+bl:219 s:7486 b:(8, 19) p:(11, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(8, 19) p:(11, 22): e:11 No expected collision path
+bl:219 s:7486 b:(9, 20) p:(11, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(9, 20) p:(11, 22): e:11 No expected collision path
+bl:219 s:7486 b:(10, 21) p:(11, 22): e:11 Ball: up:False right:True
+bl:219 s:7486 b:(10, 21) p:(11, 22): e:11 No expected collision path
+bl:219 s:7486 b:(9, 20) p:(11, 22): e:11 Ball: up:True right:False
+bl:219 s:7486 b:(8, 19) p:(11, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(8, 19) p:(11, 22): e:0 Paddle moved
+bl:219 s:7486 b:(7, 18) p:(10, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(7, 18) p:(10, 22): e:0 Paddle moved
+bl:219 s:7486 b:(6, 17) p:(9, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(6, 17) p:(9, 22): e:0 Paddle moved
+bl:219 s:7486 b:(5, 16) p:(8, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(5, 16) p:(8, 22): e:0 Paddle moved
+bl:219 s:7486 b:(4, 15) p:(7, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(4, 15) p:(7, 22): e:0 Paddle moved
+bl:219 s:7486 b:(3, 14) p:(6, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(3, 14) p:(6, 22): e:0 Paddle moved
+bl:219 s:7486 b:(2, 13) p:(5, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(2, 13) p:(5, 22): e:0 Paddle moved
+bl:219 s:7486 b:(1, 12) p:(4, 22): e:0 Ball: up:True right:False
+bl:219 s:7486 b:(1, 12) p:(4, 22): e:0 Paddle moved
+bl:219 s:7486 b:(2, 11) p:(3, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(2, 11) p:(3, 22): e:0 Paddle moved
+bl:219 s:7486 b:(3, 10) p:(2, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(3, 10) p:(2, 22): e:0 Paddle moved
+bl:219 s:7486 b:(4, 9) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(5, 8) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(6, 7) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(7, 6) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(8, 5) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(9, 4) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(10, 3) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(11, 2) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(12, 1) p:(1, 22): e:0 Ball: up:True right:True
+bl:219 s:7486 b:(13, 2) p:(1, 22): e:0 Ball: up:False right:True
+bl:219 s:7486 b:(13, 2) p:(1, 22): e:33 No expected collision path
+bl:219 s:7486 b:(14, 3) p:(1, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(14, 3) p:(1, 22): e:33 No expected collision path
+bl:219 s:7486 b:(14, 3) p:(1, 22): e:33 Paddle moved
+bl:219 s:7486 b:(15, 4) p:(2, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(15, 4) p:(2, 22): e:33 No expected collision path
+bl:219 s:7486 b:(15, 4) p:(2, 22): e:33 Paddle moved
+bl:219 s:7486 b:(16, 5) p:(3, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(16, 5) p:(3, 22): e:33 No expected collision path
+bl:219 s:7486 b:(16, 5) p:(3, 22): e:33 Paddle moved
+bl:219 s:7486 b:(17, 6) p:(4, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(17, 6) p:(4, 22): e:33 No expected collision path
+bl:219 s:7486 b:(17, 6) p:(4, 22): e:33 Paddle moved
+bl:219 s:7486 b:(18, 7) p:(5, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(18, 7) p:(5, 22): e:33 No expected collision path
+bl:219 s:7486 b:(18, 7) p:(5, 22): e:33 Paddle moved
+bl:219 s:7486 b:(19, 8) p:(6, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(19, 8) p:(6, 22): e:33 No expected collision path
+bl:219 s:7486 b:(19, 8) p:(6, 22): e:33 Paddle moved
+bl:219 s:7486 b:(20, 9) p:(7, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(20, 9) p:(7, 22): e:33 No expected collision path
+bl:219 s:7486 b:(20, 9) p:(7, 22): e:33 Paddle moved
+bl:219 s:7486 b:(21, 10) p:(8, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(21, 10) p:(8, 22): e:33 No expected collision path
+bl:219 s:7486 b:(21, 10) p:(8, 22): e:33 Paddle moved
+bl:219 s:7486 b:(22, 11) p:(9, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(22, 11) p:(9, 22): e:33 No expected collision path
+bl:219 s:7486 b:(22, 11) p:(9, 22): e:33 Paddle moved
+bl:219 s:7486 b:(23, 12) p:(10, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(23, 12) p:(10, 22): e:33 No expected collision path
+bl:219 s:7486 b:(23, 12) p:(10, 22): e:33 Paddle moved
+bl:219 s:7486 b:(24, 13) p:(11, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(24, 13) p:(11, 22): e:33 No expected collision path
+bl:219 s:7486 b:(24, 13) p:(11, 22): e:33 Paddle moved
+bl:219 s:7486 b:(25, 14) p:(12, 22): e:33 Ball: up:False right:True
+bl:219 s:7486 b:(25, 14) p:(12, 22): e:33 No expected collision path
+bl:219 s:7486 b:(25, 14) p:(12, 22): e:33 Paddle moved
+bl:218 s:7510 b:(24, 13) p:(13, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(24, 13) p:(13, 22): e:33 Paddle moved
+bl:218 s:7510 b:(23, 12) p:(14, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(23, 12) p:(14, 22): e:33 Paddle moved
+bl:218 s:7510 b:(22, 11) p:(15, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(22, 11) p:(15, 22): e:33 Paddle moved
+bl:218 s:7510 b:(21, 10) p:(16, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(21, 10) p:(16, 22): e:33 Paddle moved
+bl:218 s:7510 b:(20, 9) p:(17, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(20, 9) p:(17, 22): e:33 Paddle moved
+bl:218 s:7510 b:(19, 8) p:(18, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(19, 8) p:(18, 22): e:33 Paddle moved
+bl:218 s:7510 b:(18, 7) p:(19, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(18, 7) p:(19, 22): e:33 Paddle moved
+bl:218 s:7510 b:(17, 6) p:(20, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(17, 6) p:(20, 22): e:33 Paddle moved
+bl:218 s:7510 b:(16, 5) p:(21, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(16, 5) p:(21, 22): e:33 Paddle moved
+bl:218 s:7510 b:(15, 4) p:(22, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(15, 4) p:(22, 22): e:33 Paddle moved
+bl:218 s:7510 b:(14, 3) p:(23, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(14, 3) p:(23, 22): e:33 Paddle moved
+bl:218 s:7510 b:(13, 2) p:(24, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(13, 2) p:(24, 22): e:33 Paddle moved
+bl:218 s:7510 b:(12, 1) p:(25, 22): e:33 Ball: up:True right:False
+bl:218 s:7510 b:(12, 1) p:(25, 22): e:33 Paddle moved
+bl:218 s:7510 b:(11, 2) p:(26, 22): e:33 Ball: up:False right:False
+bl:218 s:7510 b:(11, 2) p:(26, 22): e:11 No expected collision path
+bl:219 s:7510 b:(11, 2) p:(26, 22): e:11 Paddle moved
+bl:218 s:7510 b:(10, 3) p:(27, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(10, 3) p:(27, 22): e:11 No expected collision path
+bl:218 s:7510 b:(10, 3) p:(27, 22): e:11 Paddle moved
+bl:218 s:7510 b:(9, 4) p:(26, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(9, 4) p:(26, 22): e:11 No expected collision path
+bl:218 s:7510 b:(9, 4) p:(26, 22): e:11 Paddle moved
+bl:218 s:7510 b:(8, 5) p:(25, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(8, 5) p:(25, 22): e:11 No expected collision path
+bl:218 s:7510 b:(8, 5) p:(25, 22): e:11 Paddle moved
+bl:218 s:7510 b:(7, 6) p:(24, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(7, 6) p:(24, 22): e:11 No expected collision path
+bl:218 s:7510 b:(7, 6) p:(24, 22): e:11 Paddle moved
+bl:218 s:7510 b:(6, 7) p:(23, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(6, 7) p:(23, 22): e:11 No expected collision path
+bl:218 s:7510 b:(6, 7) p:(23, 22): e:11 Paddle moved
+bl:218 s:7510 b:(5, 8) p:(22, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(5, 8) p:(22, 22): e:11 No expected collision path
+bl:218 s:7510 b:(5, 8) p:(22, 22): e:11 Paddle moved
+bl:218 s:7510 b:(4, 9) p:(21, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(4, 9) p:(21, 22): e:11 No expected collision path
+bl:218 s:7510 b:(4, 9) p:(21, 22): e:11 Paddle moved
+bl:218 s:7510 b:(3, 10) p:(20, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(3, 10) p:(20, 22): e:11 No expected collision path
+bl:218 s:7510 b:(3, 10) p:(20, 22): e:11 Paddle moved
+bl:218 s:7510 b:(2, 11) p:(19, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(2, 11) p:(19, 22): e:11 No expected collision path
+bl:218 s:7510 b:(2, 11) p:(19, 22): e:11 Paddle moved
+bl:218 s:7510 b:(1, 12) p:(18, 22): e:11 Ball: up:False right:False
+bl:218 s:7510 b:(1, 12) p:(18, 22): e:11 No expected collision path
+bl:218 s:7510 b:(1, 12) p:(18, 22): e:11 Paddle moved
+bl:218 s:7510 b:(2, 13) p:(17, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(2, 13) p:(17, 22): e:11 No expected collision path
+bl:218 s:7510 b:(2, 13) p:(17, 22): e:11 Paddle moved
+bl:218 s:7510 b:(3, 14) p:(16, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(3, 14) p:(16, 22): e:11 No expected collision path
+bl:218 s:7510 b:(3, 14) p:(16, 22): e:11 Paddle moved
+bl:218 s:7510 b:(4, 15) p:(15, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(4, 15) p:(15, 22): e:11 No expected collision path
+bl:218 s:7510 b:(4, 15) p:(15, 22): e:11 Paddle moved
+bl:218 s:7510 b:(5, 16) p:(14, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(5, 16) p:(14, 22): e:11 No expected collision path
+bl:218 s:7510 b:(5, 16) p:(14, 22): e:11 Paddle moved
+bl:218 s:7510 b:(6, 17) p:(13, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(6, 17) p:(13, 22): e:11 No expected collision path
+bl:218 s:7510 b:(6, 17) p:(13, 22): e:11 Paddle moved
+bl:218 s:7510 b:(7, 18) p:(12, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(7, 18) p:(12, 22): e:11 No expected collision path
+bl:218 s:7510 b:(7, 18) p:(12, 22): e:11 Paddle moved
+bl:218 s:7510 b:(8, 19) p:(11, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(8, 19) p:(11, 22): e:11 No expected collision path
+bl:218 s:7510 b:(9, 20) p:(11, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(9, 20) p:(11, 22): e:11 No expected collision path
+bl:218 s:7510 b:(10, 21) p:(11, 22): e:11 Ball: up:False right:True
+bl:218 s:7510 b:(10, 21) p:(11, 22): e:11 No expected collision path
+bl:218 s:7510 b:(9, 20) p:(11, 22): e:11 Ball: up:True right:False
+bl:218 s:7510 b:(8, 19) p:(11, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(8, 19) p:(11, 22): e:0 Paddle moved
+bl:218 s:7510 b:(7, 18) p:(10, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(7, 18) p:(10, 22): e:0 Paddle moved
+bl:218 s:7510 b:(6, 17) p:(9, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(6, 17) p:(9, 22): e:0 Paddle moved
+bl:218 s:7510 b:(5, 16) p:(8, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(5, 16) p:(8, 22): e:0 Paddle moved
+bl:218 s:7510 b:(4, 15) p:(7, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(4, 15) p:(7, 22): e:0 Paddle moved
+bl:218 s:7510 b:(3, 14) p:(6, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(3, 14) p:(6, 22): e:0 Paddle moved
+bl:218 s:7510 b:(2, 13) p:(5, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(2, 13) p:(5, 22): e:0 Paddle moved
+bl:218 s:7510 b:(1, 12) p:(4, 22): e:0 Ball: up:True right:False
+bl:218 s:7510 b:(1, 12) p:(4, 22): e:0 Paddle moved
+bl:218 s:7510 b:(2, 11) p:(3, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(2, 11) p:(3, 22): e:0 Paddle moved
+bl:218 s:7510 b:(3, 10) p:(2, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(3, 10) p:(2, 22): e:0 Paddle moved
+bl:218 s:7510 b:(4, 9) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(5, 8) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(6, 7) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(7, 6) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(8, 5) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(9, 4) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(10, 3) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(11, 2) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(12, 1) p:(1, 22): e:0 Ball: up:True right:True
+bl:218 s:7510 b:(13, 2) p:(1, 22): e:0 Ball: up:False right:True
+bl:218 s:7510 b:(13, 2) p:(1, 22): e:33 No expected collision path
+bl:218 s:7510 b:(14, 3) p:(1, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(14, 3) p:(1, 22): e:33 No expected collision path
+bl:218 s:7510 b:(14, 3) p:(1, 22): e:33 Paddle moved
+bl:218 s:7510 b:(15, 4) p:(2, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(15, 4) p:(2, 22): e:33 No expected collision path
+bl:218 s:7510 b:(15, 4) p:(2, 22): e:33 Paddle moved
+bl:218 s:7510 b:(16, 5) p:(3, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(16, 5) p:(3, 22): e:33 No expected collision path
+bl:218 s:7510 b:(16, 5) p:(3, 22): e:33 Paddle moved
+bl:218 s:7510 b:(17, 6) p:(4, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(17, 6) p:(4, 22): e:33 No expected collision path
+bl:218 s:7510 b:(17, 6) p:(4, 22): e:33 Paddle moved
+bl:218 s:7510 b:(18, 7) p:(5, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(18, 7) p:(5, 22): e:33 No expected collision path
+bl:218 s:7510 b:(18, 7) p:(5, 22): e:33 Paddle moved
+bl:218 s:7510 b:(19, 8) p:(6, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(19, 8) p:(6, 22): e:33 No expected collision path
+bl:218 s:7510 b:(19, 8) p:(6, 22): e:33 Paddle moved
+bl:218 s:7510 b:(20, 9) p:(7, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(20, 9) p:(7, 22): e:33 No expected collision path
+bl:218 s:7510 b:(20, 9) p:(7, 22): e:33 Paddle moved
+bl:218 s:7510 b:(21, 10) p:(8, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(21, 10) p:(8, 22): e:33 No expected collision path
+bl:218 s:7510 b:(21, 10) p:(8, 22): e:33 Paddle moved
+bl:218 s:7510 b:(22, 11) p:(9, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(22, 11) p:(9, 22): e:33 No expected collision path
+bl:218 s:7510 b:(22, 11) p:(9, 22): e:33 Paddle moved
+bl:218 s:7510 b:(23, 12) p:(10, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(23, 12) p:(10, 22): e:33 No expected collision path
+bl:218 s:7510 b:(23, 12) p:(10, 22): e:33 Paddle moved
+bl:218 s:7510 b:(24, 13) p:(11, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(24, 13) p:(11, 22): e:33 No expected collision path
+bl:218 s:7510 b:(24, 13) p:(11, 22): e:33 Paddle moved
+bl:218 s:7510 b:(25, 14) p:(12, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(25, 14) p:(12, 22): e:33 No expected collision path
+bl:218 s:7510 b:(25, 14) p:(12, 22): e:33 Paddle moved
+bl:218 s:7510 b:(26, 15) p:(13, 22): e:33 Ball: up:False right:True
+bl:218 s:7510 b:(26, 15) p:(13, 22): e:25 board[26,15]: 0, board[27,15]: 2
+bl:218 s:7510 b:(26, 15) p:(13, 22): e:25 Paddle moved
+bl:216 s:7638 b:(25, 14) p:(14, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(25, 14) p:(14, 22): e:25 Paddle moved
+bl:216 s:7638 b:(24, 13) p:(15, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(24, 13) p:(15, 22): e:25 Paddle moved
+bl:216 s:7638 b:(23, 12) p:(16, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(23, 12) p:(16, 22): e:25 Paddle moved
+bl:216 s:7638 b:(22, 11) p:(17, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(22, 11) p:(17, 22): e:25 Paddle moved
+bl:216 s:7638 b:(21, 10) p:(18, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(21, 10) p:(18, 22): e:25 Paddle moved
+bl:216 s:7638 b:(20, 9) p:(19, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(20, 9) p:(19, 22): e:25 Paddle moved
+bl:216 s:7638 b:(19, 8) p:(20, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(19, 8) p:(20, 22): e:25 Paddle moved
+bl:216 s:7638 b:(18, 7) p:(21, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(18, 7) p:(21, 22): e:25 Paddle moved
+bl:216 s:7638 b:(17, 6) p:(22, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(17, 6) p:(22, 22): e:25 Paddle moved
+bl:216 s:7638 b:(16, 5) p:(23, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(16, 5) p:(23, 22): e:25 Paddle moved
+bl:216 s:7638 b:(15, 4) p:(24, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(15, 4) p:(24, 22): e:25 Paddle moved
+bl:216 s:7638 b:(14, 3) p:(25, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(13, 2) p:(25, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(12, 1) p:(25, 22): e:25 Ball: up:True right:False
+bl:216 s:7638 b:(11, 2) p:(25, 22): e:25 Ball: up:False right:False
+bl:216 s:7638 b:(11, 2) p:(25, 22): e:11 No expected collision path
+bl:216 s:7638 b:(10, 3) p:(25, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(10, 3) p:(25, 22): e:11 No expected collision path
+bl:216 s:7638 b:(10, 3) p:(25, 22): e:11 Paddle moved
+bl:216 s:7638 b:(9, 4) p:(24, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(9, 4) p:(24, 22): e:11 No expected collision path
+bl:216 s:7638 b:(9, 4) p:(24, 22): e:11 Paddle moved
+bl:216 s:7638 b:(8, 5) p:(23, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(8, 5) p:(23, 22): e:11 No expected collision path
+bl:216 s:7638 b:(8, 5) p:(23, 22): e:11 Paddle moved
+bl:216 s:7638 b:(7, 6) p:(22, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(7, 6) p:(22, 22): e:11 No expected collision path
+bl:216 s:7638 b:(7, 6) p:(22, 22): e:11 Paddle moved
+bl:216 s:7638 b:(6, 7) p:(21, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(6, 7) p:(21, 22): e:11 No expected collision path
+bl:216 s:7638 b:(6, 7) p:(21, 22): e:11 Paddle moved
+bl:216 s:7638 b:(5, 8) p:(20, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(5, 8) p:(20, 22): e:11 No expected collision path
+bl:216 s:7638 b:(5, 8) p:(20, 22): e:11 Paddle moved
+bl:216 s:7638 b:(4, 9) p:(19, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(4, 9) p:(19, 22): e:11 No expected collision path
+bl:216 s:7638 b:(4, 9) p:(19, 22): e:11 Paddle moved
+bl:216 s:7638 b:(3, 10) p:(18, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(3, 10) p:(18, 22): e:11 No expected collision path
+bl:216 s:7638 b:(3, 10) p:(18, 22): e:11 Paddle moved
+bl:216 s:7638 b:(2, 11) p:(17, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(2, 11) p:(17, 22): e:11 No expected collision path
+bl:216 s:7638 b:(2, 11) p:(17, 22): e:11 Paddle moved
+bl:216 s:7638 b:(1, 12) p:(16, 22): e:11 Ball: up:False right:False
+bl:216 s:7638 b:(1, 12) p:(16, 22): e:11 No expected collision path
+bl:216 s:7638 b:(1, 12) p:(16, 22): e:11 Paddle moved
+bl:216 s:7638 b:(2, 13) p:(15, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(2, 13) p:(15, 22): e:11 No expected collision path
+bl:216 s:7638 b:(2, 13) p:(15, 22): e:11 Paddle moved
+bl:216 s:7638 b:(3, 14) p:(14, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(3, 14) p:(14, 22): e:11 No expected collision path
+bl:216 s:7638 b:(3, 14) p:(14, 22): e:11 Paddle moved
+bl:216 s:7638 b:(4, 15) p:(13, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(4, 15) p:(13, 22): e:11 No expected collision path
+bl:216 s:7638 b:(4, 15) p:(13, 22): e:11 Paddle moved
+bl:216 s:7638 b:(5, 16) p:(12, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(5, 16) p:(12, 22): e:11 No expected collision path
+bl:216 s:7638 b:(5, 16) p:(12, 22): e:11 Paddle moved
+bl:216 s:7638 b:(6, 17) p:(11, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(6, 17) p:(11, 22): e:11 No expected collision path
+bl:216 s:7638 b:(7, 18) p:(11, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(7, 18) p:(11, 22): e:11 No expected collision path
+bl:216 s:7638 b:(8, 19) p:(11, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(8, 19) p:(11, 22): e:11 No expected collision path
+bl:216 s:7638 b:(9, 20) p:(11, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(9, 20) p:(11, 22): e:11 No expected collision path
+bl:216 s:7638 b:(10, 21) p:(11, 22): e:11 Ball: up:False right:True
+bl:216 s:7638 b:(10, 21) p:(11, 22): e:11 No expected collision path
+bl:216 s:7638 b:(9, 20) p:(11, 22): e:11 Ball: up:True right:False
+bl:216 s:7638 b:(8, 19) p:(11, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(8, 19) p:(11, 22): e:0 Paddle moved
+bl:216 s:7638 b:(7, 18) p:(10, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(7, 18) p:(10, 22): e:0 Paddle moved
+bl:216 s:7638 b:(6, 17) p:(9, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(6, 17) p:(9, 22): e:0 Paddle moved
+bl:216 s:7638 b:(5, 16) p:(8, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(5, 16) p:(8, 22): e:0 Paddle moved
+bl:216 s:7638 b:(4, 15) p:(7, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(4, 15) p:(7, 22): e:0 Paddle moved
+bl:216 s:7638 b:(3, 14) p:(6, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(3, 14) p:(6, 22): e:0 Paddle moved
+bl:216 s:7638 b:(2, 13) p:(5, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(2, 13) p:(5, 22): e:0 Paddle moved
+bl:216 s:7638 b:(1, 12) p:(4, 22): e:0 Ball: up:True right:False
+bl:216 s:7638 b:(1, 12) p:(4, 22): e:0 Paddle moved
+bl:216 s:7638 b:(2, 11) p:(3, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(2, 11) p:(3, 22): e:0 Paddle moved
+bl:216 s:7638 b:(3, 10) p:(2, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(3, 10) p:(2, 22): e:0 Paddle moved
+bl:216 s:7638 b:(4, 9) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(5, 8) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(6, 7) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(7, 6) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(8, 5) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(9, 4) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(10, 3) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(11, 2) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(12, 1) p:(1, 22): e:0 Ball: up:True right:True
+bl:216 s:7638 b:(13, 2) p:(1, 22): e:0 Ball: up:False right:True
+bl:216 s:7638 b:(13, 2) p:(1, 22): e:33 No expected collision path
+bl:216 s:7638 b:(14, 3) p:(1, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(14, 3) p:(1, 22): e:33 No expected collision path
+bl:216 s:7638 b:(14, 3) p:(1, 22): e:33 Paddle moved
+bl:216 s:7638 b:(15, 4) p:(2, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(15, 4) p:(2, 22): e:33 No expected collision path
+bl:216 s:7638 b:(15, 4) p:(2, 22): e:33 Paddle moved
+bl:216 s:7638 b:(16, 5) p:(3, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(16, 5) p:(3, 22): e:33 No expected collision path
+bl:216 s:7638 b:(16, 5) p:(3, 22): e:33 Paddle moved
+bl:216 s:7638 b:(17, 6) p:(4, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(17, 6) p:(4, 22): e:33 No expected collision path
+bl:216 s:7638 b:(17, 6) p:(4, 22): e:33 Paddle moved
+bl:216 s:7638 b:(18, 7) p:(5, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(18, 7) p:(5, 22): e:33 No expected collision path
+bl:216 s:7638 b:(18, 7) p:(5, 22): e:33 Paddle moved
+bl:216 s:7638 b:(19, 8) p:(6, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(19, 8) p:(6, 22): e:33 No expected collision path
+bl:216 s:7638 b:(19, 8) p:(6, 22): e:33 Paddle moved
+bl:216 s:7638 b:(20, 9) p:(7, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(20, 9) p:(7, 22): e:33 No expected collision path
+bl:216 s:7638 b:(20, 9) p:(7, 22): e:33 Paddle moved
+bl:216 s:7638 b:(21, 10) p:(8, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(21, 10) p:(8, 22): e:33 No expected collision path
+bl:216 s:7638 b:(21, 10) p:(8, 22): e:33 Paddle moved
+bl:216 s:7638 b:(22, 11) p:(9, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(22, 11) p:(9, 22): e:33 No expected collision path
+bl:216 s:7638 b:(22, 11) p:(9, 22): e:33 Paddle moved
+bl:216 s:7638 b:(23, 12) p:(10, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(23, 12) p:(10, 22): e:33 No expected collision path
+bl:216 s:7638 b:(23, 12) p:(10, 22): e:33 Paddle moved
+bl:216 s:7638 b:(24, 13) p:(11, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(24, 13) p:(11, 22): e:33 No expected collision path
+bl:216 s:7638 b:(24, 13) p:(11, 22): e:33 Paddle moved
+bl:216 s:7638 b:(25, 14) p:(12, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(25, 14) p:(12, 22): e:33 No expected collision path
+bl:216 s:7638 b:(25, 14) p:(12, 22): e:33 Paddle moved
+bl:216 s:7638 b:(26, 15) p:(13, 22): e:33 Ball: up:False right:True
+bl:216 s:7638 b:(26, 15) p:(13, 22): e:33 No expected collision path
+bl:216 s:7638 b:(26, 15) p:(13, 22): e:33 Paddle moved
+bl:215 s:7721 b:(25, 14) p:(14, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(25, 14) p:(14, 22): e:11 Paddle moved
+bl:215 s:7721 b:(24, 13) p:(13, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(24, 13) p:(13, 22): e:11 Paddle moved
+bl:215 s:7721 b:(23, 12) p:(12, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(23, 12) p:(12, 22): e:11 Paddle moved
+bl:215 s:7721 b:(22, 11) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(21, 10) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(20, 9) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(19, 8) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(18, 7) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(17, 6) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(16, 5) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(15, 4) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(14, 3) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(13, 2) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(12, 1) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(11, 2) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(11, 2) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(10, 3) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(10, 3) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(9, 4) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(9, 4) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(8, 5) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(8, 5) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(7, 6) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(7, 6) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(6, 7) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(6, 7) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(5, 8) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(5, 8) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(4, 9) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(4, 9) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(3, 10) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(3, 10) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(2, 11) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(2, 11) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(1, 12) p:(11, 22): e:11 Ball: up:False right:False
+bl:215 s:7721 b:(1, 12) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(2, 13) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(2, 13) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(3, 14) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(3, 14) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(4, 15) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(4, 15) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(5, 16) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(5, 16) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(6, 17) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(6, 17) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(7, 18) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(7, 18) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(8, 19) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(8, 19) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(9, 20) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(9, 20) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(10, 21) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(10, 21) p:(11, 22): e:11 No expected collision path
+bl:215 s:7721 b:(9, 20) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(8, 19) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(7, 18) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(6, 17) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(5, 16) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(4, 15) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(3, 14) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(2, 13) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(1, 12) p:(11, 22): e:11 Ball: up:True right:False
+bl:215 s:7721 b:(2, 11) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(3, 10) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(4, 9) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(5, 8) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(6, 7) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(7, 6) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(8, 5) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(9, 4) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(10, 3) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(11, 2) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(12, 1) p:(11, 22): e:11 Ball: up:True right:True
+bl:215 s:7721 b:(13, 2) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(13, 2) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(14, 3) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(14, 3) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(15, 4) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(15, 4) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(16, 5) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(16, 5) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(17, 6) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(17, 6) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(18, 7) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(18, 7) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(19, 8) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(19, 8) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(20, 9) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(20, 9) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(21, 10) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(21, 10) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(22, 11) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(22, 11) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(23, 12) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(23, 12) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(24, 13) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(24, 13) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(25, 14) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(25, 14) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(26, 15) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(26, 15) p:(11, 22): e:33 No expected collision path
+bl:215 s:7721 b:(27, 16) p:(11, 22): e:11 Ball: up:False right:True
+bl:215 s:7721 b:(27, 16) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(26, 15) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(25, 14) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(24, 13) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(23, 12) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(22, 11) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(21, 10) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(20, 9) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(19, 8) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(18, 7) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(17, 6) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(16, 5) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(15, 4) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(14, 3) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(13, 2) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(12, 1) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(11, 2) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(11, 2) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(10, 3) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(10, 3) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(9, 4) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(9, 4) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(8, 5) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(8, 5) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(7, 6) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(7, 6) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(6, 7) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(6, 7) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(5, 8) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(5, 8) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(4, 9) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(4, 9) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(3, 10) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(3, 10) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(2, 11) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(2, 11) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(1, 12) p:(11, 22): e:11 Ball: up:False right:False
+bl:214 s:7809 b:(1, 12) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(2, 13) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(2, 13) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(3, 14) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(3, 14) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(4, 15) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(4, 15) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(5, 16) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(5, 16) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(6, 17) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(6, 17) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(7, 18) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(7, 18) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(8, 19) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(8, 19) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(9, 20) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(9, 20) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(10, 21) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(10, 21) p:(11, 22): e:11 No expected collision path
+bl:214 s:7809 b:(9, 20) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(8, 19) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(7, 18) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(6, 17) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(5, 16) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(4, 15) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(3, 14) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(2, 13) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(1, 12) p:(11, 22): e:11 Ball: up:True right:False
+bl:214 s:7809 b:(2, 11) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(3, 10) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(4, 9) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(5, 8) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(6, 7) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(7, 6) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(8, 5) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(9, 4) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(10, 3) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(11, 2) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(12, 1) p:(11, 22): e:11 Ball: up:True right:True
+bl:214 s:7809 b:(13, 2) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(13, 2) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(14, 3) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(14, 3) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(15, 4) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(15, 4) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(16, 5) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(16, 5) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(17, 6) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(17, 6) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(18, 7) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(18, 7) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(19, 8) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(19, 8) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(20, 9) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(20, 9) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(21, 10) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(21, 10) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(22, 11) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(22, 11) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(23, 12) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(23, 12) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(24, 13) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(24, 13) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(25, 14) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(25, 14) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(26, 15) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(26, 15) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(27, 16) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(27, 16) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(28, 17) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(28, 17) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(29, 18) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(29, 18) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(30, 19) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(30, 19) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(31, 20) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(31, 20) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(32, 21) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(32, 21) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(33, 22) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(33, 22) p:(11, 22): e:33 No expected collision path
+bl:214 s:7809 b:(34, 23) p:(11, 22): e:11 Ball: up:False right:True
+bl:214 s:7809 b:(34, 23) p:(11, 22): e:33 No expected collision path
