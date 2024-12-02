@@ -54,7 +54,5 @@ for l in lines:
             if test_values(values):
                 answer += 1
                 break
-             
-    
     
 print("Part 2", answer)

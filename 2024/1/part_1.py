@@ -31,7 +31,6 @@ for l in lines:
     
 first.sort()
 second.sort()
-    
 
 answer = 0
 for a, b in zip(first, second):
