@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 #import numpy as np
-#import re
+import re
 #from collections import Counter, defaultdict, deque, namedtuple
 #from string import ascii_uppercase, ascii_lowercase, digits
 #from itertools import count, product, permutations, combinations, combinations_with_replacement
@@ -17,11 +17,11 @@ import sys
 # combinations('ABCD', 2)                     AB AC AD BC BD CD
 # combinations_with_replacement('ABCD', 2)    AA AB AC AD BB BC BD CC CD DD
 
+answer = 0
 with open(sys.argv[1], 'r') as infile:
     lines = [l.strip() for l in infile]
 height = len(lines)
 width = len(lines[0])
 
 
-answer = 0
 print("Part 1", answer)
