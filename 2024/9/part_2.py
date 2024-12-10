@@ -67,4 +67,4 @@ for i, n in enumerate(disk):
         answer += i * n
 
 
-print("Part 1", answer)
+print("Part 2", answer)
