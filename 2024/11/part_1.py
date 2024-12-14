@@ -9,6 +9,7 @@ import re
 # from z3 import Solver, BitVec, Distinct
 # from networkx import networkx as nx  
 #import pprint
+from functools import cache
 
 
 # Itertools Functions:
@@ -32,18 +33,15 @@ def process_stone(n):
         split_pt = len(s) // 2
         return [int(s[:split_pt]), int(s[split_pt:])]
     return [n * 2024]
-        
-CACHE = {}
+
+@cache        
 def turns_in_to(n, rounds):
     if rounds == 0:
         return 1
-    key = (n, rounds)
-    if key not in CACHE:
-        total = 0
-        for x in process_stone(n):
-            total += turns_in_to(x, rounds - 1)
-        CACHE[key] = total 
-    return CACHE[key]
+    total = 0
+    for x in process_stone(n):
+        total += turns_in_to(x, rounds - 1)
+    return total 
 
 for s in stones:
     answer += turns_in_to(s, 25)
