@@ -19,6 +19,9 @@ import re
 # combinations('ABCD', 2)                     AB AC AD BC BD CD
 # combinations_with_replacement('ABCD', 2)    AA AB AC AD BB BC BD CC CD DD
 
+# directions = [(-1, 0), (1, 0), (0, 1), (0, -1)]
+
+
 answer = 0
 with open(sys.argv[1], 'r') as infile:
     lines = [l.strip() for l in infile]

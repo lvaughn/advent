@@ -2,7 +2,7 @@
 import sys
 import numpy as np
 import re
-from collections import Counter, defaultdict, deque, namedtuple
+# from collections import Counter, defaultdict, deque, namedtuple
 import os 
 import time 
 # from string import ascii_uppercase, ascii_lowercase, digits
@@ -35,12 +35,6 @@ class Robot:
         
         self.x = self.x % 101
         self.y = self.y % 103
-        
-        # is_in = (self.x, self.y) in self.locations
-        
-        # self.locations.add((self.x, self.y))
-        
-        # return is_in
         
         
 def display_robots(bots):
