@@ -133,18 +133,7 @@ def all_direction_paths(path):
         loc = dest 
         paths = new_paths
     return paths   
-    
-# def all_paths(code):
-#     start_path = [str(a) for a in code]
-#     # print(start_path)
-#     for n_path in all_numeric_paths(start_path):
-#         # print("  ", n_path)
-#         for d1_path in all_direction_paths(n_path):
-#             # print("       ", d1_path)
-#             for d2_path in all_direction_paths(d1_path):
-#                 yield(d2_path)
-#                 # print("          ", d2_path)
-                
+          
 @cache 
 def shortest_dpath_length(path: str, depth: int) -> int:
     indent_amount = 10 - 3*depth
@@ -173,14 +162,6 @@ def shortest_dpath_length(path: str, depth: int) -> int:
     # print(f"{' '* indent_amount} shortest path for {path}-{depth} was {shortest_length}") 
     return shortest_length
 
-# def shortest_path_length(code):
-#     start_path = [str(a) for a in code]
-#     for path in all_numeric_paths(start_path):
-#         paths = shortest_dpaths(path)
-#         for p in paths:
-#             for p2 in shortest_dpaths(p):
-#                 yield(p2)
-    
     
 answer = 0
 with open(sys.argv[1], 'r') as infile:
