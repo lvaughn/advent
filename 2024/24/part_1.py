@@ -85,4 +85,3 @@ for v in z_vars:
     
 
 print("Part 1", answer)
-# 28445656832885
