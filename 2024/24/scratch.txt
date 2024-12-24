@@ -1,0 +1,10 @@
+z0 = x0 ^ y0 
+c0 = x0 & y0         # y00 AND x00 -> rnv (carry bit for z0)
+
+z1 = (x1^y1) ^ c0    # rbr , rnv
+c1 = (x1 & y1) | (c0 & (x1 ^ y1))     # hap ^ vjb     hqp OR nbf -> gbw
+
+z2 = (x2 ^ y2) ^ c1   # gbw XOR vjb -> z02
+c2 = (x2 & y2)  | (c1 & (x2 ^ y2))           # bsv OR vrn -> vrp  (vjb AND gbw -> vrn)
+
+z3 =      # fkb XOR vrp -> z03 (Carry bit should be vrp )
