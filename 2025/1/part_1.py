@@ -68,6 +68,3 @@ for l in lines:
                 answer += 1
                 
 print("Part 2", answer) 
-                
-
-# 986
