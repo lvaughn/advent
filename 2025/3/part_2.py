@@ -40,7 +40,6 @@ def max_for_line(l):
     # print("        Max", result, l)
     return result 
 
-@cache            
 def max_6_for_line(l):
     result = -1
     best_first_half = -1
