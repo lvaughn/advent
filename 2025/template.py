@@ -4,7 +4,7 @@ import sys
 # from string import ascii_uppercase, ascii_lowercase, digits
 # from itertools import count, product, permutations, combinations, combinations_with_replacement
 # from sortedcontainers import SortedSet, SortedDict, SortedList
-# from z3 import Solver, BitVec, Distinct
+# from z3 import Solver, BitVec, Distinct, Int, Sum, sat, Optimize #pip install z3-solver
 # from networkx import networkx as nx  
 # import sympy as sym
 # from intervaltree import IntervalTree
