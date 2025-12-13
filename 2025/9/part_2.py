@@ -8,9 +8,10 @@ from collections import Counter, defaultdict, deque, namedtuple
 # from networkx import networkx as nx  
 # import sympy as sym
 # from intervaltree import IntervalTree
+from shapely import Polygon
 
 # import pprint
-from functools import cache
+# from functools import cache
 # import numpy as np
 # import re
 from pprint import pprint 
@@ -35,40 +36,8 @@ for l in lines:
     x, y = l.split(",")
     points.append((int(x), int(y)))
     
-segments = [] # [(points[-1], points[0])]
-for a, b in zip(points[:], points[1:]):
-    segments.append((a, b))
- 
- 
-def intersects_segment(pt1, pt2):
-    # Does the rectangle for these points intersect any segment? 
-    x1, y1 = pt1
-    x2, y2 = pt2
-    
-    max_x = max(x1, x2)
-    max_y = max(y1, y2)
-    min_x = min(x1, x2)
-    min_y = min(y1, y2)
-            
-    for seg in segments:
-        (seg_x1, seg_y1), (seg_x2, seg_y2) = seg
-        
-        if seg_x1 == seg_x2:  # Vertical 
-            x = seg_x1
-            y_min_seg = min(seg_y1, seg_y2)
-            y_max_seg = max(seg_y1, seg_y2)
-            
-            if min_x < x < max_x and max(y_min_seg, min_y) < min(y_max_seg, max_y):
-                return True
-        
-        elif seg_y1 == seg_y2:  # Horizontal 
-            y = seg_y1
-            x_min_seg = min(seg_x1, seg_x2)
-            x_max_seg = max(seg_x1, seg_x2)
-            
-            if min_y < y < max_y and max(x_min_seg, min_x) < min(x_max_seg, max_x):
-                return True
-    return False 
+polygon_points = points + [points[0]]
+polygon = Polygon(polygon_points)
 
 for i, a in enumerate(points):
     for b in points[i+1:]:
@@ -79,8 +48,8 @@ for i, a in enumerate(points):
         area = (1+ max_x - min_x) * (1+ max_y - min_y)
         if area <= answer:
             continue # No need to see if it's any good
-        if intersects_segment(a, b):
-            continue
-        answer = area 
+        rect = Polygon([(min_x, min_y), (min_x, max_y), (max_x, max_y), (max_x, min_y), (min_x, min_y)])
+        if polygon.contains(rect):
+            answer = area  # we already know it's bigger
 
 print("Part 2", answer)

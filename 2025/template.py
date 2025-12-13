@@ -8,6 +8,7 @@ import sys
 # from networkx import networkx as nx  
 # import sympy as sym
 # from intervaltree import IntervalTree
+# from shapely import Polygon  # pip install shapely
 
 # import pprint
 # from functools import cache
